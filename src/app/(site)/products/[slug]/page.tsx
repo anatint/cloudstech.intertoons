@@ -15,7 +15,7 @@ export const revalidate = 0
 
 export async function generateStaticParams() {
   try {
-    const { docs } = await (await getPayload()).find({ collection: 'products', limit: 100 })
+    const { docs } = await (await getPayload()).find({ collection: 'products', where: { status: { equals: 'published' } }, limit: 100 })
     return (docs as any[]).map((d) => ({ slug: d.slug })).filter((p) => p.slug)
   } catch { return [] }
 }
@@ -37,7 +37,7 @@ async function getProduct(slug: string): Promise<Product | null> {
   const payload = await getPayload()
   const { docs } = await payload.find({
     collection: 'products',
-    where: { slug: { equals: slug } },
+    where: { slug: { equals: slug }, status: { equals: 'published' } },
     depth: 2,
     limit: 1,
   })
