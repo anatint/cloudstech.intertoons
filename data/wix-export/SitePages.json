@@ -1,0 +1,1360 @@
+{
+  "collection": {
+    "id": "SitePages",
+    "collectionType": "NATIVE",
+    "displayName": "Site Pages",
+    "displayField": "title",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "heroSubtitle",
+        "displayName": "heroSubtitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "title",
+        "displayName": "Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoTitle",
+        "displayName": "SEO Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoDescription",
+        "displayName": "SEO Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "slug",
+        "displayName": "Slug",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroTitle",
+        "displayName": "Herotitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroBadge",
+        "displayName": "Herobadge",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroTitleHighlight",
+        "displayName": "Herotitlehighlight",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroPrimaryCtaLabel",
+        "displayName": "heroPrimaryCtaLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroPrimaryCtaLink",
+        "displayName": "heroPrimaryCtaLink",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroSecondaryCtaLabel",
+        "displayName": "heroSecondaryCtaLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroSecondaryCtaLink",
+        "displayName": "heroSecondaryCtaLink",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "stat1Value",
+        "displayName": "stat1Value",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "stat1Label",
+        "displayName": "stat1Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "stat2Value",
+        "displayName": "stat2Value",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "stat2Label",
+        "displayName": "stat2Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "stat3Value",
+        "displayName": "stat3Value",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "stat3Label",
+        "displayName": "stat3Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "exploreLabel",
+        "displayName": "exploreLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaBannerTitle",
+        "displayName": "ctaBannerTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaBannerButtonLabel",
+        "displayName": "ctaBannerButtonLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaBannerButtonLink",
+        "displayName": "ctaBannerButtonLink",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaBannerSubtitle",
+        "displayName": "ctaBannerSubtitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "technologiesEyebrow",
+        "displayName": "technologiesEyebrow",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "solutionsEyebrow",
+        "displayName": "solutionsEyebrow",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "solutionsSubtitle",
+        "displayName": "solutionsSubtitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "servicesViewAllLabel",
+        "displayName": "servicesViewAllLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "caseStudiesEyebrow",
+        "displayName": "caseStudiesEyebrow",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "caseStudiesViewAllLabel",
+        "displayName": "caseStudiesViewAllLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "projectsEyebrow",
+        "displayName": "projectsEyebrow",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "projectsTitle",
+        "displayName": "projectsTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "projectsViewAllLabel",
+        "displayName": "projectsViewAllLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "teamEyebrow",
+        "displayName": "teamEyebrow",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "teamSubtitle",
+        "displayName": "teamSubtitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "teamViewAllLabel",
+        "displayName": "teamViewAllLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "testimonialsEyebrow",
+        "displayName": "testimonialsEyebrow",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "testimonialsTitle",
+        "displayName": "testimonialsTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "102",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-12T06:34:06.901Z",
+    "updatedDate": "2026-08-14T06:07:34.107Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "stat1Value": "10+",
+      "heroTitle": "Transforming brands through",
+      "stat3Value": "50+",
+      "heroBadge": "About Intertoons",
+      "stat2Value": "1750+",
+      "_id": "43b3b3b7-39c5-4cb4-91e9-7c873dfe4d98",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "stat2Label": "Brands Trusted",
+      "ctaBannerSubtitle": "Tell us about your project and our experts will get back to you with a tailored proposal.",
+      "_createdDate": {
+        "$date": "2026-08-14T06:07:34.614Z"
+      },
+      "heroSecondaryCtaLabel": "See Our Work",
+      "heroPrimaryCtaLink": "/request-a-quote",
+      "testimonialsTitle": "What Our Clients Say",
+      "caseStudiesViewAllLabel": "View All Case Studies",
+      "stat1Label": "Years of Innovation",
+      "solutionsEyebrow": "WHAT WE DO",
+      "ctaBannerButtonLink": "/request-a-quote",
+      "heroSecondaryCtaLink": "/portfolio",
+      "projectsViewAllLabel": "View All Projects",
+      "exploreLabel": "Explore",
+      "heroSubtitle": "We design, engineer, and ship custom software for global brands. From web apps to SaaS products, we build the digital infrastructure that solves complex business problems and drives measurable growth.",
+      "_updatedDate": {
+        "$date": "2026-08-14T06:07:34.614Z"
+      },
+      "slug": "about-us",
+      "stat3Label": "Global Presence",
+      "teamViewAllLabel": "Meet the Full Team",
+      "ctaBannerTitle": "Ready to Build Something Great?",
+      "teamEyebrow": "MEET THE TEAM",
+      "status": "published",
+      "heroTitleHighlight": "bespoke technology.",
+      "seoTitle": "Trusted Software , ECommerce Development Company, Kochi,Kerala from 2007",
+      "caseStudiesEyebrow": "PROVEN RESULTS",
+      "ctaBannerButtonLabel": "Request a Quote",
+      "solutionsSubtitle": "End-to-end software, e-commerce and AI solutions built around your business goals.",
+      "servicesViewAllLabel": "View All Services",
+      "title": "About Us",
+      "heroPrimaryCtaLabel": "Get a Free Quote",
+      "teamSubtitle": "The people behind Intertoons — engineers, designers and strategists dedicated to your success.",
+      "seoDescription": "Meet Intertoons, Served over 100 ECommerce stores online in 17 Countries, and over 12 Custom Software applications delivered in Web and ECommerce. Offices in India and Malaysia",
+      "testimonialsEyebrow": "CLIENT LOVE",
+      "projectsTitle": "Projects We're Proud Of",
+      "projectsEyebrow": "OUR WORK",
+      "technologiesEyebrow": "OUR TECH STACK"
+    },
+    {
+      "stat1Value": "15+",
+      "heroTitle": "The Minds Behind",
+      "stat3Value": "200+",
+      "heroBadge": "Our Team",
+      "stat2Value": "50+",
+      "_id": "d961eead-a616-4ff4-b66f-611963825a92",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "stat2Label": "Team Members",
+      "ctaBannerSubtitle": "We're always looking for talented engineers, designers, and strategists.",
+      "_createdDate": {
+        "$date": "2026-07-16T05:34:23.536Z"
+      },
+      "stat1Label": "Years Experience",
+      "ctaBannerButtonLink": "/contact",
+      "heroSubtitle": "A team of builders, designers, and strategists obsessed with turning ideas into products that scale.",
+      "_updatedDate": {
+        "$date": "2026-07-16T05:57:38.413Z"
+      },
+      "slug": "team",
+      "stat3Label": "Projects Delivered",
+      "ctaBannerTitle": "Want to join the team?",
+      "status": "published",
+      "heroTitleHighlight": "Intertoons",
+      "seoTitle": "Meet the Team ",
+      "ctaBannerButtonLabel": "Get in Touch",
+      "title": "Team",
+      "seoDescription": "Meet the leaders, engineers, designers and strategists behind Intertoons — the team building AI, e-commerce and mobile products for clients worldwide."
+    },
+    {
+      "stat1Value": "48+",
+      "heroTitle": "Solutions by",
+      "stat3Value": "98%",
+      "heroBadge": "Industries We Serve",
+      "stat2Value": "170+",
+      "_id": "9d08fe8d-f4a1-4fad-8892-50d2a8b6c577",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "stat2Label": "Projects Delivered",
+      "_createdDate": {
+        "$date": "2026-06-20T04:02:58.032Z"
+      },
+      "heroSecondaryCtaLabel": "See Our Work",
+      "heroPrimaryCtaLink": "/request-a-quote",
+      "stat1Label": "Industries Served",
+      "ctaBannerButtonLink": "/request-a-quote",
+      "heroSecondaryCtaLink": "/portfolio",
+      "exploreLabel": "Explore",
+      "heroSubtitle": "Tailored digital solutions for the industries we know best.",
+      "_updatedDate": {
+        "$date": "2026-07-13T06:36:56.404Z"
+      },
+      "slug": "industries",
+      "stat3Label": "Client Satisfaction",
+      "ctaBannerTitle": "Don't see your industry?",
+      "status": "published",
+      "heroTitleHighlight": "Industry",
+      "seoTitle": "Industries We Serve",
+      "ctaBannerButtonLabel": "Talk to us",
+      "title": "Industries",
+      "heroPrimaryCtaLabel": "Get a Free Quote",
+      "seoDescription": "Intertoons delivers tailored web, mobile, e-commerce and AI solutions across industries."
+    },
+    {
+      "stat1Value": "40+",
+      "heroTitle": "Technologies We",
+      "stat3Value": "8+",
+      "heroBadge": "Our Tech Stack",
+      "stat2Value": "170+",
+      "_id": "ad00e0a8-4f78-41a8-a201-899714d1449c",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "stat2Label": "Projects Delivered",
+      "_createdDate": {
+        "$date": "2026-06-20T04:02:57.914Z"
+      },
+      "heroSecondaryCtaLabel": "See Our Work",
+      "heroPrimaryCtaLink": "/request-a-quote",
+      "stat1Label": "Technologies Used",
+      "ctaBannerButtonLink": "/request-a-quote",
+      "heroSecondaryCtaLink": "/portfolio",
+      "exploreLabel": "",
+      "heroSubtitle": "The frameworks, platforms and tools we use to build fast, reliable products.",
+      "_updatedDate": {
+        "$date": "2026-07-13T07:31:57.457Z"
+      },
+      "slug": "technologies",
+      "stat3Label": "Years Experience",
+      "ctaBannerTitle": "Have a project in mind?",
+      "status": "published",
+      "heroTitleHighlight": "Work With",
+      "seoTitle": "Technologies We Use",
+      "ctaBannerButtonLabel": "Request a Free Quote",
+      "title": "Technologies",
+      "heroPrimaryCtaLabel": "Get a Free Quote",
+      "seoDescription": "Explore the technologies, frameworks and platforms Intertoons builds with across web, mobile, e-commerce and AI."
+    },
+    {
+      "heroTitle": "Request a",
+      "heroBadge": "Let's Build Something Amazing",
+      "_id": "aebdca6d-1839-455a-a68b-c54c02c922e2",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-18T08:39:08.157Z"
+      },
+      "heroSubtitle": "Tell us about your project and our experts will get back to you with a tailored proposal within 24 hours.",
+      "_updatedDate": {
+        "$date": "2026-08-14T05:15:23.962Z"
+      },
+      "slug": "request-a-quote",
+      "status": "published",
+      "heroTitleHighlight": "Quote",
+      "seoTitle": "Request a Quote – Free Estimate",
+      "title": "Request a Quote",
+      "seoDescription": "Get a free no-obligation quote from Intertoons. We reply within 24 hours."
+    },
+    {
+      "stat1Value": "100+",
+      "heroTitle": "Insights & Ideas",
+      "stat3Value": "15+",
+      "heroBadge": "Our Blog",
+      "stat2Value": "10K+",
+      "_id": "be0bd20c-adfd-4ced-a1c6-32178e975258",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "stat2Label": "Monthly Readers",
+      "_createdDate": {
+        "$date": "2026-06-13T14:50:49.764Z"
+      },
+      "heroSecondaryCtaLabel": "See Our Work",
+      "heroPrimaryCtaLink": "/request-a-quote",
+      "stat1Label": "Articles Published",
+      "ctaBannerButtonLink": "/request-a-quote",
+      "heroSecondaryCtaLink": "/portfolio",
+      "heroSubtitle": "Guides and updates on AI, automation, Shopify, eCommerce and mobile apps.",
+      "_updatedDate": {
+        "$date": "2026-09-14T04:39:40.196Z"
+      },
+      "slug": "blog",
+      "stat3Label": "Topics Covered",
+      "ctaBannerTitle": "Have a project in mind?",
+      "status": "published",
+      "heroTitleHighlight": "That Drive Growth",
+      "seoTitle": "Intertoons Official Blog - Intertoons Internet Services Pvt.Ltd.",
+      "ctaBannerButtonLabel": "Request a Free Quote",
+      "title": "Blog",
+      "heroPrimaryCtaLabel": "Get a Free Quote",
+      "seoDescription": "Read Updates from Intertoons, Leading ECommerce & Software development team kochi since 2007. Offices in India, Malaysia"
+    }
+  ]
+}

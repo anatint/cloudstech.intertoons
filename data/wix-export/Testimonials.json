@@ -1,0 +1,817 @@
+{
+  "collection": {
+    "id": "Testimonials",
+    "collectionType": "NATIVE",
+    "displayName": "Testimonials",
+    "displayField": "author",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "products",
+        "displayName": "Products",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Products",
+            "referencingFieldKey": "testimonials",
+            "referencingDisplayName": "Testimonials"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "quote",
+        "displayName": "Quote",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "author",
+        "displayName": "Author",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "role",
+        "displayName": "Role",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "company",
+        "displayName": "Company",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "avatar",
+        "displayName": "Avatar",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "slug",
+        "displayName": "Slug",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "featured",
+        "displayName": "Featured",
+        "type": "BOOLEAN",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoTitle",
+        "displayName": "SEO Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoDescription",
+        "displayName": "SEO Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoImage",
+        "displayName": "SEO Image",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "services",
+        "displayName": "Services",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Services",
+            "referencingFieldKey": "testimonials",
+            "referencingDisplayName": "Testimonials"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "projects",
+        "displayName": "Projects",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Projects",
+            "referencingFieldKey": "testimonials",
+            "referencingDisplayName": "Testimonials"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "17",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-12T06:32:48.225Z",
+    "updatedDate": "2026-06-19T12:08:54.411Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "services": [
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "author": "Priya Nair",
+      "role": "CTO",
+      "_id": "849d5d22-7c01-4be6-bee1-4d4977ac4d8b",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:12.053Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "slug": "priya-nair",
+      "quote": "ConvoAI handles 85% of our support tickets automatically, freeing our team for high-value work.",
+      "company": "MediCare Health Tech",
+      "order": 10,
+      "status": "published",
+      "projects": []
+    },
+    {
+      "services": [
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "author": "Mohammed Al-Farsi",
+      "role": "Owner",
+      "_id": "26fe60f5-4e17-4d93-865c-0d0195c697d3",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:09.474Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "slug": "mohammed-al-farsi",
+      "quote": "FleetDrive cut our booking admin time by 70% and boosted online reservations to 80% of revenue.",
+      "company": "Gulf Car Rentals",
+      "order": 9,
+      "status": "published",
+      "projects": []
+    },
+    {
+      "services": [],
+      "author": "Faisal Al-Rashid",
+      "role": "Director",
+      "_id": "1311ead6-3a6f-4685-a717-bdb7a1852944",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:07.284Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "slug": "faisal-al-rashid",
+      "quote": "Triptels cut our time-to-live by 6 months. The B2B agent portal paid for the platform in one quarter.",
+      "company": "Horizon Travel UAE",
+      "order": 8,
+      "status": "published",
+      "projects": []
+    },
+    {
+      "services": [
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "author": "Arun Menon",
+      "role": "COO",
+      "_id": "455c8918-db47-4351-b112-5bc217de36f5",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:04.532Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "slug": "arun-menon",
+      "quote": "We went from zero to 2,000 daily orders in 3 months. Plattero saved us $200,000 and 8 months.",
+      "company": "QuickBite Kerala",
+      "order": 7,
+      "status": "published",
+      "projects": []
+    },
+    {
+      "services": [],
+      "author": "Dr. Arun Nair",
+      "role": "Director",
+      "_id": "7abaf98e-1a87-4ee1-b390-ecda07af2f85",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:33.213Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [],
+      "slug": "dr-arun-nair",
+      "quote": "The best investment we made. Our patient portal is now loved by both doctors and patients.",
+      "company": "MediCare",
+      "order": 6,
+      "status": "published",
+      "projects": []
+    },
+    {
+      "services": [],
+      "author": "Riya Kapoor",
+      "role": "CEO",
+      "_id": "e111b5e4-c14a-4c0b-9d0a-233bd234656e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:32.994Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [],
+      "slug": "riya-kapoor",
+      "quote": "Highly professional team. They understood our vision and delivered beyond expectations.",
+      "company": "UrbanNest",
+      "order": 5,
+      "status": "published",
+      "projects": []
+    },
+    {
+      "services": [],
+      "author": "David Williams",
+      "role": "Founder",
+      "_id": "41052389-2ba3-4116-9baf-024160c54238",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:32.771Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [],
+      "slug": "david-williams",
+      "quote": "World-class Shopify expertise. They delivered a fully customised store in just 6 weeks.",
+      "company": "BakeStore",
+      "order": 4,
+      "status": "published",
+      "projects": [
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd"
+      ]
+    },
+    {
+      "services": [],
+      "author": "Priya Patel",
+      "role": "Product Manager",
+      "_id": "cf61d52b-e91c-4ae3-86c0-7b97ee923efa",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:32.507Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [],
+      "slug": "priya-patel",
+      "quote": "The mobile app they built for us has over 100K downloads and a 4.8 rating. Truly outstanding work.",
+      "company": "QuickBite",
+      "order": 3,
+      "status": "published",
+      "projects": []
+    },
+    {
+      "services": [],
+      "author": "Michael Chen",
+      "role": "Operations Manager",
+      "_id": "12dd676c-1b6c-495f-a94e-7d0f044608bb",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:32.341Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [],
+      "slug": "michael-chen",
+      "quote": "Their AI automation solution reduced our manual workload by 70%. Exceptional team and delivery.",
+      "company": "BizAnalytics",
+      "order": 2,
+      "status": "published",
+      "projects": []
+    },
+    {
+      "services": [],
+      "author": "Sarah Johnson",
+      "role": "E-commerce Director",
+      "_id": "ef2181fa-0e0a-4bfc-8ba3-fe4a4a8480ca",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:32.071Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.322Z"
+      },
+      "products": [],
+      "slug": "sarah-johnson",
+      "quote": "Intertoons transformed our online store. Sales increased by 45% in the first quarter after launch.",
+      "company": "HealthKart",
+      "order": 1,
+      "status": "published",
+      "projects": [
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8"
+      ]
+    }
+  ]
+}

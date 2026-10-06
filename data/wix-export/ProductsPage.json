@@ -1,0 +1,1726 @@
+{
+  "collection": {
+    "id": "ProductsPage",
+    "collectionType": "NATIVE",
+    "displayName": "Products Page",
+    "displayField": "title",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "title",
+        "displayName": "Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroBadge",
+        "displayName": "heroBadge",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroTitle",
+        "displayName": "heroTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroTitleHighlight",
+        "displayName": "heroTitleHighlight",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroSubtitle",
+        "displayName": "heroSubtitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoTitle",
+        "displayName": "seoTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoDescription",
+        "displayName": "seoDescription",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroPrimaryCtaLabel",
+        "displayName": "heroPrimaryCtaLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroPrimaryCtaLink",
+        "displayName": "heroPrimaryCtaLink",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroSecondaryCtaLabel",
+        "displayName": "heroSecondaryCtaLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "heroSecondaryCtaLink",
+        "displayName": "heroSecondaryCtaLink",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "comparisonTitle",
+        "displayName": "comparisonTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "comparisonSubtitle",
+        "displayName": "comparisonSubtitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "comparisonLearnMoreLabel",
+        "displayName": "comparisonLearnMoreLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyEyebrow",
+        "displayName": "whyEyebrow",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyTitle",
+        "displayName": "whyTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whySubtitle",
+        "displayName": "whySubtitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint1Title",
+        "displayName": "whyPoint1Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint1Desc",
+        "displayName": "whyPoint1Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint2Title",
+        "displayName": "whyPoint2Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint3Title",
+        "displayName": "whyPoint3Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint3Desc",
+        "displayName": "whyPoint3Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint4Title",
+        "displayName": "whyPoint4Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint4Desc",
+        "displayName": "whyPoint4Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint5Title",
+        "displayName": "whyPoint5Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint5Desc",
+        "displayName": "whyPoint5Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint6Title",
+        "displayName": "whyPoint6Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint6Desc",
+        "displayName": "whyPoint6Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineEyebrow",
+        "displayName": "timelineEyebrow",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineTitle",
+        "displayName": "timelineTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineTitleHighlight",
+        "displayName": "timelineTitleHighlight",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineParagraph",
+        "displayName": "timelineParagraph",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStep1Title",
+        "displayName": "timelineStep1Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStep1Desc",
+        "displayName": "timelineStep1Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStep2Title",
+        "displayName": "timelineStep2Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStep2Desc",
+        "displayName": "timelineStep2Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStep3Title",
+        "displayName": "timelineStep3Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStep3Desc",
+        "displayName": "timelineStep3Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat1Label",
+        "displayName": "timelineStat1Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat1Sub",
+        "displayName": "timelineStat1Sub",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat2Value",
+        "displayName": "timelineStat2Value",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat2Label",
+        "displayName": "timelineStat2Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat2Sub",
+        "displayName": "timelineStat2Sub",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat3Value",
+        "displayName": "timelineStat3Value",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat3Label",
+        "displayName": "timelineStat3Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat3Sub",
+        "displayName": "timelineStat3Sub",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat4Value",
+        "displayName": "timelineStat4Value",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat4Label",
+        "displayName": "timelineStat4Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "timelineStat4Sub",
+        "displayName": "timelineStat4Sub",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaBannerTitle",
+        "displayName": "ctaBannerTitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaBannerSubtitle",
+        "displayName": "ctaBannerSubtitle",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaBannerButtonLabel",
+        "displayName": "ctaBannerButtonLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaBannerButtonLink",
+        "displayName": "ctaBannerButtonLink",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "productsExploreLabel",
+        "displayName": "productsExploreLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "productsLiveSiteLabel",
+        "displayName": "productsLiveSiteLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "productsGetDemoLabel",
+        "displayName": "productsGetDemoLabel",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "whyPoint2Desc",
+        "displayName": "whyPoint2Desc",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "60",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-07-10T05:28:24.914Z",
+    "updatedDate": "2026-07-10T07:20:13.109Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "whyPoint3Desc": "Your brand, your domain, your app store listing. We stay invisible — your product shines.",
+      "timelineStep2Title": "Week 2 — Customisation",
+      "heroTitle": "White-Label Platforms",
+      "comparisonTitle": "At a Glance",
+      "timelineStep1Desc": "Requirements review, branding assets, domain setup, infrastructure provisioning.",
+      "whyPoint4Title": "Dedicated Support Team",
+      "whyPoint3Title": "Fully White-Labelled",
+      "productsGetDemoLabel": "Get Demo",
+      "whyPoint2Title": "Enterprise-Grade Reliability",
+      "heroBadge": "Our Products",
+      "timelineStep3Title": "Week 3 — Launch",
+      "timelineStep1Title": "Week 1 — Onboarding",
+      "_id": "731cb0a6-6789-40c4-ac47-5d06de7eab98",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "ctaBannerSubtitle": "Get a personalised demo and see how fast you can go live.",
+      "_createdDate": {
+        "$date": "2026-07-10T05:29:45.242Z"
+      },
+      "heroSecondaryCtaLabel": "Talk to Sales",
+      "heroPrimaryCtaLink": "/request-a-quote",
+      "timelineStat4Sub": "Your brand, fully",
+      "whyPoint5Title": "Native Mobile Apps",
+      "whyPoint5Desc": "iOS and Android apps built with Flutter — one codebase, truly native-level performance.",
+      "productsLiveSiteLabel": "Live Site ↗",
+      "ctaBannerButtonLink": "/request-a-quote",
+      "timelineStat1Sub": "More in development",
+      "heroSecondaryCtaLink": "/contact",
+      "heroSubtitle": "Production-ready SaaS platforms you can brand and launch in weeks. Skip months of development — start with what's already proven.",
+      "timelineStat1Label": "Products Available",
+      "timelineStat3Sub": "From contract sign",
+      "_updatedDate": {
+        "$date": "2026-07-10T07:20:23.744Z"
+      },
+      "whyEyebrow": "Why Our Products",
+      "timelineStat4Label": "White-Label Ownership",
+      "whyPoint2Desc": "Battle-tested across 50+ clients. 99.9% uptime SLAs backed by dedicated infrastructure.",
+      "timelineStat2Value": "50+",
+      "whyTitle": "Engineered for Growth, Not Just Launch",
+      "whyPoint1Title": "Faster Time-to-Market",
+      "ctaBannerTitle": "Ready to launch your platform?",
+      "comparisonSubtitle": "Every product in one comparison.",
+      "timelineParagraph": "Our white-label products are production-ready on day one. Your time is spent on branding, content, and configuration — not months of engineering.",
+      "heroTitleHighlight": "Built to Scale",
+      "seoTitle": "White-Label SaaS Products — Food Delivery, Travel, Fleet & AI | Intertoons",
+      "timelineStat3Label": "Average Go-Live Time",
+      "whyPoint6Desc": "Every product ships with a real-time dashboard so you can make data-driven decisions fast.",
+      "whyPoint4Desc": "A dedicated implementation engineer is assigned from day one — not a shared queue.",
+      "whyPoint6Title": "Built-In Analytics",
+      "timelineTitle": "From contract to live product",
+      "comparisonLearnMoreLabel": "Learn more",
+      "ctaBannerButtonLabel": "Request a Free Demo",
+      "heroPrimaryCtaLabel": "Get a Demo",
+      "timelineStat3Value": "3 wks",
+      "timelineStat2Sub": "Across 15 countries",
+      "seoDescription": "Production-ready white-label platforms you can brand and launch in weeks: Plattero food delivery, Triptels travel portal, FleetDrive car rental, and ConvoAI chatbots.",
+      "timelineEyebrow": "Go-Live Timeline",
+      "timelineStep2Desc": "Brand colours, logo, app store assets, content upload, integration configs.",
+      "productsExploreLabel": "Explore",
+      "whyPoint1Desc": "Launch months ahead of competitors with production-ready code you can customise and brand.",
+      "timelineStep3Desc": "QA, store submission, go-live, hypercare week with your dedicated engineer.",
+      "timelineStat2Label": "Enterprise Clients",
+      "timelineTitleHighlight": "in as little as 3 weeks",
+      "timelineStat4Value": "100%",
+      "whySubtitle": "Every product is built for scale from day one — so you grow into the platform, not out of it."
+    }
+  ]
+}

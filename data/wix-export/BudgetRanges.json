@@ -1,0 +1,321 @@
+{
+  "collection": {
+    "id": "BudgetRanges",
+    "collectionType": "NATIVE",
+    "displayName": "Budget Ranges",
+    "displayField": "title",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "title",
+        "displayName": "Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "number",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "4",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-07-16T12:47:42.517Z",
+    "updatedDate": "2026-07-16T12:54:51.890Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "number": 5,
+      "_id": "7f59b5fd-4b10-4055-b60f-a0b73583085b",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-07-16T12:52:06.118Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-07-16T12:52:13.392Z"
+      },
+      "status": "published",
+      "title": "Not sure yet"
+    },
+    {
+      "number": 4,
+      "_id": "774321dd-edc3-48d1-a50d-f1751f30fdf8",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-07-16T12:51:47.979Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-07-16T12:51:56.590Z"
+      },
+      "status": "published",
+      "title": "₹5,00,000+"
+    },
+    {
+      "number": 3,
+      "_id": "143e588c-42ae-4bc6-9474-bf4650884b8a",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-07-16T12:51:12.187Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-07-16T12:51:37.156Z"
+      },
+      "status": "published",
+      "title": "₹1,50,000 – ₹5,00,000"
+    },
+    {
+      "number": 2,
+      "_id": "a806d8e9-0e7f-4410-85f0-5aaa638e5d9c",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-07-16T12:49:33.647Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-07-16T12:51:06.199Z"
+      },
+      "status": "published",
+      "title": "₹50,000 – ₹1,50,000"
+    },
+    {
+      "number": 1,
+      "_id": "a4d04cf0-4819-4a9c-858d-507efff5c5c2",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-07-16T12:48:57.225Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-07-16T12:49:46.900Z"
+      },
+      "status": "published",
+      "title": "Under ₹50,000"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "collection": {
+    "id": "RfqFeatures",
+    "collectionType": "NATIVE",
+    "displayName": "RFQ Features",
+    "displayField": "title",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "title",
+        "displayName": "title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "1",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-19T09:26:15.267Z",
+    "updatedDate": "2026-06-19T09:26:15.267Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "_id": "e3cb5263-2ac6-4e6a-8d1c-097634a7136a",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:16.632Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:16.632Z"
+      },
+      "order": 10,
+      "status": "published",
+      "title": "Other (Please specify)"
+    },
+    {
+      "_id": "3a0bfc38-c51b-4640-a87c-f67c9f24e9e1",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:16.543Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:16.543Z"
+      },
+      "order": 9,
+      "status": "published",
+      "title": "Advanced Search & Filtering"
+    },
+    {
+      "_id": "91e36b35-4a8d-41bb-b454-e90dcfaeb0dc",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:16.423Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:16.423Z"
+      },
+      "order": 8,
+      "status": "published",
+      "title": "Third-party App Integration"
+    },
+    {
+      "_id": "854aaa81-a26a-4e6c-8bcd-b6c7c57e63d9",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:16.348Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:16.348Z"
+      },
+      "order": 7,
+      "status": "published",
+      "title": "Multi-language Support"
+    },
+    {
+      "_id": "b878cfd0-263d-4e00-8535-a37b9967c5a6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:16.265Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:16.265Z"
+      },
+      "order": 6,
+      "status": "published",
+      "title": "Loyalty & Rewards Program"
+    },
+    {
+      "_id": "2c462077-9e2a-4457-a979-f571c2e5f18a",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:16.194Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:16.194Z"
+      },
+      "order": 5,
+      "status": "published",
+      "title": "Subscription / Recurring Orders"
+    },
+    {
+      "_id": "ac72ae53-79eb-49d5-bb8b-16b333c70be8",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:16.118Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:16.118Z"
+      },
+      "order": 4,
+      "status": "published",
+      "title": "Product Customization"
+    },
+    {
+      "_id": "74caf1ae-fb8e-444e-b994-194dc60a9655",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:16.044Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:16.044Z"
+      },
+      "order": 3,
+      "status": "published",
+      "title": "Wholesale / B2B Features"
+    },
+    {
+      "_id": "ce13c6d5-93c4-4343-8402-9485858ea636",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:15.965Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:15.965Z"
+      },
+      "order": 2,
+      "status": "published",
+      "title": "Payment Gateway Integration"
+    },
+    {
+      "_id": "5cf3fb17-b080-48a8-93b6-0bfb6a04568d",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T09:26:15.886Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-19T09:26:15.886Z"
+      },
+      "order": 1,
+      "status": "published",
+      "title": "Custom Theme Design"
+    }
+  ]
+}

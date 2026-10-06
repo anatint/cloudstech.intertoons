@@ -1,0 +1,828 @@
+{
+  "collection": {
+    "id": "TeamMembers",
+    "collectionType": "NATIVE",
+    "displayName": "Team Members",
+    "displayField": "name",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "name",
+        "displayName": "Name",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "role",
+        "displayName": "Role",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "bio",
+        "displayName": "Bio",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "photo",
+        "displayName": "Photo",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "linkedin",
+        "displayName": "LinkedIn",
+        "type": "URL",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "slug",
+        "displayName": "Slug",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "featured",
+        "displayName": "Featured",
+        "type": "BOOLEAN",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "category",
+        "displayName": "Category",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "yearsExp",
+        "displayName": "yearsExp",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "expertise",
+        "displayName": "expertise",
+        "type": "ARRAY",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "education",
+        "displayName": "education",
+        "type": "ARRAY",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "highlights",
+        "displayName": "highlights",
+        "type": "ARRAY",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "twitter",
+        "displayName": "twitter",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "email",
+        "displayName": "email",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "15",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-12T06:34:06.606Z",
+    "updatedDate": "2026-07-16T06:07:59.309Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "name": "Aleena Jacob",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/aleena.png",
+      "email": "aleena@intertoons.com",
+      "role": "Business Analyst",
+      "_id": "2f4202d1-848d-494b-abc8-864a59b6abb0",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:59.118Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/aleena-jacob-207641244?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:56.434Z"
+      },
+      "slug": "aleena-jacob",
+      "order": 14,
+      "status": "published",
+      "category": "ops"
+    },
+    {
+      "name": "Sreehari C S",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/sreehari.png",
+      "email": "sreehari@intertoons.com",
+      "role": "Full Stack Developer",
+      "_id": "5d684296-bc10-418b-9c0d-f317fc74650c",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:58.186Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/sreeharics",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:55.420Z"
+      },
+      "slug": "sreehari-c-s",
+      "order": 13,
+      "status": "published",
+      "category": "engineering"
+    },
+    {
+      "name": "Akash P D",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/a-1.png",
+      "email": "akash@intertoons.com",
+      "role": "Quality Tester",
+      "_id": "1f9a0acf-62a8-4633-8dae-5af4b0d785b0",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:57.205Z"
+      },
+      "linkedin": "http://www.linkedin.com/in/akashdasan",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:53.843Z"
+      },
+      "slug": "akash-p-d",
+      "order": 12,
+      "status": "published",
+      "category": "ops"
+    },
+    {
+      "name": "Roshin Davis",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/roshen.png",
+      "email": "roshin@intertoons.com",
+      "role": "Full Stack Developer",
+      "_id": "ac59ee73-8853-4224-b0d0-af13569722a2",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:56.290Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/roshin-davis-48ab311b0/",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:52.887Z"
+      },
+      "slug": "roshin-davis",
+      "order": 11,
+      "status": "published",
+      "category": "engineering"
+    },
+    {
+      "name": "Akhil M K",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/akhil.png",
+      "email": "akhilmk@intertoons.com",
+      "role": "Full Stack Developer",
+      "_id": "2fed8ddf-6b56-4afc-a659-35c6a17e255c",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:55.375Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/akhil-mk-9874b91b2?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:51.870Z"
+      },
+      "slug": "akhil-m-k",
+      "order": 10,
+      "status": "published",
+      "category": "engineering"
+    },
+    {
+      "name": "Malavika B S",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/malavika.png",
+      "email": "malavika@intertoons.com",
+      "role": ".Net Developer",
+      "_id": "acdc8a05-3d08-431d-8a40-cdf45b8be8b6",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:54.400Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/malavika-b-s-baa5a921b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:50.845Z"
+      },
+      "slug": "malavika-b-s",
+      "order": 9,
+      "status": "published",
+      "category": "engineering"
+    },
+    {
+      "name": "Varsha Sunil",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/varsha.png",
+      "email": "varsha@intertoons.com",
+      "role": "UI/UX Developer",
+      "_id": "ce0304a6-9dc2-4049-a868-cbf0b07177e9",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:53.475Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/varsha-sunil-b77519248?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:49.887Z"
+      },
+      "slug": "varsha-sunil",
+      "order": 8,
+      "status": "published",
+      "category": "design"
+    },
+    {
+      "name": "Anat Sajan",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/anat.png",
+      "email": "anat@intertoons.com",
+      "role": "Web & CMS Developer",
+      "_id": "397b39c3-9578-422e-ad82-4ced927562bb",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:52.495Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/anat-sajan-6b964a22a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:48.857Z"
+      },
+      "slug": "anat-sajan",
+      "order": 7,
+      "status": "published",
+      "category": "engineering"
+    },
+    {
+      "name": "Neenu Chandran",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/neenu.png",
+      "email": "neenu@intertoons.com",
+      "role": "Web & CMS Developer",
+      "_id": "dd6459ef-cd83-4dc3-9c52-cbbba252d11b",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:51.566Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/neenu-chandran-t-908094202?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:47.833Z"
+      },
+      "slug": "neenu-chandran",
+      "order": 6,
+      "status": "published",
+      "category": "engineering"
+    },
+    {
+      "name": "Abhijith Suresh",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/abhjith.png",
+      "email": "abhijith@intertoons.com",
+      "role": "Business Analyst",
+      "_id": "0c43c652-9313-49bf-a053-b7588a7f7284",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:50.640Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/abhijith-s-02b738214?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:46.886Z"
+      },
+      "slug": "abhijith-suresh",
+      "order": 5,
+      "status": "published",
+      "category": "ops"
+    },
+    {
+      "name": "Sunit Menon",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/m-sir.png",
+      "email": "sunit@intertoons.com",
+      "role": "Chief Admin",
+      "_id": "cff1658f-19a9-4e6c-9e9f-44ba220a1811",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:48.711Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/sunit-menon-18558b6?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:44.853Z"
+      },
+      "slug": "sunit-menon",
+      "order": 3,
+      "status": "published",
+      "category": "leadership"
+    },
+    {
+      "name": "Akhil N L",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/akhil-sir.png",
+      "email": "akhil@intertoons.com",
+      "role": "Technical Consultant",
+      "_id": "fdafee68-31af-42ec-9eea-5a5aa74fcda3",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:47.773Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/akhinl?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:43.845Z"
+      },
+      "slug": "akhil-n-l",
+      "order": 2,
+      "status": "published",
+      "category": "leadership"
+    },
+    {
+      "name": "Abhilash S",
+      "photo": "https://intertoons.com/wp-content/uploads/2026/06/abilash-sir.png",
+      "email": "abhilash@intertoons.com",
+      "role": "Solution Architect",
+      "_id": "3731cec4-a5c4-4588-9a5d-48f39d9f882f",
+      "_createdDate": {
+        "$date": "2026-08-11T04:54:46.762Z"
+      },
+      "linkedin": "https://www.linkedin.com/in/abhilashsnair?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "_updatedDate": {
+        "$date": "2026-08-11T05:24:42.900Z"
+      },
+      "slug": "abhilash-s",
+      "order": 1,
+      "status": "published",
+      "category": "leadership"
+    }
+  ]
+}

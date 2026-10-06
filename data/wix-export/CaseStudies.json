@@ -1,0 +1,1160 @@
+{
+  "collection": {
+    "id": "CaseStudies",
+    "collectionType": "NATIVE",
+    "displayName": "Case Studies",
+    "displayField": "title",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "quoteAuthor",
+        "displayName": "Quote Author",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "keyFeatures",
+        "displayName": "Key Features",
+        "type": "ARRAY_STRING",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "services",
+        "displayName": "Services",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Services",
+            "referencingFieldKey": "caseStudies",
+            "referencingDisplayName": "Case Studies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "quoteText",
+        "displayName": "Quote Text",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "highlightsList",
+        "displayName": "Highlights",
+        "type": "ARRAY_STRING",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "challengesList",
+        "displayName": "Challenges",
+        "type": "ARRAY_STRING",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "resultItems",
+        "displayName": "Result Items",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "ResultMetrics",
+            "referencingFieldKey": "caseStudies",
+            "referencingDisplayName": "Case Studies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "industries",
+        "displayName": "Industries",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Industries",
+            "referencingFieldKey": "caseStudies",
+            "referencingDisplayName": "Case Studies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "technologies",
+        "displayName": "Technologies",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Technologies",
+            "referencingFieldKey": "caseStudies",
+            "referencingDisplayName": "Case Studies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "title",
+        "displayName": "Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "client",
+        "displayName": "Client",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "category",
+        "displayName": "Category",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "excerpt",
+        "displayName": "Excerpt",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "coverImage",
+        "displayName": "Cover Image",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "overview",
+        "displayName": "Overview",
+        "type": "RICH_CONTENT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "solution",
+        "displayName": "Solution",
+        "type": "RICH_CONTENT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "gallery",
+        "displayName": "Gallery",
+        "type": "MEDIA_GALLERY",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "downloadPdf",
+        "displayName": "Download PDF",
+        "type": "DOCUMENT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "slug",
+        "displayName": "Slug",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "featured",
+        "displayName": "Featured",
+        "type": "BOOLEAN",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoTitle",
+        "displayName": "SEO Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoDescription",
+        "displayName": "SEO Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoImage",
+        "displayName": "SEO Image",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "projects",
+        "displayName": "Projects",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Projects",
+            "referencingFieldKey": "caseStudies",
+            "referencingDisplayName": "Case Studies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "39",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-12T06:32:49.211Z",
+    "updatedDate": "2026-06-20T04:02:02.007Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "quoteAuthor": "Michael Chen",
+      "services": [
+        "fe59952f-0cb9-4ca5-8dff-6eb88a46d39d"
+      ],
+      "excerpt": "AI-powered business intelligence dashboard integrating 20+ data sources into one actionable view.",
+      "industries": [
+        "2f182b0e-088e-4604-bb5c-968a0f9176c6"
+      ],
+      "keyFeatures": [
+        "Secure",
+        "Stable",
+        "Scalable",
+        "Flexible"
+      ],
+      "_id": "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:20.866Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-20T07:16:25.810Z"
+      },
+      "slug": "bizanalytics",
+      "technologies": [
+        "e2cfd825-b1aa-4317-b1da-2284ed489589",
+        "9a4c87f9-f455-4e9e-ab78-4532b10501b3",
+        "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+        "e65c7e48-6e55-45ee-bea7-3454505865f2",
+        "5257352c-f4e6-4073-a8bd-abbaee0f9d1a"
+      ],
+      "solution": "We built a Next.js + Python/FastAPI platform with automated ETL pipelines and an LLM-powered insights layer that turns raw data into plain-language recommendations.",
+      "highlightsList": [
+        "20+ data-source integrations",
+        "LLM-powered natural-language insights",
+        "Real-time KPI dashboards"
+      ],
+      "challengesList": [
+        "Data scattered across 20+ tools",
+        "Slow, manual reporting cycles",
+        "No unified view for decision-makers"
+      ],
+      "order": 5,
+      "status": "published",
+      "client": "BizAnalytics",
+      "quoteText": "AI-powered business intelligence dashboard integrating 20+ data sources into one actionable view.",
+      "resultItems": [
+        "b4314eab-987e-474e-acd2-de7814c8895f",
+        "534cbeee-1243-4cb7-af9b-0c0913148534",
+        "2c174dfb-c5b8-41f2-b068-88220a8ad5bc"
+      ],
+      "overview": "BizAnalytics unified 20+ disparate data sources into a single AI-powered business intelligence dashboard with natural-language insights.",
+      "category": "ai",
+      "projects": [],
+      "title": "BizAnalytics — AI Business Intelligence"
+    },
+    {
+      "quoteAuthor": "Dr. Arun Nair",
+      "services": [
+        "fe59952f-0cb9-4ca5-8dff-6eb88a46d39d",
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "excerpt": "Doctor-patient communication platform with appointment booking, prescriptions and telemedicine.",
+      "industries": [
+        "fa22760b-77ad-41b8-915f-f0cc2950ad29",
+        "2f182b0e-088e-4604-bb5c-968a0f9176c6",
+        "fbf94303-fc12-4265-a235-1b879c6c47e5",
+        "aa28bb16-ab09-4a9f-8ef1-f8fde04f76e6"
+      ],
+      "keyFeatures": [
+        "Secure",
+        "Stable",
+        "Scalable",
+        "Flexible"
+      ],
+      "_id": "aafba2bd-4c78-49dc-b4c6-a381037f831b",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:19.478Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-20T07:16:45.842Z"
+      },
+      "slug": "medicare",
+      "technologies": [
+        "dd5c8c43-edf7-4b3b-b778-2433a3dab571",
+        "6f959365-b178-4cc6-a2c6-bf4a4a239409",
+        "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+        "4dda59e3-423d-4594-86b1-74ca9a6a6214"
+      ],
+      "solution": "We built a Flutter app with a Node.js backend, secure messaging, automated reminders via Twilio and an AI-assisted scheduling layer.",
+      "highlightsList": [
+        "Telemedicine video consultations",
+        "Automated appointment reminders",
+        "AI-assisted scheduling"
+      ],
+      "challengesList": [
+        "Disconnected appointment and records systems",
+        "Need for secure telemedicine consultations",
+        "High accuracy demands for scheduling"
+      ],
+      "order": 4,
+      "status": "published",
+      "client": "MediCare",
+      "quoteText": "Doctor-patient communication platform with appointment booking, prescriptions and telemedicine.",
+      "resultItems": [
+        "12f38709-2f72-4478-9e3d-9148e1498000",
+        "a365120c-1e55-4fce-9574-6ae0bbe02044",
+        "6eb6269e-cb41-4563-ac54-fc48ddd980ca"
+      ],
+      "overview": "MediCare set out to connect doctors and patients through a single platform covering appointments, prescriptions and telemedicine consultations.",
+      "category": "healthcare",
+      "projects": [],
+      "title": "MediCare — Healthcare App"
+    },
+    {
+      "quoteAuthor": "Priya Patel",
+      "services": [
+        "fe59952f-0cb9-4ca5-8dff-6eb88a46d39d"
+      ],
+      "excerpt": "Restaurant aggregator and food delivery app for a growing QSR chain across 12 cities.",
+      "industries": [
+        "fbf94303-fc12-4265-a235-1b879c6c47e5"
+      ],
+      "_id": "525491bb-0f0f-4f34-b3c7-24b0ec683ea5",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:17.623Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-20T04:02:32.412Z"
+      },
+      "slug": "quickbite",
+      "technologies": [
+        "dd5c8c43-edf7-4b3b-b778-2433a3dab571",
+        "812cbcd4-dce3-4081-b232-75ce97d125c3",
+        "22cd5479-aecf-4e73-9b72-7b64ca825871",
+        "2b9f8d70-5caf-4b03-8e18-c9bb755b6b32",
+        "50742183-6477-41fd-9cf7-087fbd47fe64",
+        "f97ca35c-2adb-4579-af8d-5cf4bdf4ca03"
+      ],
+      "solution": "We deployed a Flutter customer & partner app suite on a Laravel backend with Firebase real-time updates and Stripe payments, tuned for peak-hour throughput.",
+      "highlightsList": [
+        "Four-app delivery ecosystem",
+        "Real-time order tracking",
+        "Scaled to 12 cities"
+      ],
+      "challengesList": [
+        "Rapid multi-city expansion under tight timelines",
+        "Real-time order routing and live tracking",
+        "High order volumes during peak hours"
+      ],
+      "order": 3,
+      "status": "published",
+      "client": "QuickBite",
+      "quoteText": "Restaurant aggregator and food delivery app for a growing QSR chain across 12 cities.",
+      "resultItems": [
+        "aba80dd3-f31f-48cc-83cb-85ec6016f7e9",
+        "802bba81-b103-4446-870c-69094b8ec7ab",
+        "f99127c1-3506-4e7d-9579-4e630c3d7508"
+      ],
+      "overview": "QuickBite scaled from a single-city operation to 12 cities with a four-app food delivery ecosystem — customer, restaurant, delivery partner and admin.",
+      "category": "food-delivery",
+      "projects": [],
+      "title": "QuickBite — Food Delivery App"
+    },
+    {
+      "services": [
+        "fe59952f-0cb9-4ca5-8dff-6eb88a46d39d"
+      ],
+      "excerpt": "End-to-end car rental platform with real-time booking, fleet tracking and payment integration.",
+      "industries": [
+        "aa28bb16-ab09-4a9f-8ef1-f8fde04f76e6"
+      ],
+      "_id": "6748542f-9d7a-410a-bf06-d35b3498522e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:15.724Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-20T04:02:32.412Z"
+      },
+      "slug": "drivezy",
+      "technologies": [
+        "dd5c8c43-edf7-4b3b-b778-2433a3dab571",
+        "34affc0b-cdb1-4114-86d3-98b98b1bbcda",
+        "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+        "564b673b-6a90-4675-9539-b07809a44166",
+        "50742183-6477-41fd-9cf7-087fbd47fe64",
+        "f97ca35c-2adb-4579-af8d-5cf4bdf4ca03"
+      ],
+      "solution": "We built Flutter apps for Android and iOS with live availability, integrated GPS fleet tracking and a unified payment flow, all powered by a Django backend.",
+      "highlightsList": [
+        "Real-time GPS fleet tracking",
+        "Cross-platform Flutter apps",
+        "Integrated digital contracts & payments"
+      ],
+      "challengesList": [
+        "Manual booking process limiting scale",
+        "No real-time vehicle availability or tracking",
+        "Fragmented payment and document workflows"
+      ],
+      "order": 2,
+      "status": "published",
+      "client": "Drivezy",
+      "resultItems": [
+        "3ce446c4-fdc1-47af-a5db-f26eca0ec57e",
+        "c3c351a5-df9a-4b43-b6a0-131c74a7f06d",
+        "9cb06e30-c2cd-4594-8340-0952ec7977e7"
+      ],
+      "overview": "Drivezy needed a modern, end-to-end car rental experience spanning customer booking, fleet operations and payments. We delivered cross-platform mobile apps backed by a real-time tracking system.",
+      "category": "mobile-app",
+      "projects": [],
+      "title": "Maazcars — Car Rental Platform"
+    },
+    {
+      "quoteAuthor": "Sarah Johnson",
+      "services": [
+        "fe59952f-0cb9-4ca5-8dff-6eb88a46d39d"
+      ],
+      "excerpt": "Rebuilt HealthKart Shopify store from the ground up, achieving a 45% increase in conversions.",
+      "industries": [
+        "002c3a19-9acf-4772-9e0a-02d5eddf664d"
+      ],
+      "_id": "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:14.380Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-20T04:02:32.411Z"
+      },
+      "slug": "healthkart-store",
+      "technologies": [
+        "5257352c-f4e6-4073-a8bd-abbaee0f9d1a",
+        "6f959365-b178-4cc6-a2c6-bf4a4a239409",
+        "22cd5479-aecf-4e73-9b72-7b64ca825871",
+        "87e1b0bc-3414-4795-9872-a8c4ce28b31f"
+      ],
+      "solution": "We implemented a custom Shopify theme with lazy-loading, CDN-optimised images, and a streamlined 2-step checkout. Custom metafields powered rich product detail pages.",
+      "highlightsList": [
+        "5000+ products migrated with zero data loss",
+        "Custom B2B bulk order portal",
+        "Integration with ERP and warehouse management"
+      ],
+      "challengesList": [
+        "Poor mobile experience causing 60% cart abandonment",
+        "Slow page load times affecting SEO rankings",
+        "Complex product catalogue with 5000+ SKUs"
+      ],
+      "order": 1,
+      "status": "published",
+      "client": "HealthKart",
+      "quoteText": "Rebuilt HealthKart Shopify store from the ground up, achieving a 45% increase in conversions.",
+      "resultItems": [
+        "a3a8a227-3d3d-42ef-b813-6f79d8382d24",
+        "da36caac-d71b-4ad0-9963-c510229f6ea6",
+        "20fa083e-c9fe-467e-b660-4fbe67da6b73"
+      ],
+      "overview": "HealthKart is India’s leading health and nutrition marketplace. We rebuilt their Shopify store with a mobile-first approach, custom filtering and an optimised checkout flow.",
+      "category": "ecommerce",
+      "projects": [
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8"
+      ],
+      "title": "HealthKart1 — E-commerce Transformation"
+    }
+  ]
+}

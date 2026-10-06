@@ -1,4 +1,4 @@
-name = "itwixheadless"
+name = "cloudstech"
 main = ".open-next/worker.js"
 compatibility_date = "2024-12-30"
 compatibility_flags = ["nodejs_compat"]
@@ -12,7 +12,7 @@ WIX_CLIENT_ID = "df0c393b-5bc6-403c-bb55-f4c5cb734dd7"
 
 # Wix site id — used by the forms API route (/api/forms/quote) for the
 # `wix-site-id` header when writing leads/contacts. Non-secret.
-WIX_SITE_ID = "4ffcfcd6-cb3f-4af1-959b-85296102be43"
+WIX_SITE_ID = "71f4ac93-4176-4894-bff5-79a6d8f00a71"
 # NOTE: WIX_API_KEY (admin key, secret) is NOT here — set it with:
 #   npx wrangler secret put WIX_API_KEY
 # NOTE: ADMIN_SESSION_SECRET (signs /admin session cookies, secret) is NOT here — set it with:
@@ -29,7 +29,7 @@ binding = "ASSETS"
 # Incremental/ISR cache store (OpenNext kvIncrementalCache).
 [[kv_namespaces]]
 binding = "NEXT_INC_CACHE_KV"
-id = "9482a98fb60047a7b3caaead30652ddd"
+id = "22cf1b9c67e24a78b067870d7f6376a3"
 
 # Durable Object queue that regenerates stale ISR pages (OpenNext doQueue).
 [[durable_objects.bindings]]
@@ -44,4 +44,4 @@ new_sqlite_classes = ["DOQueueHandler"]
 # re-render stale ISR pages (required by OpenNext doQueue).
 [[services]]
 binding = "WORKER_SELF_REFERENCE"
-service = "itwixheadless"
+service = "cloudstech"

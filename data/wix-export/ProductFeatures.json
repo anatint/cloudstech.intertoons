@@ -1,0 +1,1304 @@
+{
+  "collection": {
+    "id": "ProductFeatures",
+    "collectionType": "NATIVE",
+    "displayName": "Product Features",
+    "displayField": "title",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "title",
+        "displayName": "Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "description",
+        "displayName": "Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "icon",
+        "displayName": "Icon",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "products",
+        "displayName": "Products",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Products",
+            "referencingFieldKey": "featureItems",
+            "referencingDisplayName": "Feature Items"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "2",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-19T11:52:10.731Z",
+    "updatedDate": "2026-06-19T11:52:11.321Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "description": "Put a price on any meeting type. The amount is fixed at the moment of booking, so changing your rate never rewrites history.",
+      "_id": "e3f8ba86-eb61-418e-afed-e9d0826b48e6",
+      "_createdDate": {
+        "$date": "2026-09-15T14:09:00.286Z"
+      },
+      "icon": "CreditCard",
+      "_updatedDate": {
+        "$date": "2026-09-15T14:09:00.286Z"
+      },
+      "products": [
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "order": 6,
+      "status": "ACTIVE",
+      "title": "Paid Meetings"
+    },
+    {
+      "description": "Write up a meeting against the booking itself and attach files — it stays on that customer's timeline.",
+      "_id": "318cac63-c1a4-46f5-bf24-b19e358312be",
+      "_createdDate": {
+        "$date": "2026-09-15T14:08:59.328Z"
+      },
+      "icon": "Paperclip",
+      "_updatedDate": {
+        "$date": "2026-09-15T14:08:59.328Z"
+      },
+      "products": [
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "order": 5,
+      "status": "ACTIVE",
+      "title": "Minutes & Attachments"
+    },
+    {
+      "description": "Every booking creates a customer record with full meeting history, so you never open a call cold.",
+      "_id": "113fe943-b5d2-41ca-9f8b-38e3ca56383b",
+      "_createdDate": {
+        "$date": "2026-09-15T14:08:58.395Z"
+      },
+      "icon": "Users",
+      "_updatedDate": {
+        "$date": "2026-09-15T14:08:58.395Z"
+      },
+      "products": [
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "order": 4,
+      "status": "ACTIVE",
+      "title": "Customer Records, Built As You Go"
+    },
+    {
+      "description": "Cap meetings per day, week or month, and add breaks either side of every call.",
+      "_id": "693ea5a2-c63a-427c-88e5-ffb0d20e7a70",
+      "_createdDate": {
+        "$date": "2026-09-15T14:08:57.433Z"
+      },
+      "icon": "ShieldCheck",
+      "_updatedDate": {
+        "$date": "2026-09-15T14:08:57.433Z"
+      },
+      "products": [
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "order": 3,
+      "status": "ACTIVE",
+      "title": "Limits That Protect Your Week"
+    },
+    {
+      "description": "Visitors see your times in their own zone, and daylight saving is worked out per date — not a stored offset that quietly drifts.",
+      "_id": "73cbb625-7677-44ef-b459-992fecf744a0",
+      "_createdDate": {
+        "$date": "2026-09-15T14:08:56.510Z"
+      },
+      "icon": "Globe",
+      "_updatedDate": {
+        "$date": "2026-09-15T14:08:56.510Z"
+      },
+      "products": [
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "order": 2,
+      "status": "ACTIVE",
+      "title": "Timezones, Handled"
+    },
+    {
+      "description": "Every connected calendar is checked before a time is offered. If you're busy anywhere, that slot never appears.",
+      "_id": "e3e273fc-d299-4f6e-b5af-fcb9f2040019",
+      "_createdDate": {
+        "$date": "2026-09-15T14:08:55.457Z"
+      },
+      "icon": "CalendarCheck",
+      "_updatedDate": {
+        "$date": "2026-09-15T14:08:55.457Z"
+      },
+      "products": [
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "order": 1,
+      "status": "ACTIVE",
+      "title": "Availability You Can Trust"
+    },
+    {
+      "description": "A full-featured web dashboard plus a native-feel mobile app for iOS and Android with 18+ screens — manage from anywhere.",
+      "_id": "ca830ed5-c2fe-42df-bad7-655b3cf79b53",
+      "_createdDate": {
+        "$date": "2026-09-15T13:55:52.296Z"
+      },
+      "icon": "Smartphone",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:55:52.296Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 6,
+      "status": "ACTIVE",
+      "title": "Web + Mobile"
+    },
+    {
+      "description": "Describe a project in plain English and let AI create a full structure — phases, milestones and tasks — in seconds.",
+      "_id": "8e8c287d-c40e-4fb6-9b18-c49caeb6f5ee",
+      "_createdDate": {
+        "$date": "2026-09-15T13:55:51.255Z"
+      },
+      "icon": "Sparkles",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:55:51.255Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 5,
+      "status": "ACTIVE",
+      "title": "AI Project Generator"
+    },
+    {
+      "description": "Get instant Telegram alerts for task assignments, status updates, @mentions and deadline reminders — without leaving Telegram.",
+      "_id": "45e581ae-e5e9-45b3-a3a7-2df7e656089b",
+      "_createdDate": {
+        "$date": "2026-09-15T13:55:49.859Z"
+      },
+      "icon": "Send",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:55:49.859Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 4,
+      "status": "ACTIVE",
+      "title": "Telegram Connectivity"
+    },
+    {
+      "description": "Organise members into teams, assign leads and control role-based access for Owners, Admins, Managers, Members and Viewers.",
+      "_id": "c23c8fb6-76a5-4c68-bf65-327b58282590",
+      "_createdDate": {
+        "$date": "2026-09-15T13:55:48.152Z"
+      },
+      "icon": "Users",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:55:48.152Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 3,
+      "status": "ACTIVE",
+      "title": "Team Management"
+    },
+    {
+      "description": "Subtasks, checklists, time estimates, file attachments and rich discussion threads — all on one task card.",
+      "_id": "2843e688-6b9f-47dd-9c10-9508c20f7467",
+      "_createdDate": {
+        "$date": "2026-09-15T13:55:47.214Z"
+      },
+      "icon": "SquareCheck",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:55:47.214Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 2,
+      "status": "ACTIVE",
+      "title": "Task Tracking"
+    },
+    {
+      "description": "Full project lifecycle from kickoff to completion — track progress, assign teams, set priorities and monitor deadlines at a glance.",
+      "_id": "e271157e-db57-446f-92fc-4c1342e0f802",
+      "_createdDate": {
+        "$date": "2026-09-15T13:55:46.133Z"
+      },
+      "icon": "ListTodo",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:55:46.133Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 1,
+      "status": "ACTIVE",
+      "title": "Project Management"
+    },
+    {
+      "description": "Export Contacts, Deals, and Tasks to CSV whenever you need a backup or report.",
+      "_id": "8376ae0f-9bdc-46fc-a8c2-be5c765abdac",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:22.228Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:22.228Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Data Export"
+    },
+    {
+      "description": "Secure cloud storage with presigned download URLs to keep files protected.",
+      "_id": "03862dbc-1e1c-4920-ad5a-ce5dcd63058b",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:22.077Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:22.077Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "File & Media Management"
+    },
+    {
+      "description": "Address autocomplete and GST number lookup to speed up mobile data entry.",
+      "_id": "d413a567-8207-40f5-8746-30aadbbba1f2",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:21.925Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:21.925Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Address & GST Lookup (Mobile)"
+    },
+    {
+      "description": "Automatically sync device call logs into the CRM with call type and duration.",
+      "_id": "103fe5f2-0fb0-41b0-bff2-ed17fbfa0204",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:21.780Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:21.780Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Call Log Sync (Mobile)"
+    },
+    {
+      "description": "Real-time notifications with deep linking so your team stays on top of tasks, deals, and updates.",
+      "_id": "e2d455ae-45bb-415c-8356-dd698c384acc",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:21.633Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:21.633Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Push Notifications"
+    },
+    {
+      "description": "Custom roles with module-level permissions so each user sees only what they’re allowed to.",
+      "_id": "36c71b51-2c2d-41df-a3ec-e6edb7490cfb",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:21.466Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:21.466Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Role & Permission Management"
+    },
+    {
+      "description": "Unlimited members, roles, activation/suspension, and per-user activity analytics.",
+      "_id": "e5d931c4-1d73-4ff4-b755-df9d17ada079",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:21.310Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:21.310Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Team & User Management"
+    },
+    {
+      "description": "Key metrics, revenue trend chart, deal-stage distribution, and time filters to act faster.",
+      "_id": "032ee9f5-865b-46f9-a240-c2ceb3020c89",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:21.173Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:21.173Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Dashboard & Reports"
+    },
+    {
+      "description": "Automatic and manual activity logging with a searchable, filterable timeline of every touchpoint.",
+      "_id": "a0303362-b3a8-4265-a2b4-10b5cf337bb4",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:20.989Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:20.989Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Activity Timeline"
+    },
+    {
+      "description": "Rich-formatted notes categorized by interaction type, with file attachments for complete context.",
+      "_id": "0a396812-9981-4c59-bf66-376719c5e365",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:20.840Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:20.840Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Notes & Communication Logs"
+    },
+    {
+      "description": "Priorities, due dates, status tracking, attachments, and assignment notifications so follow-ups never slip.",
+      "_id": "06438f53-d689-475f-a407-25455c72e5f5",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:20.682Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:20.682Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Task Management"
+    },
+    {
+      "description": "A clear 6-stage pipeline with full stage history and admin-only rollback with reason tracking.",
+      "_id": "7001f7dc-c3c5-48a3-8fe6-294da8a327f2",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:20.534Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:20.534Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Deal Pipeline"
+    },
+    {
+      "description": "Full contact profiles with lifecycle status tracking, bulk import, and related records in one view.",
+      "_id": "e0060502-a4fa-4d1b-86d9-6a7d003bbf44",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:20.378Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:20.378Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "status": "ACTIVE",
+      "title": "Contact Management"
+    },
+    {
+      "name": "Credit-based usage management",
+      "description": "Track usage with credits (1 credit = 1 message), set limits per user/bot, and monitor consumption in real time.",
+      "_id": "2e632128-0889-49ac-af78-56ea78846e02",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.114Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:28:46.784Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "credit-based-usage-management",
+      "title": "Credit-based usage management"
+    },
+    {
+      "name": "Document & URL training",
+      "description": "Upload PDFs, docs, or add URLs to build a knowledge base your bot can answer from—so responses stay grounded in your content.",
+      "_id": "566d58a5-15db-4955-ac48-e84761ef6abe",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.073Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:28:46.702Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "document-url-training",
+      "title": "Document & URL training"
+    },
+    {
+      "name": "BYOK (Bring Your Own Key)",
+      "description": "Bring your own AI provider keys to control costs and choose the model that fits your compliance and performance needs.",
+      "_id": "f1d0a5e3-2509-4790-ba25-325f8409b642",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.069Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:28:46.704Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "byok-bring-your-own-key",
+      "title": "BYOK (Bring Your Own Key)"
+    },
+    {
+      "name": "RAG with source citations",
+      "description": "Smart retrieval pulls the most relevant snippets and can show citations, helping users trust answers and reducing hallucinations.",
+      "_id": "d33fe16e-af72-4b2e-8443-a4933e40481a",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.046Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:28:46.707Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "rag-with-source-citations",
+      "title": "RAG with source citations"
+    },
+    {
+      "name": "Website chat widget",
+      "description": "Deploy a branded chat widget on your site (inline or floating) with customizable colors, welcome message, and bot persona.",
+      "_id": "2662c834-702a-48db-b60b-77a9b37d0169",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.041Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:28:46.696Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "website-chat-widget",
+      "title": "Website chat widget"
+    },
+    {
+      "name": "Multi-tenant & role-based access",
+      "description": "Built for agencies and SaaS teams with isolated bots per user, role-based permissions, and admin override controls.",
+      "_id": "9bf3d04f-205d-4ddc-995f-88aef3d900a4",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.022Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:28:46.703Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "multi-tenant-role-based-access",
+      "title": "Multi-tenant & role-based access"
+    },
+    {
+      "name": "WhatsApp bot (text + voice notes)",
+      "description": "Connect WhatsApp to handle text and voice notes—voice messages are transcribed so users can chat naturally on mobile.",
+      "_id": "b94dc7e8-c13a-4d97-88ca-6dc4870ca7d0",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:49.996Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:28:46.714Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "whatsapp-bot-text-voice-notes",
+      "title": "WhatsApp bot (text + voice notes)"
+    },
+    {
+      "description": "Live order dashboard, revenue trends, retention metrics.",
+      "_id": "e2ad887e-d0f1-4664-97b6-f3000c6c47db",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:05.854Z"
+      },
+      "icon": "BarChart3",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:05.854Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "order": 6,
+      "status": "published",
+      "title": "Real-Time Analytics"
+    },
+    {
+      "description": "Stripe, Razorpay, PayPal, COD pre-integrated.",
+      "_id": "08d7568b-4ede-4972-b8c8-5a14119b2322",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:05.765Z"
+      },
+      "icon": "CreditCard",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:05.765Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "order": 5,
+      "status": "published",
+      "title": "Multi-Payment Gateway"
+    },
+    {
+      "description": "Control restaurants, users, commissions, promos, zones and analytics.",
+      "_id": "a07ffd96-278b-4cc1-bcaa-e134b0be5a73",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:05.683Z"
+      },
+      "icon": "LayoutDashboard",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:05.683Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "order": 4,
+      "status": "published",
+      "title": "Admin Super Dashboard"
+    },
+    {
+      "description": "GPS-optimized routing, batch delivery, earnings tracker, availability toggle.",
+      "_id": "91d02169-7415-4093-b0bc-af236e6500ff",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:05.584Z"
+      },
+      "icon": "MapPin",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:05.584Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "order": 3,
+      "status": "published",
+      "title": "Delivery Partner App"
+    },
+    {
+      "description": "Accept/reject orders, manage menus, view earnings, receive push notifications.",
+      "_id": "87b860c8-388f-4bd9-bd29-c54a31ccc622",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:05.513Z"
+      },
+      "icon": "UtensilsCrossed",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:05.513Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "order": 2,
+      "status": "published",
+      "title": "Restaurant Owner App"
+    },
+    {
+      "description": "Seamless browsing, cart, real-time order tracking, ratings, and loyalty rewards.",
+      "_id": "a68db80d-5ec4-4ef6-aa9c-b0263bc691eb",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:05.433Z"
+      },
+      "icon": "Smartphone",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:05.433Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "order": 1,
+      "status": "published",
+      "title": "Customer App (iOS & Android)"
+    },
+    {
+      "description": "PCI DSS Level 1 payment flow with full audit trail.",
+      "_id": "b3801dce-7026-430a-9cd9-827efa0310fe",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:03.838Z"
+      },
+      "icon": "Shield",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:03.838Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 6,
+      "status": "published",
+      "title": "PCI-Compliant & Secure"
+    },
+    {
+      "description": "Accept 50+ currencies with FX management.",
+      "_id": "21d0b104-fd0b-485b-b53c-617825a64453",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:03.767Z"
+      },
+      "icon": "CreditCard",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:03.767Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 5,
+      "status": "published",
+      "title": "Multi-Currency & Payments"
+    },
+    {
+      "description": "Sub-agent accounts with commissions, markups and credit limits.",
+      "_id": "a3d66880-103e-422f-b142-b7d5b9b8ace8",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:03.693Z"
+      },
+      "icon": "Users",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:03.693Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 4,
+      "status": "published",
+      "title": "B2B Agent Portal"
+    },
+    {
+      "description": "Bundle flights + hotels + transfers into branded packages.",
+      "_id": "dedd8e2e-d257-4d98-bb48-f14199f55ad3",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:03.627Z"
+      },
+      "icon": "Globe",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:03.627Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 3,
+      "status": "published",
+      "title": "Holiday Package Builder"
+    },
+    {
+      "description": "Real-time inventory from Hotelbeds, Expedia and direct contracts.",
+      "_id": "0bdbac40-6e1c-4a01-8398-2b8c53c08a49",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:03.561Z"
+      },
+      "icon": "Building2",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:03.561Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 2,
+      "status": "published",
+      "title": "Hotel Reservation System"
+    },
+    {
+      "description": "Live availability from Amadeus, Sabre, and major LCCs.",
+      "_id": "7797c632-0d59-44ee-86e2-1a10b8ba5f15",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:03.477Z"
+      },
+      "icon": "Plane",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:03.477Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 1,
+      "status": "published",
+      "title": "Flight Booking Engine"
+    },
+    {
+      "description": "Utilisation, revenue per vehicle and maintenance costs.",
+      "_id": "ba5ec3f6-94c5-411c-af01-a14cec49442c",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:01.994Z"
+      },
+      "icon": "BarChart3",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:01.994Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 6,
+      "status": "published",
+      "title": "Fleet Analytics"
+    },
+    {
+      "description": "Book, extend, cancel and track from a white-label app.",
+      "_id": "1543d9e3-9b3b-44c0-b963-dd115f865bcc",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:01.917Z"
+      },
+      "icon": "Smartphone",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:01.917Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 5,
+      "status": "published",
+      "title": "Customer Mobile App"
+    },
+    {
+      "description": "Dynamic pricing, seasonal rates and P&L dashboard.",
+      "_id": "10ea27b3-3fdd-40e4-8784-bd33a090444e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:01.829Z"
+      },
+      "icon": "CreditCard",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:01.829Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 4,
+      "status": "published",
+      "title": "Revenue Management"
+    },
+    {
+      "description": "Service reminders and full vehicle history.",
+      "_id": "6e4b21d3-481a-45d4-91d8-3096920c8c78",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:01.757Z"
+      },
+      "icon": "Settings",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:01.757Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 3,
+      "status": "published",
+      "title": "Maintenance Scheduling"
+    },
+    {
+      "description": "Live fleet map, geofencing, speed monitoring.",
+      "_id": "4c854c08-0b15-4674-82f9-d6323ed99b24",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:01.686Z"
+      },
+      "icon": "MapPin",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:01.686Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 2,
+      "status": "published",
+      "title": "Real-Time GPS Tracking"
+    },
+    {
+      "description": "Customers search, compare and book vehicles online.",
+      "_id": "b6b0aabc-851d-4456-8de1-f841c689baa6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:01.614Z"
+      },
+      "icon": "Globe",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:01.614Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 1,
+      "status": "published",
+      "title": "Online Booking Portal"
+    },
+    {
+      "description": "Conversation analytics, intent classification and CSAT.",
+      "_id": "861bc567-1933-4cb9-961d-4dffbfd54b37",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:00.057Z"
+      },
+      "icon": "BarChart3",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:00.057Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 6,
+      "status": "published",
+      "title": "Analytics & Insights"
+    },
+    {
+      "description": "Answers from your FAQ docs, PDFs and Notion.",
+      "_id": "7af27d24-e8d7-4a9f-923d-752442408e72",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:52:59.987Z"
+      },
+      "icon": "Database",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:52:59.987Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 5,
+      "status": "published",
+      "title": "Knowledge Base Integration"
+    },
+    {
+      "description": "Smart escalation to a human with full context.",
+      "_id": "c3da9d20-345e-430c-a99e-9e1732c8be2a",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:52:59.891Z"
+      },
+      "icon": "HeartHandshake",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:52:59.891Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 4,
+      "status": "published",
+      "title": "Live Agent Handoff"
+    },
+    {
+      "description": "Web widget, WhatsApp, SMS, Messenger and Slack.",
+      "_id": "a5d918ed-d4e5-4483-9d86-345e32853636",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:52:59.822Z"
+      },
+      "icon": "Globe",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:52:59.822Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 3,
+      "status": "published",
+      "title": "Omnichannel Deployment"
+    },
+    {
+      "description": "Visual drag-and-drop conversation builder.",
+      "_id": "113fd235-e8a0-4f89-9f77-aade6fdd663f",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:52:59.745Z"
+      },
+      "icon": "Settings",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:52:59.745Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 2,
+      "status": "published",
+      "title": "No-Code Flow Builder"
+    },
+    {
+      "description": "Swap between OpenAI, Anthropic Claude and custom models.",
+      "_id": "68c1553a-91d8-48b6-8843-873a78debf5b",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:52:59.668Z"
+      },
+      "icon": "Cpu",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:52:59.668Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 1,
+      "status": "published",
+      "title": "GPT-4 & Claude Powered"
+    }
+  ]
+}

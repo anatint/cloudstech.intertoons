@@ -1,0 +1,1212 @@
+{
+  "collection": {
+    "id": "TechStackEntries",
+    "collectionType": "NATIVE",
+    "displayName": "Tech Stack Entries",
+    "displayField": "role",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "role",
+        "displayName": "Role",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "13",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-12T06:32:49.469Z",
+    "updatedDate": "2026-06-12T11:17:35.062Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "role": "Frontend",
+      "_id": "69d5aea7-baec-4b89-b72e-49edd83e66a4",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:22.353Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "AI",
+      "_id": "4a231b27-93ea-4505-9baf-22fdcdde3619",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:22.115Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "b521a60f-6119-4750-902a-22e580b48ac6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:21.888Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Framework",
+      "_id": "1ce53d71-a024-459a-9413-05d5d882f51f",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:21.662Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "9e86b38b-0c31-42c5-a28f-a33caa5adfbd",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:21.445Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "SMS",
+      "_id": "7440ced5-3188-4e5a-a7dc-641083376da0",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:20.632Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "846ff540-cc52-4123-a5bc-e5110a08af93",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:20.419Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "408e2bfd-0147-45c2-852d-42a9260dbbb6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:20.259Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mobile",
+      "_id": "4040aab1-2872-4ad5-bfac-3dcadaf6baa5",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:20.031Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Payments",
+      "_id": "feba838f-10c3-47e7-bef1-0040b2622d8c",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:19.260Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Realtime",
+      "_id": "0fdea7c0-83d1-4f21-9c15-e36dae498aef",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:19.022Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "0599537e-a31b-416a-9839-d2d20923118c",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:18.782Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "1189284f-d73b-4115-9d77-71441f84a611",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:18.544Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mobile",
+      "_id": "325fc151-a64d-4039-892a-38771059dcfa",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:18.381Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Payments",
+      "_id": "a1aacf41-cafe-4061-80df-eb9e73e5d99d",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:17.417Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mapping",
+      "_id": "dfe35d8e-966a-4b5c-aaef-99b8c51ddd1a",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:17.255Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "13dd04a7-f23e-4213-9a77-62583ed34356",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:17.021Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "1c9624f1-ade0-43f3-b706-b54d2a3979bd",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:16.695Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mobile",
+      "_id": "524ef596-fab5-42fd-85c3-74ceb8495de9",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:16.453Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cloud",
+      "_id": "137388ca-9f3a-4ebc-9429-1dd194f35468",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:15.483Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "169ed6bd-8a88-4680-b4a0-0d08d6fcfdf7",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:15.271Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "6e427fee-bdf2-4928-8e70-32060e9ea553",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:15.037Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Frontend",
+      "_id": "3b24a861-1a61-48d3-aff9-2a0f37202e45",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:14.790Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "SMS",
+      "_id": "6dff054c-6a11-4368-80b5-75264c18c7b9",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:14.138Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Frontend",
+      "_id": "a863b7cb-d8b0-4f46-a4cf-0fb8488c49c3",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:13.914Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "bbe2e006-6edf-490e-9306-f3547a6e9c5e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:13.756Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cache",
+      "_id": "a81be659-6a17-46ea-ad91-7923748a6d61",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:13.592Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Framework",
+      "_id": "d15b0feb-2efa-44c6-a7fc-476d39506d59",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:13.445Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "d5b8370a-d824-45ca-9c6e-0d5d7498ff2d",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:13.273Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "AI Model",
+      "_id": "9c378458-53ac-406c-8f2d-0eeab0e4aa55",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:13.037Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "AI Model",
+      "_id": "3d181f2a-35c1-4cda-bcc6-234152179c42",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:12.786Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cache",
+      "_id": "71010841-3a30-40b7-a243-b563d0efc55c",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:11.821Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cloud",
+      "_id": "063662e5-faf4-4cf4-b7ab-dd5ed33b9f80",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:11.595Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Payments",
+      "_id": "56dac5a7-7d79-4d24-831e-782691e5f227",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:11.362Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "SMS",
+      "_id": "ec7aaf3d-f956-4c17-95e8-05b54faec547",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:11.206Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mapping",
+      "_id": "ed22c889-a8c5-4661-add1-a4771fea608e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:11.057Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "0310ab78-0741-46bb-b7b0-e64749327353",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:10.825Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "060c7a87-4296-445b-9d41-1befb8c09a1a",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:10.571Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mobile",
+      "_id": "bd4bce76-e4bb-4d21-99db-6750b0f33658",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:10.327Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Hotels",
+      "_id": "ba02b5d3-0be6-4f8a-9559-d38424c6982d",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:09.249Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cloud",
+      "_id": "3f87e38f-ec44-4c80-a653-1cfa85d6775e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:09.023Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Payments",
+      "_id": "a1b8910b-d3e5-4462-a767-80e25fbe2e96",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:08.801Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cache",
+      "_id": "b0eb5c89-9289-48ea-8da0-12495e6b8b16",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:08.639Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "GDS",
+      "_id": "e783d183-a7a1-41ae-babc-025fb9815d9b",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:08.483Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "0310ac9e-a44c-4cc5-bc21-0a997cfe97e7",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:08.232Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "3a6157b2-af08-4c82-a785-d6ffcc401b9e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:08.057Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Frontend",
+      "_id": "1d364c51-bad9-4193-afcf-616b234d0ea2",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:07.813Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "SMS",
+      "_id": "7809a2cc-1d8a-42ef-bef8-861dd6e08422",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:07.075Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Payments",
+      "_id": "270e4672-32b7-4a38-a92a-7a7ada669e28",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:06.854Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cache",
+      "_id": "68d3efe9-964f-4a61-9c58-eb30506b0017",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:06.620Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Realtime",
+      "_id": "d05ce5db-52a7-4868-bc51-a8da89c09c40",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:06.454Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cloud",
+      "_id": "9c3dc535-47c3-4c6c-bac0-50348b669bc8",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:06.219Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "8b33c559-a8c3-45c8-a50b-9cb264c1cde9",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:05.992Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "2047f51b-e21e-4318-bf8a-8d0c355cb5b9",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:05.673Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mobile",
+      "_id": "cd33457b-1c49-4256-a632-7a25a7d0a402",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:05.433Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Frontend",
+      "_id": "043f5686-2957-4761-a9b3-7bae6001a439",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:48.801Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "AI",
+      "_id": "eef4cbbf-1348-4a9e-8eee-7038e1200583",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:48.575Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "8c520363-f459-49e4-8e3d-c2d54b648457",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:48.340Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Framework",
+      "_id": "c0b6d16b-7c57-42b0-a3c9-043e21a6b285",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:48.105Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "7a7fb15c-08f6-4602-b556-4da814b6a4b5",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:47.937Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "SMS",
+      "_id": "401f4924-b817-4703-83ff-3c81e8c85eb5",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:47.550Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "803b20c4-83f3-4415-95c0-5ce72cfec56e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:47.402Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "c1ed838e-0e36-49ab-9706-1cb2814507dc",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:47.171Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mobile",
+      "_id": "6f392d19-5a59-4645-8ded-9e035b0261b8",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:47.008Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "AI",
+      "_id": "36dca540-2fcb-48b2-8c07-dd85b12dab80",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:46.595Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "69398eea-d1bb-4b0b-9ad2-ddfd095d71da",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:46.380Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "64a51e32-1ec6-4438-a37d-8a8b6eb4dae2",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:46.218Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Frontend",
+      "_id": "b200c1af-38a7-47d6-9f1b-6ecd0edfad51",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:45.983Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Payments",
+      "_id": "93eddec3-f9b7-46f9-9b34-d3db713f5abf",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:45.626Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Realtime",
+      "_id": "83051938-e845-4c17-98e7-be4543350d97",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:45.479Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "f8b79c06-a8ff-49f2-bdeb-851a290d775f",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:45.312Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "8d65a7f7-91c4-4e7c-a06c-93bd9be66e7e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:45.054Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mobile",
+      "_id": "a3c2d406-55c2-4f35-a692-0f7a1b260b0b",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:44.826Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Payments",
+      "_id": "d621c7e8-dc57-4e15-998a-3727710e748f",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:44.450Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mapping",
+      "_id": "d21b794c-4a5c-462b-9c19-ca587272a9cc",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:44.290Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "e6360110-e5e1-461c-92e8-f75664503f69",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:44.146Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "0b8133e8-bdc5-4a30-ad84-0a20f877aaf8",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:43.984Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Mobile",
+      "_id": "4e2f3191-0675-465b-9767-dfa088a12180",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:43.745Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "46a50730-5bf7-4245-82ab-6e4cc5419329",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:43.380Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Frontend",
+      "_id": "dfc9e5a7-4279-4111-9989-58c19321f209",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:43.192Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Cloud",
+      "_id": "598bd64d-57f6-44da-b90a-4e862326ffad",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:42.788Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Database",
+      "_id": "373c15dc-d369-48a7-8141-e994f95ba7e9",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:42.637Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Backend",
+      "_id": "db448a0c-a46f-49c0-830a-4566d28b3ad6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:42.372Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    },
+    {
+      "role": "Frontend",
+      "_id": "671fa39c-b7b8-4505-9f0a-0154f1230610",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:09:42.218Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-06-12T11:17:34.963Z"
+      },
+      "status": "published"
+    }
+  ]
+}

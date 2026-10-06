@@ -1,0 +1,250 @@
+{
+  "FAQs": [
+    {
+      "_id": "b0abc7f0-639e-47f8-9cf9-21a99f1aea9b",
+      "title": "Can the app look up addresses or GST info for me?"
+    },
+    {
+      "_id": "b2aab48c-fe76-42fd-a6fd-0572808752ee",
+      "title": "Is ZigCRM multi-tenant / can I manage multiple organizations?"
+    },
+    {
+      "_id": "b673e7f3-3d72-4c08-8668-75b73476152a",
+      "title": "Can the mobile app log my phone calls automatically?"
+    },
+    {
+      "_id": "c3633030-c4ad-4824-b298-b8df96815352",
+      "title": "Can I import my existing contacts?"
+    },
+    {
+      "_id": "c8b58e90-b80c-4665-b845-685025750fd6",
+      "title": "How does pricing work?"
+    },
+    {
+      "_id": "cc716988-5850-4647-9bfc-7fa4583b89ce",
+      "title": "Does the mobile app do everything the web app does?"
+    },
+    {
+      "_id": "d5de052f-b664-4e33-9786-52e78aeb0990",
+      "title": "What is ZigCRM?"
+    },
+    {
+      "_id": "dd69746a-4408-472a-aec6-f453930e6b25",
+      "title": "Is there a free plan?"
+    },
+    {
+      "_id": "de5ce19e-1e5d-4c03-8a70-46139904480c",
+      "title": "Does the app support dark mode?"
+    },
+    {
+      "_id": "e6247ee1-8684-4844-a78e-9b27ad0f9f5c",
+      "title": "Will I get notified when something is assigned to me?"
+    },
+    {
+      "_id": "ed457bcc-1b35-4d42-bc0e-27fc5a2370a7",
+      "title": "What support do I get?"
+    },
+    {
+      "_id": "f8b742b5-59ed-4809-8261-0b375a7edd74",
+      "title": "Can I attach files and documents?"
+    },
+    {
+      "_id": "fcaf1288-4fb1-4b62-a638-31e1d0e71c8e",
+      "title": "Do I need to train my team to use it?"
+    },
+    {
+      "_id": "06887c0f-039d-4e9f-b0c3-3271fe4074cc",
+      "title": "How much does ZigCRM cost?"
+    },
+    {
+      "_id": "088d893c-338c-4691-ab68-7aefc1d89cf2",
+      "title": "Can I export my data?"
+    },
+    {
+      "_id": "0ba9c9a7-9cb5-45c9-9311-a65bc60f4b9a",
+      "title": "How are my uploaded files protected?"
+    },
+    {
+      "_id": "0c655f03-2e61-4c78-a87d-fd91087f9b32",
+      "title": "Does ZigCRM support roles and permissions?"
+    },
+    {
+      "_id": "17b3232d-e4e3-4257-94f9-c2bb6321dcce",
+      "title": "How does the deal pipeline work?"
+    },
+    {
+      "_id": "1d67027a-3455-464e-984f-7521d6d0d9b5",
+      "title": "Does airabot support BYOK (Bring Your Own Key)?"
+    },
+    {
+      "_id": "249ca095-e42e-4e4f-915f-5ed2497572fc",
+      "title": "What can I track for each contact?"
+    },
+    {
+      "_id": "38754e0b-5ac2-450a-8201-027e5a2b540b",
+      "title": "How do I log calls, emails, and other interactions?"
+    },
+    {
+      "_id": "392250f4-c136-4130-a60b-1a5c7fd40922",
+      "title": "What platforms is ZigCRM available on?"
+    },
+    {
+      "_id": "3c7e4042-4b6c-49e1-89c0-687d380a6fbf",
+      "title": "How is my account secured?"
+    },
+    {
+      "_id": "3fd67914-4399-466a-83e8-84f2e8338da3",
+      "title": "How do I sign up?"
+    },
+    {
+      "_id": "4da98f3c-44e1-4510-b6af-6278cdb1279e",
+      "title": "Who is ZigCRM for?"
+    },
+    {
+      "_id": "51ce9b01-a31b-4a64-8113-5aaf70ff0b42",
+      "title": "Does the mobile app work offline?"
+    },
+    {
+      "_id": "5450608e-7863-4449-bb72-1a036af9103f",
+      "title": "Can I assign tasks to my team?"
+    },
+    {
+      "_id": "549f5639-503f-4fbb-b59e-2088262f1b39",
+      "title": "Can I train the bot on PDFs and website pages?"
+    },
+    {
+      "_id": "5ca1616f-05d2-4292-9b1f-b184010a341e",
+      "title": "What do I get with the Pro plan?"
+    },
+    {
+      "_id": "63c7f47b-ed38-4a0f-a9a7-a5c733e4d934",
+      "title": "How long does setup take?"
+    },
+    {
+      "_id": "6a2b3f03-4917-4263-9ab4-1fe6f22fa939",
+      "title": "What is airabot?"
+    },
+    {
+      "_id": "6bb96dcc-86c8-4e0b-a5bd-65393ed7ad58",
+      "title": "Do I need a credit card to sign up?"
+    },
+    {
+      "_id": "70bc4f92-9ca9-47b4-962b-4c3dfd7371a1",
+      "title": "Who makes ZigCRM?"
+    },
+    {
+      "_id": "7f67cf9b-a024-4d33-a9da-24f5d1913428",
+      "title": "Where can I deploy the chatbot?"
+    },
+    {
+      "_id": "84299bb1-9ff8-4286-a01d-e66b590cfe36",
+      "title": "Are there hidden fees or long-term contracts?"
+    },
+    {
+      "_id": "84b6b516-e58b-4807-a65e-5154f2f89c6f",
+      "title": "Is my data isolated from other companies using ZigCRM?"
+    },
+    {
+      "_id": "9f88e00d-8a77-4330-8101-0039dfb89326",
+      "title": "What does the Enterprise plan include?"
+    },
+    {
+      "_id": "a2786e6a-0ff9-4420-a971-3de9beede4cb",
+      "title": "Does ZigCRM have reporting or a dashboard?"
+    }
+  ],
+  "Industries": [
+    {
+      "_id": "99478b9b-300a-4b14-b655-124471533f59",
+      "title": "Education"
+    },
+    {
+      "_id": "a7107105-8234-483b-918c-061f50ac4945",
+      "title": "E-commerce"
+    },
+    {
+      "_id": "a896f241-ad71-4305-9bbe-7a3a27c24506",
+      "title": "SaaS"
+    },
+    {
+      "_id": "b2a577c2-bf27-4e56-ba38-45f7eef773b1",
+      "title": "Customer Support"
+    }
+  ],
+  "ProductPricing": [
+    {
+      "_id": "011bb52e-134a-4cc1-9e46-f88c9ee346df",
+      "title": "Free / Trial (starter credits)"
+    },
+    {
+      "_id": "5211c424-6292-46f7-84c0-d4d94933de41",
+      "title": "Growth (monthly credits)"
+    },
+    {
+      "_id": "c589ba31-a25d-4706-ad89-366bc4f8de2c",
+      "title": "Enterprise (custom, multi-tenant)"
+    },
+    {
+      "_id": "ff9bd4f6-6190-4ae4-b735-e2ff4e18f70b",
+      "title": "Business (higher limits + admin controls)"
+    }
+  ],
+  "Technologies": [
+    {
+      "_id": "40189f89-84e3-4354-9659-df43ab5ed32b",
+      "title": "Brevo (Sendinblue)"
+    },
+    {
+      "_id": "52ccfb14-3e5f-4919-aa01-4ad66b6bec5d",
+      "title": "Formik + Yup"
+    },
+    {
+      "_id": "56f821ec-5fcd-4459-b640-1138c759df6b",
+      "title": "Google Places API"
+    },
+    {
+      "_id": "8d1720ec-6fec-49be-9313-9c33eb5432ee",
+      "title": "React + Vite"
+    },
+    {
+      "_id": "947b477a-d56f-48a6-a18d-3bd6aa19168d",
+      "title": "Cloudflare Pages/Workers"
+    },
+    {
+      "_id": "9d8d9a79-e0cd-4361-93d8-bf4f19db3063",
+      "title": "Tiptap"
+    },
+    {
+      "_id": "9f6553e9-04d2-4cc2-a5dc-f1371fbb59c2",
+      "title": "libphonenumber-js"
+    },
+    {
+      "_id": "a56734f6-c915-4f2f-ac34-d9cad34f0707",
+      "title": "Next.js"
+    },
+    {
+      "_id": "abed3138-9f5a-40cf-99f9-40729d258b77",
+      "title": "Cloudflare R2"
+    },
+    {
+      "_id": "ac87460f-ba25-4c94-9d90-0c7fa993a036",
+      "title": "OpenRouter"
+    },
+    {
+      "_id": "c9b4f369-7837-443b-a8d8-f2bc819029a2",
+      "title": "OneSignal"
+    },
+    {
+      "_id": "d81359cc-8023-4905-9bc1-9a3673e09aae",
+      "title": "PostgreSQL (Supabase)"
+    },
+    {
+      "_id": "eb252c75-19ba-4d87-9a66-89c8219c22ab",
+      "title": "Node.js / Express"
+    },
+    {
+      "_id": "fdda19e6-847f-439f-85ce-25ce8b0292ac",
+      "title": "Recharts"
+    }
+  ]
+}

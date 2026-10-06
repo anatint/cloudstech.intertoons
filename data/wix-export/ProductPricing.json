@@ -1,0 +1,1020 @@
+{
+  "collection": {
+    "id": "ProductPricing",
+    "collectionType": "NATIVE",
+    "displayName": "Product Pricing",
+    "displayField": "name",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "name",
+        "displayName": "Name",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "price",
+        "displayName": "Price",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "period",
+        "displayName": "Period",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "description",
+        "displayName": "Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "planFeatures",
+        "displayName": "Plan Features",
+        "type": "ARRAY_STRING",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "highlight",
+        "displayName": "Highlight",
+        "type": "BOOLEAN",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "ctaLabel",
+        "displayName": "CTA Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "products",
+        "displayName": "Products",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Products",
+            "referencingFieldKey": "pricingTiers",
+            "referencingDisplayName": "Pricing Tiers"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "2",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-19T11:52:11.096Z",
+    "updatedDate": "2026-06-19T11:52:11.632Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "planFeatures": [
+        "Everything in Scale",
+        "Volume discounts",
+        "Dedicated onboarding",
+        "Priority support & SLA",
+        "Custom contract & billing"
+      ],
+      "name": "Custom",
+      "description": "Tailored pricing for your team",
+      "_id": "6719a10c-882a-4e33-b277-f777e6e54feb",
+      "_createdDate": {
+        "$date": "2026-09-15T13:56:01.977Z"
+      },
+      "highlight": false,
+      "price": "Custom",
+      "ctaLabel": "Get a custom quote",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:56:01.977Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 4,
+      "status": "published",
+      "period": ""
+    },
+    {
+      "planFeatures": [
+        "Everything in Standard",
+        "Unlimited members",
+        "White-label & custom domain",
+        "SLA & dedicated support",
+        "On-premise deployment",
+        "Custom integrations & API"
+      ],
+      "name": "Scale",
+      "description": "Minimum 15 users",
+      "_id": "15958a53-6164-4d9c-a0e7-e90833327683",
+      "_createdDate": {
+        "$date": "2026-09-15T13:56:01.020Z"
+      },
+      "highlight": false,
+      "price": "₹399",
+      "ctaLabel": "Get started",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:56:01.020Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 3,
+      "status": "published",
+      "period": "/user/mo"
+    },
+    {
+      "planFeatures": [
+        "Unlimited projects",
+        "Up to 25 members",
+        "AI Project Generator",
+        "Push notifications (Android)",
+        "Telegram integration",
+        "Bulk import (CSV/Excel)",
+        "Activity logs & reports"
+      ],
+      "name": "Standard",
+      "description": "Minimum 10 users",
+      "_id": "500d0591-60e1-4ec2-84f5-5ecc14fd834c",
+      "_createdDate": {
+        "$date": "2026-09-15T13:56:00.127Z"
+      },
+      "highlight": true,
+      "price": "₹199",
+      "ctaLabel": "Get started",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:56:00.127Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 2,
+      "status": "published",
+      "period": "/user/mo"
+    },
+    {
+      "planFeatures": [
+        "Up to 3 projects",
+        "5 members",
+        "Full task management",
+        "Mobile app access",
+        "AI Project Generator",
+        "Telegram integration"
+      ],
+      "name": "Free",
+      "description": "Forever free, no credit card",
+      "_id": "77e775f6-ff90-4918-a7b9-a63c39ead167",
+      "_createdDate": {
+        "$date": "2026-09-15T13:55:59.098Z"
+      },
+      "highlight": false,
+      "price": "₹0",
+      "ctaLabel": "Get started free",
+      "_updatedDate": {
+        "$date": "2026-09-15T13:55:59.098Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "order": 1,
+      "status": "published",
+      "period": "Forever free"
+    },
+    {
+      "planFeatures": [
+        "Up to 25 users",
+        "10,000 contacts",
+        "Deal pipelines & automation",
+        "Team analytics dashboard",
+        "Priority support"
+      ],
+      "name": "Pro",
+      "description": "For growing teams that need more room to work.",
+      "_id": "dbe122b3-12c0-46e7-a69d-7af12175f30b",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:23.681Z"
+      },
+      "highlight": true,
+      "price": "Rs. 999",
+      "ctaLabel": "Get Pro",
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:23.681Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "order": 2,
+      "status": "ACTIVE",
+      "period": "/month"
+    },
+    {
+      "planFeatures": [
+        "Multi-tenant",
+        "Role-based access",
+        "Custom limits",
+        "Dedicated support"
+      ],
+      "name": "Enterprise (custom, multi-tenant)",
+      "description": "For agencies and SaaS teams needing multi-tenant isolation, RBAC, and custom deployment.",
+      "_id": "c589ba31-a25d-4706-ad89-366bc4f8de2c",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.238Z"
+      },
+      "highlight": false,
+      "price": "Custom",
+      "ctaLabel": "Contact Us",
+      "_updatedDate": {
+        "$date": "2026-08-13T14:36:14.169Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "enterprise-custom-multi-tenant",
+      "order": 4,
+      "title": "Enterprise (custom, multi-tenant)",
+      "period": ""
+    },
+    {
+      "planFeatures": [
+        "Starter credits",
+        "Docs + URL training",
+        "Website widget",
+        "Basic customization"
+      ],
+      "name": "Free / Trial (starter credits)",
+      "description": "Try airabot with starter credits to test document/URL training and the website widget.",
+      "_id": "011bb52e-134a-4cc1-9e46-f88c9ee346df",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.165Z"
+      },
+      "highlight": false,
+      "price": "Free",
+      "ctaLabel": "Start Free",
+      "_updatedDate": {
+        "$date": "2026-08-13T14:36:14.171Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "free-trial-starter-credits",
+      "order": 1,
+      "title": "Free / Trial (starter credits)",
+      "period": ""
+    },
+    {
+      "planFeatures": [
+        "Monthly credits",
+        "Website + WhatsApp",
+        "Voice notes",
+        "Usage visibility"
+      ],
+      "name": "Growth (monthly credits)",
+      "description": "For growing teams that need monthly credits, better limits, and multi-channel deployment.",
+      "_id": "5211c424-6292-46f7-84c0-d4d94933de41",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.131Z"
+      },
+      "highlight": true,
+      "price": "Contact for pricing",
+      "ctaLabel": "Get Started",
+      "_updatedDate": {
+        "$date": "2026-08-13T14:36:14.167Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "growth-monthly-credits",
+      "order": 2,
+      "title": "Growth (monthly credits)",
+      "period": "Monthly"
+    },
+    {
+      "planFeatures": [
+        "Higher limits",
+        "User management",
+        "Per-user controls",
+        "Admin top-ups"
+      ],
+      "name": "Business (higher limits + admin controls)",
+      "description": "For businesses that need higher limits, admin controls, and user management.",
+      "_id": "ff9bd4f6-6190-4ae4-b735-e2ff4e18f70b",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.105Z"
+      },
+      "highlight": false,
+      "price": "Contact for pricing",
+      "ctaLabel": "Talk to Sales",
+      "_updatedDate": {
+        "$date": "2026-08-13T14:36:17.643Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "business-higher-limits-admin-controls",
+      "order": 3,
+      "title": "Business (higher limits + admin controls)",
+      "period": "Monthly"
+    },
+    {
+      "planFeatures": [
+        "Unlimited users",
+        "Unlimited contacts",
+        "Custom integrations",
+        "Dedicated account manager",
+        "SLA-backed support"
+      ],
+      "name": "Enterprise",
+      "description": "For larger organizations with custom requirements.",
+      "_id": "c6f60849-8a68-4f4b-bebd-55c1b088defd",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:06.557Z"
+      },
+      "highlight": false,
+      "price": "Custom",
+      "ctaLabel": "Contact Sales",
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:23.851Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "order": 3,
+      "status": "published",
+      "period": "Custom pricing"
+    },
+    {
+      "planFeatures": [
+        "Everything in Starter",
+        "Unlimited restaurants",
+        "Multi-zone & multi-city",
+        "6 months free support",
+        "All payment gateways"
+      ],
+      "name": "Growth",
+      "description": "Multi-zone operators",
+      "_id": "afe7e89b-64e3-4dac-9a1f-cb64f3128c09",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:06.485Z"
+      },
+      "highlight": true,
+      "price": "$9,998",
+      "ctaLabel": "Get Growth",
+      "_updatedDate": {
+        "$date": "2026-06-19T12:13:59.458Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "order": 2,
+      "status": "published",
+      "period": "one-time"
+    },
+    {
+      "planFeatures": [
+        "Up to 5 users",
+        "500 contacts",
+        "One-tap activity logging",
+        "Mobile app access",
+        "Email support"
+      ],
+      "name": "Starter",
+      "description": "For small teams just getting started with a CRM.",
+      "_id": "5918c370-4f0f-4e66-8f90-419f71c596b2",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:06.380Z"
+      },
+      "highlight": false,
+      "price": "Free",
+      "ctaLabel": "Start Free",
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:23.541Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "order": 1,
+      "status": "published",
+      "period": "Forever"
+    },
+    {
+      "planFeatures": [
+        "Everything in OTA",
+        "Unlimited GDS + suppliers",
+        "Dedicated infra & SLA"
+      ],
+      "name": "Enterprise",
+      "description": "Large OTAs & DMCs",
+      "_id": "484f2e5d-bf8d-48cd-afdc-59c1a28ce9ec",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:04.569Z"
+      },
+      "highlight": false,
+      "price": "Custom",
+      "ctaLabel": "Contact Sales",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:04.569Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 3,
+      "status": "published",
+      "period": "contact us"
+    },
+    {
+      "planFeatures": [
+        "Everything in Agency",
+        "B2B agent portal",
+        "Holiday packages module",
+        "Multi-currency checkout"
+      ],
+      "name": "OTA",
+      "description": "Online travel agencies",
+      "_id": "b88ce5ed-31b0-4eb2-b080-c515eaeed3a1",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:04.441Z"
+      },
+      "highlight": true,
+      "price": "$14,999",
+      "ctaLabel": "Get OTA",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:04.441Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 2,
+      "status": "published",
+      "period": "one-time"
+    },
+    {
+      "planFeatures": [
+        "B2C booking portal",
+        "Flight + hotel booking",
+        "1 GDS integration"
+      ],
+      "name": "Agency",
+      "description": "Single-brand agencies",
+      "_id": "b159aeee-e1bb-4304-92c1-158988aaafa7",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:04.366Z"
+      },
+      "highlight": false,
+      "price": "$7,999",
+      "ctaLabel": "Get Agency",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:04.366Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "order": 1,
+      "status": "published",
+      "period": "one-time"
+    },
+    {
+      "planFeatures": [
+        "Everything in Professional",
+        "Multi-branch management",
+        "12 months support SLA"
+      ],
+      "name": "Enterprise",
+      "description": "Multi-branch large fleets",
+      "_id": "804cc864-1989-4dbb-962c-142894657be6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:02.718Z"
+      },
+      "highlight": false,
+      "price": "Custom",
+      "ctaLabel": "Contact Sales",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:02.718Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 3,
+      "status": "published",
+      "period": "contact us"
+    },
+    {
+      "planFeatures": [
+        "Everything in Basic",
+        "Unlimited vehicles",
+        "GPS tracking integration",
+        "Mobile apps (iOS + Android)"
+      ],
+      "name": "Professional",
+      "description": "Growing rental company",
+      "_id": "19ef94bd-e175-4774-a9a2-f499cc30cb56",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:02.652Z"
+      },
+      "highlight": true,
+      "price": "$8,999",
+      "ctaLabel": "Get Professional",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:02.652Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 2,
+      "status": "published",
+      "period": "one-time"
+    },
+    {
+      "planFeatures": [
+        "Web booking portal",
+        "Up to 50 vehicles",
+        "Admin dashboard"
+      ],
+      "name": "Basic",
+      "description": "Small fleet, single location",
+      "_id": "156875e1-5888-4ccd-9dd9-fe001f59cdf5",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:02.556Z"
+      },
+      "highlight": false,
+      "price": "$3,999",
+      "ctaLabel": "Get Basic",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:02.556Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "order": 1,
+      "status": "published",
+      "period": "one-time"
+    },
+    {
+      "planFeatures": [
+        "Unlimited conversations",
+        "All channels",
+        "Custom model fine-tuning"
+      ],
+      "name": "Enterprise",
+      "description": "Large-scale deployments",
+      "_id": "9e18c376-748d-45b7-b2e8-def4d5cd6676",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:00.814Z"
+      },
+      "highlight": false,
+      "price": "Custom",
+      "ctaLabel": "Contact Sales",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:00.814Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 3,
+      "status": "published",
+      "period": "contact us"
+    },
+    {
+      "planFeatures": [
+        "10,000 conversations/month",
+        "3 channels",
+        "GPT-4 / Claude powered",
+        "Live agent handoff"
+      ],
+      "name": "Growth",
+      "description": "Growing businesses",
+      "_id": "399334e7-ce98-4d91-ac7c-9a343810fadb",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:00.740Z"
+      },
+      "highlight": true,
+      "price": "$599",
+      "ctaLabel": "Start Free Trial",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:00.740Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 2,
+      "status": "published",
+      "period": "/month"
+    },
+    {
+      "planFeatures": [
+        "2,000 conversations/month",
+        "1 deployment channel",
+        "GPT-3.5 powered"
+      ],
+      "name": "Starter",
+      "description": "Small businesses",
+      "_id": "0df868ef-145d-457c-948b-5920622c30ff",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:53:00.655Z"
+      },
+      "highlight": false,
+      "price": "$199",
+      "ctaLabel": "Start Free Trial",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:53:00.655Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "order": 1,
+      "status": "published",
+      "period": "/month"
+    }
+  ]
+}

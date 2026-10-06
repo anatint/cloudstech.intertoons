@@ -1,0 +1,197 @@
+{
+  "siteId": "4ffcfcd6-cb3f-4af1-959b-85296102be43",
+  "exportedAt": "2026-10-06T11:18:14.010Z",
+  "collections": [
+    {
+      "id": "AdminUsers",
+      "displayName": "Admin Users",
+      "items": 1
+    },
+    {
+      "id": "Authors",
+      "displayName": "Authors",
+      "items": 2
+    },
+    {
+      "id": "Awards",
+      "displayName": "Awards",
+      "items": 0
+    },
+    {
+      "id": "BlogCategories",
+      "displayName": "Blog Categories",
+      "items": 12
+    },
+    {
+      "id": "Blogs",
+      "displayName": "Blogs",
+      "items": 601
+    },
+    {
+      "id": "BudgetRanges",
+      "displayName": "Budget Ranges",
+      "items": 5
+    },
+    {
+      "id": "CallBackRequests",
+      "displayName": "Call Back Requests",
+      "items": 1
+    },
+    {
+      "id": "CaseStudies",
+      "displayName": "Case Studies",
+      "items": 5
+    },
+    {
+      "id": "CaseStudiesPage",
+      "displayName": "Case Studies Page",
+      "items": 1
+    },
+    {
+      "id": "ContactLeads",
+      "displayName": "Contact Leads",
+      "items": 7
+    },
+    {
+      "id": "ContactPage",
+      "displayName": "ContactPage",
+      "items": 1
+    },
+    {
+      "id": "FAQs",
+      "displayName": "FAQs",
+      "items": 1466
+    },
+    {
+      "id": "Import1",
+      "displayName": "Home",
+      "items": 1
+    },
+    {
+      "id": "Industries",
+      "displayName": "Industries",
+      "items": 10
+    },
+    {
+      "id": "Milestones",
+      "displayName": "Milestones",
+      "items": 6
+    },
+    {
+      "id": "Platforms",
+      "displayName": "Platforms",
+      "items": 0
+    },
+    {
+      "id": "PortfolioPage",
+      "displayName": "Portfolio Page",
+      "items": 1
+    },
+    {
+      "id": "ProcessSteps",
+      "displayName": "Process Steps",
+      "items": 1321
+    },
+    {
+      "id": "ProductFeatures",
+      "displayName": "Product Features",
+      "items": 56
+    },
+    {
+      "id": "ProductPricing",
+      "displayName": "Product Pricing",
+      "items": 21
+    },
+    {
+      "id": "Products",
+      "displayName": "Products",
+      "items": 8
+    },
+    {
+      "id": "ProductsPage",
+      "displayName": "Products Page",
+      "items": 1
+    },
+    {
+      "id": "Projects",
+      "displayName": "Projects",
+      "items": 84
+    },
+    {
+      "id": "ResultMetrics",
+      "displayName": "Result Metrics",
+      "items": 30
+    },
+    {
+      "id": "RfqFeatures",
+      "displayName": "RFQ Features",
+      "items": 10
+    },
+    {
+      "id": "RfqProjectTypes",
+      "displayName": "RFQ Project Types",
+      "items": 6
+    },
+    {
+      "id": "RFQResponses",
+      "displayName": "RFQ Responses",
+      "items": 1
+    },
+    {
+      "id": "Services",
+      "displayName": "Services",
+      "items": 216
+    },
+    {
+      "id": "ServicesPage",
+      "displayName": "Services Page",
+      "items": 1
+    },
+    {
+      "id": "SitePages",
+      "displayName": "Site Pages",
+      "items": 6
+    },
+    {
+      "id": "SiteSettings",
+      "displayName": "Site Settings",
+      "items": 1
+    },
+    {
+      "id": "TeamMembers",
+      "displayName": "Team Members",
+      "items": 13
+    },
+    {
+      "id": "Technologies",
+      "displayName": "Technologies",
+      "items": 56
+    },
+    {
+      "id": "TechStackEntries",
+      "displayName": "Tech Stack Entries",
+      "items": 84
+    },
+    {
+      "id": "Testimonials",
+      "displayName": "Testimonials",
+      "items": 10
+    }
+  ],
+  "skipped": [
+    "Bookings/Schedule",
+    "Bookings/Services",
+    "Bookings/Staff",
+    "Marketing/Coupons",
+    "Members/Badges",
+    "Members/FullData",
+    "Members/PrivateMembersData",
+    "Members/PublicData",
+    "PaidPlans/Plans",
+    "Stores/Collections",
+    "Stores/InventoryItems",
+    "Stores/Orders",
+    "Stores/Products",
+    "Stores/Variants"
+  ]
+}

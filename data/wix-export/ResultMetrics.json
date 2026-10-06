@@ -1,0 +1,912 @@
+{
+  "collection": {
+    "id": "ResultMetrics",
+    "collectionType": "NATIVE",
+    "displayName": "Result Metrics",
+    "displayField": "metric",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "metric",
+        "displayName": "Metric",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "label",
+        "displayName": "Label",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "caseStudies",
+        "displayName": "Case Studies",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "CaseStudies",
+            "referencingFieldKey": "resultItems",
+            "referencingDisplayName": "Result Items"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "projects",
+        "displayName": "Projects",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Projects",
+            "referencingFieldKey": "resultItems",
+            "referencingDisplayName": "Result Items"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "3",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-19T11:56:26.601Z",
+    "updatedDate": "2026-06-19T11:56:27.781Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "_id": "46163fb5-a1be-4f30-af02-1b8065abcd19",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:17.791Z"
+      },
+      "label": "Mobile Revenue",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:17.791Z"
+      },
+      "caseStudies": [],
+      "order": 3,
+      "status": "published",
+      "metric": "3x",
+      "projects": [
+        "b6523ced-dc28-4ba9-a518-7278799b67bf",
+        "f3807dde-7db8-4146-8184-98cfcb194b73",
+        "0d38bee8-2bbf-49de-8e8b-a02cf323acfa",
+        "b150f415-ff60-40fe-98f9-1857c158df59",
+        "5244a54c-e1f7-49dc-bc05-5968e6d1d31b",
+        "2660be12-2303-4994-9d7f-542de6ed65ca",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd",
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8"
+      ]
+    },
+    {
+      "_id": "afa86f42-e0d4-495e-9b22-f00b5026a310",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:17.723Z"
+      },
+      "label": "Faster Page Load",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:17.723Z"
+      },
+      "caseStudies": [],
+      "order": 2,
+      "status": "published",
+      "metric": "60%",
+      "projects": [
+        "b6523ced-dc28-4ba9-a518-7278799b67bf",
+        "f3807dde-7db8-4146-8184-98cfcb194b73",
+        "0d38bee8-2bbf-49de-8e8b-a02cf323acfa",
+        "b150f415-ff60-40fe-98f9-1857c158df59",
+        "5244a54c-e1f7-49dc-bc05-5968e6d1d31b",
+        "2660be12-2303-4994-9d7f-542de6ed65ca",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd",
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8"
+      ]
+    },
+    {
+      "_id": "5348963a-b8ec-4746-b3a7-f62ff068eed6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:17.627Z"
+      },
+      "label": "Increase in Conversions",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:17.627Z"
+      },
+      "caseStudies": [],
+      "order": 1,
+      "status": "published",
+      "metric": "45%",
+      "projects": [
+        "b6523ced-dc28-4ba9-a518-7278799b67bf",
+        "f3807dde-7db8-4146-8184-98cfcb194b73",
+        "0d38bee8-2bbf-49de-8e8b-a02cf323acfa",
+        "b150f415-ff60-40fe-98f9-1857c158df59",
+        "5244a54c-e1f7-49dc-bc05-5968e6d1d31b",
+        "2660be12-2303-4994-9d7f-542de6ed65ca",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd",
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8"
+      ]
+    },
+    {
+      "_id": "490f46da-af3d-4d9f-927c-25116bc7c8e9",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:17.374Z"
+      },
+      "label": "Booking Uplift",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:17.374Z"
+      },
+      "caseStudies": [],
+      "order": 3,
+      "status": "published",
+      "metric": "35%",
+      "projects": []
+    },
+    {
+      "_id": "5d3123e3-e278-4ca2-84bc-7f9db0621a9b",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:17.311Z"
+      },
+      "label": "App Store Rating",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:17.311Z"
+      },
+      "caseStudies": [],
+      "order": 2,
+      "status": "published",
+      "metric": "4.7",
+      "projects": []
+    },
+    {
+      "_id": "cb4ebfd8-880c-4533-b151-4da4a730b453",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:17.244Z"
+      },
+      "label": "App Downloads",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:17.244Z"
+      },
+      "caseStudies": [],
+      "order": 1,
+      "status": "published",
+      "metric": "100K+",
+      "projects": []
+    },
+    {
+      "_id": "42433b21-ca84-4e47-bc9e-f440a4fdec40",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.987Z"
+      },
+      "label": "Cities",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.987Z"
+      },
+      "caseStudies": [],
+      "order": 3,
+      "status": "published",
+      "metric": "12",
+      "projects": []
+    },
+    {
+      "_id": "f68fea8a-b04f-4f8c-b065-1b9d5bfcd404",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.920Z"
+      },
+      "label": "Rating",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.920Z"
+      },
+      "caseStudies": [],
+      "order": 2,
+      "status": "published",
+      "metric": "4.8",
+      "projects": []
+    },
+    {
+      "_id": "a08567f4-fb39-4a62-b5f0-f02714adb42b",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.859Z"
+      },
+      "label": "Active Users",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.859Z"
+      },
+      "caseStudies": [],
+      "order": 1,
+      "status": "published",
+      "metric": "200K+",
+      "projects": []
+    },
+    {
+      "_id": "9adbe3cc-9b93-4e54-a978-ef9c61d4a583",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.601Z"
+      },
+      "label": "App Rating",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.601Z"
+      },
+      "caseStudies": [],
+      "order": 3,
+      "status": "published",
+      "metric": "4.9",
+      "projects": []
+    },
+    {
+      "_id": "015aa0a3-e8a8-4137-b22b-7ea785bb1dec",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.524Z"
+      },
+      "label": "Appointment Accuracy",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.524Z"
+      },
+      "caseStudies": [],
+      "order": 2,
+      "status": "published",
+      "metric": "98%",
+      "projects": []
+    },
+    {
+      "_id": "f8e2f729-c6a2-42d0-844b-1011fcf6b94a",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.442Z"
+      },
+      "label": "Patients Served",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.442Z"
+      },
+      "caseStudies": [],
+      "order": 1,
+      "status": "published",
+      "metric": "50K+",
+      "projects": []
+    },
+    {
+      "_id": "51e78fcd-2925-466c-b62f-4f5ed4e97d85",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.215Z"
+      },
+      "label": "Faster Insights",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.215Z"
+      },
+      "caseStudies": [],
+      "order": 3,
+      "status": "published",
+      "metric": "3x",
+      "projects": []
+    },
+    {
+      "_id": "94ed1719-1282-4f9d-bf86-a6cd41af4a23",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.145Z"
+      },
+      "label": "Data Sources",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.145Z"
+      },
+      "caseStudies": [],
+      "order": 2,
+      "status": "published",
+      "metric": "20+",
+      "projects": []
+    },
+    {
+      "_id": "e9d1a416-657d-4f48-9753-f965df6357ef",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-20T05:18:16.081Z"
+      },
+      "label": "Less Manual Reporting",
+      "_updatedDate": {
+        "$date": "2026-06-20T05:18:16.081Z"
+      },
+      "caseStudies": [],
+      "order": 1,
+      "status": "published",
+      "metric": "70%",
+      "projects": []
+    },
+    {
+      "_id": "20fa083e-c9fe-467e-b660-4fbe67da6b73",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:01.065Z"
+      },
+      "label": "Mobile Revenue",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:01.065Z"
+      },
+      "caseStudies": [
+        "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af"
+      ],
+      "order": 3,
+      "status": "published",
+      "metric": "3x",
+      "projects": [
+        "b6523ced-dc28-4ba9-a518-7278799b67bf",
+        "f3807dde-7db8-4146-8184-98cfcb194b73",
+        "0d38bee8-2bbf-49de-8e8b-a02cf323acfa",
+        "b150f415-ff60-40fe-98f9-1857c158df59",
+        "5244a54c-e1f7-49dc-bc05-5968e6d1d31b",
+        "2660be12-2303-4994-9d7f-542de6ed65ca",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd",
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8"
+      ]
+    },
+    {
+      "_id": "da36caac-d71b-4ad0-9963-c510229f6ea6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:00.990Z"
+      },
+      "label": "Faster Page Load",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:00.990Z"
+      },
+      "caseStudies": [
+        "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af"
+      ],
+      "order": 2,
+      "status": "published",
+      "metric": "60%",
+      "projects": [
+        "b6523ced-dc28-4ba9-a518-7278799b67bf",
+        "f3807dde-7db8-4146-8184-98cfcb194b73",
+        "0d38bee8-2bbf-49de-8e8b-a02cf323acfa",
+        "b150f415-ff60-40fe-98f9-1857c158df59",
+        "5244a54c-e1f7-49dc-bc05-5968e6d1d31b",
+        "2660be12-2303-4994-9d7f-542de6ed65ca",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd",
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8"
+      ]
+    },
+    {
+      "_id": "a3a8a227-3d3d-42ef-b813-6f79d8382d24",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:00.923Z"
+      },
+      "label": "Increase in Conversions",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:00.923Z"
+      },
+      "caseStudies": [
+        "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af"
+      ],
+      "order": 1,
+      "status": "published",
+      "metric": "45%",
+      "projects": [
+        "b6523ced-dc28-4ba9-a518-7278799b67bf",
+        "f3807dde-7db8-4146-8184-98cfcb194b73",
+        "0d38bee8-2bbf-49de-8e8b-a02cf323acfa",
+        "b150f415-ff60-40fe-98f9-1857c158df59",
+        "5244a54c-e1f7-49dc-bc05-5968e6d1d31b",
+        "2660be12-2303-4994-9d7f-542de6ed65ca",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd",
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8"
+      ]
+    },
+    {
+      "_id": "9cb06e30-c2cd-4594-8340-0952ec7977e7",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:00.634Z"
+      },
+      "label": "Booking Uplift",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:00.634Z"
+      },
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e"
+      ],
+      "order": 3,
+      "status": "published",
+      "metric": "35%",
+      "projects": []
+    },
+    {
+      "_id": "c3c351a5-df9a-4b43-b6a0-131c74a7f06d",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:00.568Z"
+      },
+      "label": "App Store Rating",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:00.568Z"
+      },
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e"
+      ],
+      "order": 2,
+      "status": "published",
+      "metric": "4.7",
+      "projects": []
+    },
+    {
+      "_id": "3ce446c4-fdc1-47af-a5db-f26eca0ec57e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:00.497Z"
+      },
+      "label": "App Downloads",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:00.497Z"
+      },
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e"
+      ],
+      "order": 1,
+      "status": "published",
+      "metric": "100K+",
+      "projects": []
+    },
+    {
+      "_id": "f99127c1-3506-4e7d-9579-4e630c3d7508",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:00.197Z"
+      },
+      "label": "Cities",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:00.197Z"
+      },
+      "caseStudies": [
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5"
+      ],
+      "order": 3,
+      "status": "published",
+      "metric": "12",
+      "projects": []
+    },
+    {
+      "_id": "802bba81-b103-4446-870c-69094b8ec7ab",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:00.113Z"
+      },
+      "label": "Rating",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:00.113Z"
+      },
+      "caseStudies": [
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5"
+      ],
+      "order": 2,
+      "status": "published",
+      "metric": "4.8",
+      "projects": []
+    },
+    {
+      "_id": "aba80dd3-f31f-48cc-83cb-85ec6016f7e9",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:57:00.019Z"
+      },
+      "label": "Active Users",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:57:00.019Z"
+      },
+      "caseStudies": [
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5"
+      ],
+      "order": 1,
+      "status": "published",
+      "metric": "200K+",
+      "projects": []
+    },
+    {
+      "_id": "6eb6269e-cb41-4563-ac54-fc48ddd980ca",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:56:59.759Z"
+      },
+      "label": "App Rating",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:56:59.759Z"
+      },
+      "caseStudies": [
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "order": 3,
+      "status": "published",
+      "metric": "4.9",
+      "projects": []
+    },
+    {
+      "_id": "a365120c-1e55-4fce-9574-6ae0bbe02044",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:56:59.689Z"
+      },
+      "label": "Appointment Accuracy",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:56:59.689Z"
+      },
+      "caseStudies": [
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "order": 2,
+      "status": "published",
+      "metric": "98%",
+      "projects": []
+    },
+    {
+      "_id": "12f38709-2f72-4478-9e3d-9148e1498000",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:56:59.614Z"
+      },
+      "label": "Patients Served",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:56:59.614Z"
+      },
+      "caseStudies": [
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "order": 1,
+      "status": "published",
+      "metric": "50K+",
+      "projects": []
+    },
+    {
+      "_id": "2c174dfb-c5b8-41f2-b068-88220a8ad5bc",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:56:59.354Z"
+      },
+      "label": "Faster Insights",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:56:59.354Z"
+      },
+      "caseStudies": [
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d"
+      ],
+      "order": 3,
+      "status": "published",
+      "metric": "3x",
+      "projects": []
+    },
+    {
+      "_id": "534cbeee-1243-4cb7-af9b-0c0913148534",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:56:59.256Z"
+      },
+      "label": "Data Sources",
+      "_updatedDate": {
+        "$date": "2026-06-19T11:56:59.256Z"
+      },
+      "caseStudies": [
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d"
+      ],
+      "order": 2,
+      "status": "published",
+      "metric": "20+",
+      "projects": []
+    },
+    {
+      "_id": "b4314eab-987e-474e-acd2-de7814c8895f",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-19T11:56:59.179Z"
+      },
+      "label": "Less Manual Reporting",
+      "_updatedDate": {
+        "$date": "2026-06-19T12:07:06.414Z"
+      },
+      "caseStudies": [
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d"
+      ],
+      "order": 1,
+      "status": "published",
+      "metric": "70%",
+      "projects": []
+    }
+  ]
+}

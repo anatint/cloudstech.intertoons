@@ -13,3 +13,8 @@ tsconfig.tsbuildinfo
 *.zip
 test-write.txt
 .claude/
+# Wix export: admin + personal form-submission data stays local
+data/wix-export/AdminUsers.json
+data/wix-export/ContactLeads.json
+data/wix-export/CallBackRequests.json
+data/wix-export/RFQResponses.json

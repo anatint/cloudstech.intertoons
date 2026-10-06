@@ -1,0 +1,1722 @@
+{
+  "collection": {
+    "id": "Products",
+    "collectionType": "NATIVE",
+    "displayName": "Products",
+    "displayField": "name",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "statsList",
+        "displayName": "Stats",
+        "type": "ARRAY",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "processFlow",
+        "displayName": "Process Flow",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "ProcessSteps",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "highlightsList",
+        "displayName": "Highlights",
+        "type": "ARRAY_STRING",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "pricingTiers",
+        "displayName": "Pricing Tiers",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "ProductPricing",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "services",
+        "displayName": "Services",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Services",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "featureItems",
+        "displayName": "Feature Items",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "ProductFeatures",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "industries",
+        "displayName": "Industries",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Industries",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "technologies",
+        "displayName": "Technologies",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Technologies",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "name",
+        "displayName": "Name",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "badge",
+        "displayName": "Badge",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "tagline",
+        "displayName": "Tagline",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "colorTheme",
+        "displayName": "Color Theme",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "icon",
+        "displayName": "Icon",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "logo",
+        "displayName": "Logo",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "shortDescription",
+        "displayName": "Short Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "description",
+        "displayName": "Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "website",
+        "displayName": "Website",
+        "type": "URL",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "slug",
+        "displayName": "Slug",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "featured",
+        "displayName": "Featured",
+        "type": "BOOLEAN",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoTitle",
+        "displayName": "SEO Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoDescription",
+        "displayName": "SEO Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoImage",
+        "displayName": "SEO Image",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "testimonials",
+        "displayName": "Testimonials",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Testimonials",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "faqs",
+        "displayName": "FAQs",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "FAQs",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "relatedProjects",
+        "displayName": "Related Projects",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Projects",
+            "referencingFieldKey": "products",
+            "referencingDisplayName": "Products"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "38",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-12T06:32:48.937Z",
+    "updatedDate": "2026-06-20T04:02:01.611Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "services": [
+        "910502f8-efa7-4d6f-9ef2-4f63fd25ca81",
+        "46e8d5a9-08fa-4a55-bdbf-4e4ad96ccd9e"
+      ],
+      "tagline": "Scheduling that respects everyone's calendar — one link, real availability, zero back-and-forth.",
+      "website": "https://exitq.net/",
+      "name": "ExitQ",
+      "faqs": [],
+      "industries": [],
+      "description": "ExitQ is scheduling built for teams who actually keep a calendar. It checks every connected calendar before offering a time, so a busy slot never appears — and visitors always see times in their own timezone, with daylight saving worked out per date. Set working hours, meeting lengths, buffers and daily/weekly/monthly booking limits, then share one link for every meeting type you offer. For teams, ExitQ supports Collective bookings (everyone must be free) and Round Robin (goes to whoever has the lightest week). Every booking creates a customer record with full meeting history, and any meeting type can carry a fixed price that locks in at the moment of booking.",
+      "pricingTiers": [],
+      "_id": "98748452-0389-4eb8-87d8-776f629dbb94",
+      "processFlow": [
+        "3bf1b37e-7ad8-4b5d-ae42-b122f78db619",
+        "bf522697-7fbc-4e4c-812d-c60432e26079",
+        "a8a03e97-deb1-4016-87d0-fd02e7a968fc"
+      ],
+      "_createdDate": {
+        "$date": "2026-09-15T14:08:54.871Z"
+      },
+      "icon": "CalendarCheck",
+      "statsList": [
+        {
+          "label": "Emails to agree a time",
+          "value": "0"
+        },
+        {
+          "label": "Link covers every meeting type",
+          "value": "1"
+        },
+        {
+          "label": "Calendar checked before a slot shows",
+          "value": "Every"
+        },
+        {
+          "label": "Confirmation speed",
+          "value": "Instant"
+        }
+      ],
+      "shortDescription": "ExitQ reads every calendar your team has connected and offers only the times you're genuinely free — in the visitor's own timezone, confirmed the moment they choose.",
+      "featured": true,
+      "testimonials": [],
+      "_updatedDate": {
+        "$date": "2026-09-15T14:08:54.871Z"
+      },
+      "slug": "exitq",
+      "technologies": [
+        "a56734f6-c915-4f2f-ac34-d9cad34f0707",
+        "eb252c75-19ba-4d87-9a66-89c8219c22ab",
+        "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+        "947b477a-d56f-48a6-a18d-3bd6aa19168d",
+        "e397cacc-0749-44e1-9057-671bc4942da1"
+      ],
+      "highlightsList": [
+        "Checks every connected calendar before offering a time — no double-booked slots",
+        "Automatic timezone detection with per-date daylight-saving handling",
+        "Collective and Round Robin team booking types",
+        "Daily, weekly & monthly meeting limits with custom buffers",
+        "Built-in customer records with full meeting history",
+        "Paid meetings with the price locked at the moment of booking",
+        "Strict transaction locking — two people can never claim the same slot",
+        "Works with Google Calendar, Outlook, Zoom, Google Meet, Razorpay, Telegram & WhatsApp"
+      ],
+      "order": 8,
+      "status": "published",
+      "seoTitle": "ExitQ — Scheduling That Respects Everyone's Calendar",
+      "colorTheme": "emerald",
+      "badge": "Smart Scheduling",
+      "relatedProjects": [],
+      "featureItems": [
+        "e3e273fc-d299-4f6e-b5af-fcb9f2040019",
+        "73cbb625-7677-44ef-b459-992fecf744a0",
+        "693ea5a2-c63a-427c-88e5-ffb0d20e7a70",
+        "113fe943-b5d2-41ca-9f8b-38e3ca56383b",
+        "318cac63-c1a4-46f5-bf24-b19e358312be",
+        "e3f8ba86-eb61-418e-afed-e9d0826b48e6"
+      ],
+      "seoDescription": "One link, real availability, zero back-and-forth. ExitQ checks every connected calendar before offering a time, handles timezones automatically, and confirms bookings instantly."
+    },
+    {
+      "services": [
+        "910502f8-efa7-4d6f-9ef2-4f63fd25ca81",
+        "46e8d5a9-08fa-4a55-bdbf-4e4ad96ccd9e"
+      ],
+      "tagline": "AI-powered project management with Telegram alerts & push notifications",
+      "website": "https://sprintag.in/",
+      "name": "Sprintag",
+      "faqs": [],
+      "industries": [],
+      "description": "Sprintag brings AI-powered project creation, team management, Telegram alerts and push notifications into one unified workspace, built for teams that move fast. Describe a project in plain English and Sprintag's AI Project Generator instantly creates phases, milestones and tasks. Every organisation gets a fully isolated, white-label-ready workspace with 5-tier role-based access (Owner, Admin, Manager, Member, Viewer), plus a native-feel mobile app for iOS and Android. Sprintag also exposes a full MCP server and OpenAPI REST API, so teams can manage projects through Claude, ChatGPT or Gemini using natural language.",
+      "pricingTiers": [
+        "77e775f6-ff90-4918-a7b9-a63c39ead167",
+        "500d0591-60e1-4ec2-84f5-5ecc14fd834c",
+        "15958a53-6164-4d9c-a0e7-e90833327683",
+        "6719a10c-882a-4e33-b277-f777e6e54feb"
+      ],
+      "_id": "4be0226f-41ef-4f8c-a4eb-4df9f7114a24",
+      "processFlow": [
+        "70c50eac-8fd9-4d49-a146-aad9b3a4ce16",
+        "152c08a8-a16c-4b65-ae39-9a8f332fa7ea",
+        "e03d5988-f627-40b0-8204-8ff301e2840a",
+        "52cd16ad-8611-4416-9180-51568b9cfab2",
+        "4dc2eb3b-0731-4b6e-a1fa-c81e3dac1829"
+      ],
+      "_createdDate": {
+        "$date": "2026-09-15T13:55:45.634Z"
+      },
+      "icon": "Kanban",
+      "statsList": [
+        {
+          "label": "User Roles",
+          "value": "5"
+        },
+        {
+          "label": "Projects & Tasks",
+          "value": "∞"
+        },
+        {
+          "label": "Multi-tenant",
+          "value": "100%"
+        },
+        {
+          "label": "Powered Generation",
+          "value": "AI"
+        }
+      ],
+      "shortDescription": "Sprintag unifies AI-powered project creation, task tracking, team management, Telegram alerts and push notifications into one multi-tenant workspace built for fast-moving teams.",
+      "featured": true,
+      "testimonials": [],
+      "_updatedDate": {
+        "$date": "2026-09-15T13:55:45.634Z"
+      },
+      "slug": "sprintag",
+      "technologies": [
+        "f7f64da7-2c91-4ad1-a9d2-04cc2ce0bf1c",
+        "a56734f6-c915-4f2f-ac34-d9cad34f0707",
+        "eb252c75-19ba-4d87-9a66-89c8219c22ab",
+        "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+        "b0fa515f-74be-422f-aae5-54b39d45e9a0"
+      ],
+      "highlightsList": [
+        "AI Project Generator — turns a plain-English brief into phases, milestones & tasks",
+        "Telegram bot alerts for task assignments, mentions & deadlines",
+        "Push notifications on Android, even when the app is closed",
+        "Multi-tenant architecture with 5-tier role-based access",
+        "Gantt chart & calendar views for every project timeline",
+        "Bulk import from CSV/Excel — up to 5,000 rows",
+        "MCP server + REST API — manage projects from Claude, ChatGPT or Gemini",
+        "Native mobile app for iOS & Android with 18+ screens"
+      ],
+      "order": 7,
+      "status": "published",
+      "seoTitle": "Sprintag — AI Project Management with Telegram & Push Notifications",
+      "colorTheme": "blue",
+      "badge": "AI Project Management",
+      "relatedProjects": [],
+      "featureItems": [
+        "e271157e-db57-446f-92fc-4c1342e0f802",
+        "2843e688-6b9f-47dd-9c10-9508c20f7467",
+        "c23c8fb6-76a5-4c68-bf65-327b58282590",
+        "45e581ae-e5e9-45b3-a3a7-2df7e656089b",
+        "8e8c287d-c40e-4fb6-9b18-c49caeb6f5ee",
+        "ca830ed5-c2fe-42df-bad7-655b3cf79b53"
+      ],
+      "seoDescription": "Sprintag unifies AI project generation, task tracking, team management, Telegram alerts and push notifications in one multi-tenant workspace built for fast-moving teams."
+    },
+    {
+      "services": [],
+      "tagline": "Simple, fast CRM for contacts, deals, tasks, and teams — on Web & Mobile.",
+      "website": "https://zigcrm.com",
+      "name": "ZigCRM",
+      "faqs": [
+        "d5de052f-b664-4e33-9786-52e78aeb0990",
+        "4da98f3c-44e1-4510-b6af-6278cdb1279e",
+        "b2aab48c-fe76-42fd-a6fd-0572808752ee",
+        "392250f4-c136-4130-a60b-1a5c7fd40922",
+        "06887c0f-039d-4e9f-b0c3-3271fe4074cc",
+        "dd69746a-4408-472a-aec6-f453930e6b25",
+        "5ca1616f-05d2-4292-9b1f-b184010a341e",
+        "9f88e00d-8a77-4330-8101-0039dfb89326",
+        "84299bb1-9ff8-4286-a01d-e66b590cfe36",
+        "6bb96dcc-86c8-4e0b-a5bd-65393ed7ad58",
+        "3fd67914-4399-466a-83e8-84f2e8338da3",
+        "63c7f47b-ed38-4a0f-a9a7-a5c733e4d934",
+        "fcaf1288-4fb1-4b62-a638-31e1d0e71c8e",
+        "c3633030-c4ad-4824-b298-b8df96815352",
+        "249ca095-e42e-4e4f-915f-5ed2497572fc",
+        "17b3232d-e4e3-4257-94f9-c2bb6321dcce",
+        "5450608e-7863-4449-bb72-1a036af9103f",
+        "38754e0b-5ac2-450a-8201-027e5a2b540b",
+        "f8b742b5-59ed-4809-8261-0b375a7edd74",
+        "a2786e6a-0ff9-4420-a971-3de9beede4cb",
+        "088d893c-338c-4691-ab68-7aefc1d89cf2",
+        "0c655f03-2e61-4c78-a87d-fd91087f9b32",
+        "e6247ee1-8684-4844-a78e-9b27ad0f9f5c",
+        "cc716988-5850-4647-9bfc-7fa4583b89ce",
+        "b673e7f3-3d72-4c08-8668-75b73476152a",
+        "51ce9b01-a31b-4a64-8113-5aaf70ff0b42",
+        "de5ce19e-1e5d-4c03-8a70-46139904480c",
+        "b0abc7f0-639e-47f8-9cf9-21a99f1aea9b",
+        "84b6b516-e58b-4807-a65e-5154f2f89c6f",
+        "3c7e4042-4b6c-49e1-89c0-687d380a6fbf",
+        "0ba9c9a7-9cb5-45c9-9311-a65bc60f4b9a",
+        "ed457bcc-1b35-4d42-bc0e-27fc5a2370a7",
+        "70bc4f92-9ca9-47b4-962b-4c3dfd7371a1"
+      ],
+      "industries": [],
+      "description": "ZigCRM is a smart, simple CRM built for growing teams to manage contacts, deals, tasks, and their team, all in one place. It is available on Web and Mobile, built for speed, and designed for results. ZigCRM is made up of three connected surfaces: a Web Admin App (full-featured browser-based admin panel that works on any device), a backend platform (the multi-tenant service that powers both web and mobile and keeps every organization's data isolated), and a Mobile App (native apps for iPhone and Android). ZigCRM is a true multi-tenant SaaS platform — perfect for agencies, resellers, and enterprise teams managing multiple organizations at once. Each tenant has fully isolated data, and platform admins manage all tenants from a central super admin panel.",
+      "pricingTiers": [
+        "5918c370-4f0f-4e66-8f90-419f71c596b2",
+        "dbe122b3-12c0-46e7-a69d-7af12175f30b",
+        "c6f60849-8a68-4f4b-bebd-55c1b088defd"
+      ],
+      "_id": "e4060be0-2fea-4796-bdfe-ad2cfa09dab0",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "processFlow": [
+        "3b1e329b-c0a5-4207-928a-d4d4c1d7ef04",
+        "e5f9e400-8e83-453a-b2b9-42885f400465",
+        "670d136b-0102-4054-89ec-c2b91b3f26b3",
+        "8d70ca7a-4486-477a-80a7-1e2ab097c662",
+        "0b55e674-57e2-4a73-acac-46a82120a4dd",
+        "b51e6669-87ed-4e00-b905-4c31877a38c1"
+      ],
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:20.187Z"
+      },
+      "icon": "Bot",
+      "statsList": [
+        {
+          "label": "Platforms",
+          "value": 3
+        },
+        {
+          "label": "Pipeline stages",
+          "value": 6
+        },
+        {
+          "label": "Mobile parity",
+          "value": 100
+        },
+        {
+          "label": "Pricing tiers",
+          "value": 3
+        }
+      ],
+      "shortDescription": "ZigCRM is a simple, fast CRM for managing contacts, deals, tasks, and your team in one place, available on Web and Mobile (iOS and Android).",
+      "featured": true,
+      "testimonials": [],
+      "_updatedDate": {
+        "$date": "2026-08-13T14:45:45.373Z"
+      },
+      "slug": "zigcrm",
+      "technologies": [
+        "8d1720ec-6fec-49be-9313-9c33eb5432ee",
+        "a56734f6-c915-4f2f-ac34-d9cad34f0707",
+        "eb252c75-19ba-4d87-9a66-89c8219c22ab",
+        "d81359cc-8023-4905-9bc1-9a3673e09aae",
+        "abed3138-9f5a-40cf-99f9-40729d258b77",
+        "947b477a-d56f-48a6-a18d-3bd6aa19168d",
+        "c9b4f369-7837-443b-a8d8-f2bc819029a2",
+        "40189f89-84e3-4354-9659-df43ab5ed32b",
+        "ac87460f-ba25-4c94-9d90-0c7fa993a036",
+        "56f821ec-5fcd-4459-b640-1138c759df6b",
+        "dd5c8c43-edf7-4b3b-b778-2433a3dab571",
+        "9d8d9a79-e0cd-4361-93d8-bf4f19db3063",
+        "fdda19e6-847f-439f-85ce-25ce8b0292ac",
+        "52ccfb14-3e5f-4919-aa01-4ad66b6bec5d",
+        "9f6553e9-04d2-4cc2-a5dc-f1371fbb59c2"
+      ],
+      "highlightsList": [
+        "Fast setup",
+        "1 tap to log any interaction",
+        "Zero training required",
+        "100% mobile feature parity",
+        "Works on Web & Mobile",
+        "Real-time push notifications",
+        "Role-based access control",
+        "Multi-tenant (agency ready)",
+        "Native call log sync",
+        "Cloud file storage",
+        "CSV data export"
+      ],
+      "order": 6,
+      "status": "published",
+      "seoTitle": "ZigCRM — Simple CRM your whole team actually uses",
+      "colorTheme": "#0F172A",
+      "badge": "AI-Powered CRM",
+      "relatedProjects": [],
+      "featureItems": [
+        "e0060502-a4fa-4d1b-86d9-6a7d003bbf44",
+        "7001f7dc-c3c5-48a3-8fe6-294da8a327f2",
+        "06438f53-d689-475f-a407-25455c72e5f5",
+        "0a396812-9981-4c59-bf66-376719c5e365",
+        "a0303362-b3a8-4265-a2b4-10b5cf337bb4",
+        "032ee9f5-865b-46f9-a240-c2ceb3020c89",
+        "e5d931c4-1d73-4ff4-b755-df9d17ada079",
+        "36c71b51-2c2d-41df-a3ec-e6edb7490cfb",
+        "e2d455ae-45bb-415c-8356-dd698c384acc",
+        "103fe5f2-0fb0-41b0-bff2-ed17fbfa0204",
+        "d413a567-8207-40f5-8746-30aadbbba1f2",
+        "03862dbc-1e1c-4920-ad5a-ce5dcd63058b",
+        "8376ae0f-9bdc-46fc-a8c2-be5c765abdac"
+      ],
+      "seoDescription": "ZigCRM is a simple, fast CRM for managing contacts, deals, tasks, and your team on Web and Mobile. Fast setup, one-tap activity logging, role-based access, and multi-tenant support for agencies and growing teams."
+    },
+    {
+      "services": [
+        "1791260d-a3cc-4ffc-8219-9f9461ac17b5",
+        "f7d80a74-9837-471a-b695-e3877ccfe6ee"
+      ],
+      "tagline": "AI chatbot builder — train on your docs & URLs, deploy on website and WhatsApp.",
+      "website": "https://airabot.in/",
+      "name": "Airabot",
+      "faqs": [
+        "6a2b3f03-4917-4263-9ab4-1fe6f22fa939",
+        "549f5639-503f-4fbb-b59e-2088262f1b39",
+        "7f67cf9b-a024-4d33-a9da-24f5d1913428",
+        "1d67027a-3455-464e-984f-7521d6d0d9b5",
+        "c8b58e90-b80c-4665-b845-685025750fd6"
+      ],
+      "industries": [
+        "a896f241-ad71-4305-9bbe-7a3a27c24506",
+        "a7107105-8234-483b-918c-061f50ac4945",
+        "b2a577c2-bf27-4e56-ba38-45f7eef773b1",
+        "fa22760b-77ad-41b8-915f-f0cc2950ad29",
+        "99478b9b-300a-4b14-b655-124471533f59"
+      ],
+      "description": "airabot helps businesses answer customer questions instantly across channels. Upload PDFs/docs or add URLs, configure your bot’s persona and model, and deploy via a website widget or WhatsApp (including voice notes). Built for agencies and SaaS teams with multi-tenant isolation, role-based access, per-user controls, and real-time credit/usage management. Security-first architecture with edge-native delivery and webhook validation.",
+      "pricingTiers": [
+        "011bb52e-134a-4cc1-9e46-f88c9ee346df",
+        "5211c424-6292-46f7-84c0-d4d94933de41",
+        "ff9bd4f6-6190-4ae4-b735-e2ff4e18f70b",
+        "c589ba31-a25d-4706-ad89-366bc4f8de2c"
+      ],
+      "_id": "c376e176-8a2e-4ea5-935b-378860452a2c",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "processFlow": [
+        "afed2248-b637-4fb3-8d9a-4c09f676bb96",
+        "10019bde-a7eb-4f6d-a152-868467658cce",
+        "d8458a30-5c26-4d1f-81ae-a881897efca9",
+        "35b2b68b-c022-484a-aa25-ed41a3dc1e81"
+      ],
+      "_createdDate": {
+        "$date": "2026-08-13T13:56:19.013Z"
+      },
+      "icon": "Bot",
+      "statsList": [
+        {
+          "label": "GDS & OTA integrations",
+          "value": 30
+        },
+        {
+          "label": "Bookings processed",
+          "value": 100000
+        },
+        {
+          "label": "Countries deployed",
+          "value": 15
+        },
+        {
+          "label": "Search uptime",
+          "value": 99.5
+        }
+      ],
+      "shortDescription": "airabot is a PaaS AI chatbot builder that lets teams create knowledge-grounded chatbots using their own documents and URLs, then deploy them across channels like website widgets and WhatsApp. Includes BYOK, multi-tenant SaaS controls, and credit-based usage.",
+      "featured": true,
+      "testimonials": [],
+      "_updatedDate": {
+        "$date": "2026-08-13T14:20:15.976Z"
+      },
+      "slug": "airabot",
+      "technologies": [
+        "e65c7e48-6e55-45ee-bea7-3454505865f2",
+        "5257352c-f4e6-4073-a8bd-abbaee0f9d1a",
+        "22cd5479-aecf-4e73-9b72-7b64ca825871",
+        "dd5c8c43-edf7-4b3b-b778-2433a3dab571",
+        "6f959365-b178-4cc6-a2c6-bf4a4a239409"
+      ],
+      "highlightsList": [
+        "Knowledge-grounded answers trained on your docs and URLs",
+        "Website widget + WhatsApp deployment (text and voice notes)",
+        "RAG retrieval with source citations and FAQ shortcuts",
+        "Multi-tenant SaaS controls with role-based access",
+        "Credit-based usage (1 credit = 1 message) with real-time visibility"
+      ],
+      "order": 5,
+      "status": "published",
+      "seoTitle": "airabot — AI Chatbot Builder for Website & WhatsApp",
+      "colorTheme": "#111827",
+      "badge": "AI Based Chat Bot",
+      "relatedProjects": [],
+      "featureItems": [
+        "566d58a5-15db-4955-ac48-e84761ef6abe",
+        "d33fe16e-af72-4b2e-8443-a4933e40481a",
+        "2662c834-702a-48db-b60b-77a9b37d0169",
+        "b94dc7e8-c13a-4d97-88ca-6dc4870ca7d0",
+        "f1d0a5e3-2509-4790-ba25-325f8409b642",
+        "9bf3d04f-205d-4ddc-995f-88aef3d900a4",
+        "2e632128-0889-49ac-af78-56ea78846e02"
+      ],
+      "seoDescription": "Build AI chatbots trained on your documents and URLs. Deploy on your website widget and WhatsApp (text + voice notes), with RAG source citations, BYOK support, multi-tenant controls, and credit-based usage."
+    },
+    {
+      "services": [
+        "1d8961de-1d74-485c-bb6a-68fcdf719fdc",
+        "9373f143-37ad-4fab-9a66-9640cd173132",
+        "fc563ab4-a9c0-4e9a-8f5f-a5aac6049053"
+      ],
+      "tagline": "Conversational AI for Your Business",
+      "name": "ConvoAI",
+      "faqs": [
+        "6e6e2655-1bcd-47c8-890c-9ef36e414b03"
+      ],
+      "industries": [
+        "2f182b0e-088e-4604-bb5c-968a0f9176c6"
+      ],
+      "description": "ConvoAI delivers intelligent, context-aware chatbots powered by GPT-4 and Claude that handle customer support, lead qualification, appointment booking and e-commerce queries — all without code. Deploy on web, WhatsApp and SMS in hours.",
+      "pricingTiers": [
+        "0df868ef-145d-457c-948b-5920622c30ff",
+        "399334e7-ce98-4d91-ac7c-9a343810fadb",
+        "9e18c376-748d-45b7-b2e8-def4d5cd6676"
+      ],
+      "_id": "a3746451-9660-49cb-aa04-776bc8e4430e",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "processFlow": [
+        "d2aa2d53-1620-43f1-a20f-ac7feeac0048",
+        "609f5f30-9547-4e27-aa61-186d4e833899",
+        "eaaa1e16-bd2d-40ef-b5c4-106dd0cd31c2",
+        "cd84be73-f616-4ed2-9474-50cb3b5f279d",
+        "659d456e-cad2-4f51-ac00-f0ade4e42a35",
+        "23701a20-75b3-42af-a420-328d40574a14"
+      ],
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:12.270Z"
+      },
+      "icon": "Bot",
+      "statsList": [
+        {
+          "label": "Conversations handled",
+          "value": "1M+"
+        },
+        {
+          "label": "Query resolution rate",
+          "value": "85%"
+        },
+        {
+          "label": "Always-on support",
+          "value": "24/7"
+        },
+        {
+          "label": "Avg. cost reduction",
+          "value": "60%"
+        }
+      ],
+      "shortDescription": "Intelligent, context-aware chatbots powered by GPT-4 and Claude — for support, lead qualification, booking and e-commerce, with no code.",
+      "featured": true,
+      "testimonials": [
+        "849d5d22-7c01-4be6-bee1-4d4977ac4d8b"
+      ],
+      "_updatedDate": {
+        "$date": "2026-06-20T04:02:32.179Z"
+      },
+      "slug": "ai-chatbots",
+      "technologies": [
+        "e65c7e48-6e55-45ee-bea7-3454505865f2",
+        "b0fa515f-74be-422f-aae5-54b39d45e9a0",
+        "e2cfd825-b1aa-4317-b1da-2284ed489589",
+        "9a4c87f9-f455-4e9e-ab78-4532b10501b3",
+        "13349e89-1a47-4d4f-b443-5384f541659c",
+        "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+        "5257352c-f4e6-4073-a8bd-abbaee0f9d1a",
+        "4dda59e3-423d-4594-86b1-74ca9a6a6214",
+        "f97ca35c-2adb-4579-af8d-5cf4bdf4ca03"
+      ],
+      "highlightsList": [
+        "GPT-4 & Claude powered",
+        "No-code visual flow builder",
+        "Omnichannel: web, WhatsApp, SMS, Slack",
+        "Live agent handoff with full context",
+        "Knowledge base integration"
+      ],
+      "order": 4,
+      "status": "published",
+      "colorTheme": "purple",
+      "badge": "AI & Automation",
+      "relatedProjects": [],
+      "featureItems": [
+        "68c1553a-91d8-48b6-8843-873a78debf5b",
+        "113fd235-e8a0-4f89-9f77-aade6fdd663f",
+        "a5d918ed-d4e5-4483-9d86-345e32853636",
+        "c3da9d20-345e-430c-a99e-9e1732c8be2a",
+        "7af27d24-e8d7-4a9f-923d-752442408e72",
+        "861bc567-1933-4cb9-961d-4dffbfd54b37"
+      ]
+    },
+    {
+      "services": [
+        "3c185c4c-7f78-4d93-9112-8cdff88fe846",
+        "9036625f-d77a-4138-b467-1ecc7017fa2b",
+        "fc563ab4-a9c0-4e9a-8f5f-a5aac6049053",
+        "9373f143-37ad-4fab-9a66-9640cd173132"
+      ],
+      "tagline": "Fleet & Car Rental Management Platform",
+      "name": "FleetDrive",
+      "faqs": [
+        "3e9ad2dd-b1f6-40e8-a0fa-6e39c3717b7e",
+        "34d0f25f-ed0c-40cb-bd9a-821fa3c9ee9e"
+      ],
+      "industries": [
+        "aa28bb16-ab09-4a9f-8ef1-f8fde04f76e6"
+      ],
+      "description": "FleetDrive is an end-to-end car rental management platform covering online booking, GPS fleet tracking, vehicle maintenance, revenue management, and white-label mobile apps for Android and iOS.",
+      "pricingTiers": [
+        "156875e1-5888-4ccd-9dd9-fe001f59cdf5",
+        "19ef94bd-e175-4774-a9a2-f499cc30cb56",
+        "804cc864-1989-4dbb-962c-142894657be6"
+      ],
+      "_id": "ab6c7060-494e-4c83-8c0d-b89126038bc4",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "processFlow": [
+        "2159ed3f-a52a-49a9-93a2-5fec04f4b1a3",
+        "e1211f51-ac99-48f8-a110-a6fe80ce7dbf",
+        "b264cfac-b864-4706-ae6d-4ac5418ec319",
+        "dbb133f1-d671-4822-b924-5e0e892a8714",
+        "3fa89466-5e76-46a9-89a4-f181ff8f5dcf",
+        "7c36b446-174f-4695-85bb-12bd1bc8ff93"
+      ],
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:09.692Z"
+      },
+      "icon": "Car",
+      "statsList": [
+        {
+          "label": "Vehicles managed",
+          "value": "500+"
+        },
+        {
+          "label": "Rental companies",
+          "value": "20+"
+        },
+        {
+          "label": "Mobile apps included",
+          "value": "3"
+        },
+        {
+          "label": "Avg. revenue growth",
+          "value": "40%"
+        }
+      ],
+      "shortDescription": "An end-to-end car rental management platform — online booking, GPS fleet tracking, maintenance, revenue management and white-label mobile apps.",
+      "featured": true,
+      "testimonials": [
+        "26fe60f5-4e17-4d93-865c-0d0195c697d3"
+      ],
+      "_updatedDate": {
+        "$date": "2026-06-20T04:02:32.179Z"
+      },
+      "slug": "car-rental-system",
+      "technologies": [
+        "dd5c8c43-edf7-4b3b-b778-2433a3dab571",
+        "34affc0b-cdb1-4114-86d3-98b98b1bbcda",
+        "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+        "564b673b-6a90-4675-9539-b07809a44166",
+        "4dda59e3-423d-4594-86b1-74ca9a6a6214",
+        "50742183-6477-41fd-9cf7-087fbd47fe64",
+        "87e1b0bc-3414-4795-9872-a8c4ce28b31f",
+        "13349e89-1a47-4d4f-b443-5384f541659c"
+      ],
+      "highlightsList": [
+        "Online booking portal & digital contracts",
+        "Real-time GPS fleet tracking",
+        "Maintenance scheduling & alerts",
+        "White-label customer mobile app",
+        "Fleet analytics dashboard"
+      ],
+      "order": 3,
+      "status": "published",
+      "colorTheme": "emerald",
+      "badge": "Fleet & Rental",
+      "relatedProjects": [],
+      "featureItems": [
+        "b6b0aabc-851d-4456-8de1-f841c689baa6",
+        "4c854c08-0b15-4674-82f9-d6323ed99b24",
+        "6e4b21d3-481a-45d4-91d8-3096920c8c78",
+        "10ea27b3-3fdd-40e4-8784-bd33a090444e",
+        "1543d9e3-9b3b-44c0-b963-dd115f865bcc",
+        "ba5ec3f6-94c5-411c-af01-a14cec49442c"
+      ]
+    },
+    {
+      "services": [
+        "9036625f-d77a-4138-b467-1ecc7017fa2b",
+        "3c185c4c-7f78-4d93-9112-8cdff88fe846",
+        "fc563ab4-a9c0-4e9a-8f5f-a5aac6049053",
+        "9373f143-37ad-4fab-9a66-9640cd173132"
+      ],
+      "tagline": "Complete Travel Booking SaaS Solution",
+      "name": "Triptels",
+      "faqs": [
+        "a4fd7475-a467-4391-afc5-81aa01e12092"
+      ],
+      "industries": [
+        "aa28bb16-ab09-4a9f-8ef1-f8fde04f76e6"
+      ],
+      "description": "Triptels is a battle-tested travel portal SaaS that covers flight booking, hotel reservations, holiday packages, and transfers — with a B2B agent portal, multi-currency support, and a white-label frontend your brand can fully own.",
+      "pricingTiers": [
+        "b159aeee-e1bb-4304-92c1-158988aaafa7",
+        "b88ce5ed-31b0-4eb2-b080-c515eaeed3a1",
+        "484f2e5d-bf8d-48cd-afdc-59c1a28ce9ec"
+      ],
+      "_id": "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "processFlow": [
+        "7c5bc904-4719-47e5-a33c-ce3e459dcbcd",
+        "7da9908e-81ae-4d9e-beb0-9f749ec0d661",
+        "f29e75f3-695b-408a-9fd5-6a81271e6068",
+        "5c532646-f2dc-4827-9f33-06b4d127fc00",
+        "c189fd8a-36f3-4a62-a956-995c71d3c90b",
+        "2b42face-eb49-4790-a427-98ff2fd5aea4"
+      ],
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:07.434Z"
+      },
+      "icon": "Plane",
+      "statsList": [
+        {
+          "label": "GDS & OTA integrations",
+          "value": "30+"
+        },
+        {
+          "label": "Bookings processed",
+          "value": "100K+"
+        },
+        {
+          "label": "Countries deployed",
+          "value": "15+"
+        },
+        {
+          "label": "Search uptime",
+          "value": "99.5%"
+        }
+      ],
+      "shortDescription": "A battle-tested travel portal SaaS covering flights, hotels, holiday packages and transfers — with a B2B agent portal and a white-label frontend.",
+      "featured": true,
+      "testimonials": [
+        "1311ead6-3a6f-4685-a717-bdb7a1852944"
+      ],
+      "_updatedDate": {
+        "$date": "2026-06-20T04:02:32.179Z"
+      },
+      "slug": "travel-portal-saas",
+      "technologies": [
+        "5257352c-f4e6-4073-a8bd-abbaee0f9d1a",
+        "6f959365-b178-4cc6-a2c6-bf4a4a239409",
+        "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+        "8f9bbd3b-6c72-4870-a707-5c328872bace",
+        "13349e89-1a47-4d4f-b443-5384f541659c",
+        "50742183-6477-41fd-9cf7-087fbd47fe64",
+        "87e1b0bc-3414-4795-9872-a8c4ce28b31f",
+        "7829d767-f583-4083-be4e-e99a2e33ccc0",
+        "f97ca35c-2adb-4579-af8d-5cf4bdf4ca03"
+      ],
+      "highlightsList": [
+        "Flight, hotel & holiday package booking",
+        "B2B agent portal with commissions",
+        "Multi-currency & 50+ payment options",
+        "White-label React frontend",
+        "PCI-DSS Level 1 compliant"
+      ],
+      "order": 2,
+      "status": "published",
+      "colorTheme": "blue",
+      "badge": "Travel & Hospitality",
+      "relatedProjects": [],
+      "featureItems": [
+        "7797c632-0d59-44ee-86e2-1a10b8ba5f15",
+        "0bdbac40-6e1c-4a01-8398-2b8c53c08a49",
+        "dedd8e2e-d257-4d98-bb48-f14199f55ad3",
+        "a3d66880-103e-422f-b142-b7d5b9b8ace8",
+        "21d0b104-fd0b-485b-b53c-617825a64453",
+        "b3801dce-7026-430a-9cd9-827efa0310fe"
+      ]
+    },
+    {
+      "services": [
+        "3c185c4c-7f78-4d93-9112-8cdff88fe846",
+        "9036625f-d77a-4138-b467-1ecc7017fa2b",
+        "fc563ab4-a9c0-4e9a-8f5f-a5aac6049053",
+        "9373f143-37ad-4fab-9a66-9640cd173132"
+      ],
+      "tagline": "White-Label On-Demand Food Delivery Platform",
+      "website": "https://plattero.app",
+      "name": "Plattero",
+      "faqs": [
+        "3e9ad2dd-b1f6-40e8-a0fa-6e39c3717b7e",
+        "34d0f25f-ed0c-40cb-bd9a-821fa3c9ee9e"
+      ],
+      "industries": [
+        "fbf94303-fc12-4265-a235-1b879c6c47e5"
+      ],
+      "description": "Plattero is a fully featured, white-label on-demand food delivery ecosystem. It ships as four production-ready apps — customer app, restaurant app, delivery partner app, and a powerful admin dashboard — so you can launch your branded food delivery service in weeks, not months.",
+      "pricingTiers": [
+        "5918c370-4f0f-4e66-8f90-419f71c596b2",
+        "afe7e89b-64e3-4dac-9a1f-cb64f3128c09",
+        "c6f60849-8a68-4f4b-bebd-55c1b088defd"
+      ],
+      "_id": "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "processFlow": [
+        "b105c2f3-ac21-4067-8ac7-eba2c637672c",
+        "4a8f8eb0-675f-43b1-bc23-275090a573ea",
+        "71ce5054-38b2-424a-b3a0-101fb87155f9",
+        "bf289d0e-e91d-42c1-b747-1709dbe0c23a",
+        "5e1bb229-6bff-40b2-abb5-e0999742f801",
+        "519cff9e-c170-44cb-8f82-879da29a1ac0"
+      ],
+      "_createdDate": {
+        "$date": "2026-06-12T07:12:04.762Z"
+      },
+      "icon": "Truck",
+      "statsList": [
+        {
+          "label": "Active clients",
+          "value": "50+"
+        },
+        {
+          "label": "Apps in one bundle",
+          "value": "4"
+        },
+        {
+          "label": "Uptime SLA",
+          "value": "99.9%"
+        },
+        {
+          "label": "Orders processed",
+          "value": "2M+"
+        }
+      ],
+      "shortDescription": "A fully featured, white-label on-demand food delivery ecosystem — customer, restaurant, delivery-partner apps and a powerful admin dashboard.",
+      "featured": true,
+      "testimonials": [
+        "455c8918-db47-4351-b112-5bc217de36f5"
+      ],
+      "_updatedDate": {
+        "$date": "2026-06-20T04:02:32.179Z"
+      },
+      "slug": "food-delivery-app",
+      "technologies": [
+        "dd5c8c43-edf7-4b3b-b778-2433a3dab571",
+        "812cbcd4-dce3-4081-b232-75ce97d125c3",
+        "22cd5479-aecf-4e73-9b72-7b64ca825871",
+        "87e1b0bc-3414-4795-9872-a8c4ce28b31f",
+        "2b9f8d70-5caf-4b03-8e18-c9bb755b6b32",
+        "13349e89-1a47-4d4f-b443-5384f541659c",
+        "50742183-6477-41fd-9cf7-087fbd47fe64",
+        "4dda59e3-423d-4594-86b1-74ca9a6a6214"
+      ],
+      "highlightsList": [
+        "Customer, restaurant & delivery apps + admin",
+        "Multi-payment gateway (Stripe, Razorpay, PayPal, COD)",
+        "Real-time order tracking & notifications",
+        "Promo & coupon engine",
+        "Multi-zone & multi-city support"
+      ],
+      "order": 1,
+      "status": "published",
+      "colorTheme": "orange",
+      "badge": "Food & Delivery",
+      "relatedProjects": [],
+      "featureItems": [
+        "a68db80d-5ec4-4ef6-aa9c-b0263bc691eb",
+        "87b860c8-388f-4bd9-bd29-c54a31ccc622",
+        "91d02169-7415-4093-b0bc-af236e6500ff",
+        "a07ffd96-278b-4cc1-bcaa-e134b0be5a73",
+        "08d7568b-4ede-4972-b8c8-5a14119b2322",
+        "e2ad887e-d0f1-4664-97b6-f3000c6c47db"
+      ]
+    }
+  ]
+}

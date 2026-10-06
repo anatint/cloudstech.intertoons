@@ -1,0 +1,951 @@
+{
+  "collection": {
+    "id": "Industries",
+    "collectionType": "NATIVE",
+    "displayName": "Industries",
+    "displayField": "name",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "name",
+        "displayName": "Name",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "description",
+        "displayName": "Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "icon",
+        "displayName": "Icon",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "slug",
+        "displayName": "Slug",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "featured",
+        "displayName": "Featured",
+        "type": "BOOLEAN",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoTitle",
+        "displayName": "SEO Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoDescription",
+        "displayName": "SEO Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoImage",
+        "displayName": "SEO Image",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "services",
+        "displayName": "Services",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Services",
+            "referencingFieldKey": "industries",
+            "referencingDisplayName": "Industries"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "projects",
+        "displayName": "Projects",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Projects",
+            "referencingFieldKey": "industries",
+            "referencingDisplayName": "Industries"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "products",
+        "displayName": "Products",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Products",
+            "referencingFieldKey": "industries",
+            "referencingDisplayName": "Industries"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "faqs",
+        "displayName": "FAQs",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "FAQs",
+            "referencingFieldKey": "industries",
+            "referencingDisplayName": "Industries"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "caseStudies",
+        "displayName": "Case Studies",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "CaseStudies",
+            "referencingFieldKey": "industries",
+            "referencingDisplayName": "Industries"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "blogs",
+        "displayName": "Blogs",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Blogs",
+            "referencingFieldKey": "industries",
+            "referencingDisplayName": "Industries"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "10",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-12T06:32:10.409Z",
+    "updatedDate": "2026-06-19T12:09:25.478Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "services": [],
+      "name": "Education",
+      "faqs": [],
+      "_id": "99478b9b-300a-4b14-b655-124471533f59",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.398Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:03:50.398Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "education",
+      "blogs": [],
+      "caseStudies": [],
+      "projects": [
+        "142b24bc-af0e-4a46-8d84-4859b7ca9d73",
+        "bcede5b2-50f2-4234-b266-0199ca03a7f5",
+        "1acd9cfc-eb51-4c55-a784-66c0919792c2",
+        "4f3322c1-9a56-497a-b689-5f0ef6dc1887",
+        "a3b0187f-f2f6-4a1a-9ac8-c7094d052b59",
+        "f0a62ec1-b465-4e65-ae5b-a2a1853bf355",
+        "2d7dcc18-82e5-4572-9c56-80ea8dc43c65"
+      ],
+      "title": "Education"
+    },
+    {
+      "services": [],
+      "name": "Customer Support",
+      "faqs": [],
+      "_id": "b2a577c2-bf27-4e56-ba38-45f7eef773b1",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.340Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:03:50.340Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "customer-support",
+      "blogs": [],
+      "caseStudies": [],
+      "projects": [],
+      "title": "Customer Support"
+    },
+    {
+      "services": [],
+      "name": "SaaS",
+      "faqs": [],
+      "_id": "a896f241-ad71-4305-9bbe-7a3a27c24506",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.338Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:03:50.338Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "saas",
+      "blogs": [],
+      "caseStudies": [],
+      "projects": [],
+      "title": "SaaS"
+    },
+    {
+      "services": [],
+      "name": "E-commerce",
+      "faqs": [],
+      "_id": "a7107105-8234-483b-918c-061f50ac4945",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:03:50.330Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:03:50.330Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "e-commerce",
+      "blogs": [],
+      "caseStudies": [],
+      "projects": [],
+      "title": "E-commerce"
+    },
+    {
+      "services": [],
+      "name": "Finance & Fintech",
+      "faqs": [],
+      "description": "Tailored digital solutions for Finance & Fintech.",
+      "_id": "2f182b0e-088e-4604-bb5c-968a0f9176c6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:29.398Z"
+      },
+      "icon": "Landmark",
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.457Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "slug": "finance-fintech",
+      "blogs": [],
+      "caseStudies": [
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d",
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "order": 6,
+      "status": "published",
+      "projects": [
+        "d61c8957-ee88-4587-a2e3-e71d8f616ede",
+        "01ab58bc-bbd1-4d32-a4af-f0e221b5b465"
+      ]
+    },
+    {
+      "services": [
+        "6ec07cf1-57a5-47de-8db9-0672b6e8cd8e"
+      ],
+      "name": "Real Estate",
+      "faqs": [],
+      "description": "Tailored digital solutions for Real Estate.",
+      "_id": "5b0e67e4-203b-49b9-9a2a-6cd80e5f6613",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:29.245Z"
+      },
+      "icon": "Building2",
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.457Z"
+      },
+      "products": [],
+      "slug": "real-estate",
+      "blogs": [],
+      "caseStudies": [],
+      "order": 5,
+      "status": "published",
+      "projects": [
+        "eff38d63-fb13-4a35-b6ed-8c88b78b3b6f",
+        "634a9aa3-ce13-405e-8caa-7ef7ade731da",
+        "df8f50c2-966c-4832-b395-1557836ea967",
+        "f41f96cb-860a-4ec4-9f65-94ae1a224260"
+      ]
+    },
+    {
+      "services": [],
+      "name": "Food & Beverage",
+      "faqs": [],
+      "description": "Tailored digital solutions for Food & Beverage.",
+      "_id": "fbf94303-fc12-4265-a235-1b879c6c47e5",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:29.092Z"
+      },
+      "icon": "UtensilsCrossed",
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.457Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "slug": "food-beverage",
+      "blogs": [],
+      "caseStudies": [
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5",
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "order": 4,
+      "status": "published",
+      "projects": [
+        "182ac1fc-c24b-4aff-9105-3397f839ec9a",
+        "9a8f4377-7fcc-493f-a450-d6a075659705",
+        "eb854d8f-576d-4392-aa0c-ab7986783305",
+        "a3ea12da-c156-4827-9f34-6e9c245a76c3",
+        "7cde3119-1977-4e79-bb3e-6890ea8acc87",
+        "9f95e0be-d7a4-4693-ace4-08ac5363f677"
+      ]
+    },
+    {
+      "services": [
+        "6ec07cf1-57a5-47de-8db9-0672b6e8cd8e",
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "name": "Healthcare",
+      "faqs": [],
+      "description": "Tailored digital solutions for Healthcare.",
+      "_id": "fa22760b-77ad-41b8-915f-f0cc2950ad29",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:28.837Z"
+      },
+      "icon": "HeartPulse",
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.457Z"
+      },
+      "products": [
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "healthcare",
+      "blogs": [],
+      "caseStudies": [
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "order": 3,
+      "status": "published",
+      "projects": [
+        "5066b49a-c030-4d57-b696-a9a32e2ca545",
+        "4fcd980a-30fe-4a57-be88-382502be85ee",
+        "f768ef89-c2b7-4df2-818d-8e05db440f74",
+        "d69a979a-5795-4523-8928-e804f811e499",
+        "f2b33093-1554-4564-938f-fd69a7285631",
+        "7a40fc12-e897-4b35-9406-1fb291ba7520",
+        "d203e06e-d86b-41ac-a2f7-fa9020317b0a",
+        "9f428177-8a22-495e-9497-b16221ee6144",
+        "0773d2aa-a127-414c-ae48-17acc79c227a",
+        "caa8b4d3-f05d-4fcd-927c-992dfaeb372d",
+        "bbabfd6e-5142-4dba-a042-f79341886fba",
+        "4df13768-c690-48cb-8c2d-8c9ca5e56de4",
+        "448c82b0-c367-45c6-b451-bfe3a9ae33e6",
+        "c568db00-5303-460d-8860-910a6baca7bc"
+      ]
+    },
+    {
+      "services": [],
+      "name": "Travel & Hospitality",
+      "faqs": [],
+      "description": "Tailored digital solutions for Travel & Hospitality.",
+      "_id": "aa28bb16-ab09-4a9f-8ef1-f8fde04f76e6",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:28.605Z"
+      },
+      "icon": "Plane",
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.457Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "slug": "travel-hospitality",
+      "blogs": [],
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e",
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "order": 2,
+      "status": "published",
+      "projects": [
+        "ce0c4500-b3aa-4a11-82d6-03da79e80da9",
+        "5538e4f1-4bd5-4a97-a4ae-a321558a76d9",
+        "4d745154-bd7e-4315-8f2c-4477a6e37d6e",
+        "cb5918b0-07e7-4fa0-860c-bde164ae9168"
+      ]
+    },
+    {
+      "services": [
+        "6ec07cf1-57a5-47de-8db9-0672b6e8cd8e"
+      ],
+      "name": "E-commerce & Retail",
+      "faqs": [],
+      "description": "Tailored digital solutions for E-commerce & Retail.",
+      "_id": "002c3a19-9acf-4772-9e0a-02d5eddf664d",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:28.347Z"
+      },
+      "icon": "ShoppingCart",
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.457Z"
+      },
+      "products": [],
+      "slug": "e-commerce-retail",
+      "blogs": [
+        "d83be471-b9cf-44de-9e2a-59dae4407b8b"
+      ],
+      "caseStudies": [
+        "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af"
+      ],
+      "order": 1,
+      "status": "published",
+      "projects": [
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd",
+        "aeda4221-685e-47ab-bbd9-d4bbd58db6db",
+        "c10755fd-f2e2-4c9d-a5c4-fa986bf203ac",
+        "017fa588-555d-4103-a7b8-792056254260",
+        "0625d1db-7eba-41a0-8e1a-b4c5cdb404af",
+        "7a4279f8-8c85-48fe-bf76-06207f789c9d",
+        "d730a3ae-8cc5-4ddc-ab12-c9f19ade5ae2",
+        "f1385893-e1ac-4343-8f67-49c2efa6e700",
+        "c5f72af9-cac7-4057-bde0-a98265d5590d",
+        "8a3ae0fa-4aac-4c2c-be78-6aca05f3882e",
+        "c052bc66-c3a0-484e-8411-3361e1c884e2",
+        "807b849d-70f5-4fb8-858d-484a3b7e8ce6",
+        "ffa11f96-03fc-4685-950a-7d86f731b648",
+        "eff45027-93c1-4970-8985-1b7047bfba48",
+        "19e21059-cd1f-4d57-a164-3cd1e40ed5ca",
+        "1f22d955-c1d6-424e-8a00-c073a6973acc",
+        "ced0b945-eca9-4c08-9d08-85103f975d34"
+      ]
+    }
+  ]
+}

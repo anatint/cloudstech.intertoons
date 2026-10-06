@@ -1,0 +1,1973 @@
+{
+  "collection": {
+    "id": "Technologies",
+    "collectionType": "NATIVE",
+    "displayName": "Technologies",
+    "displayField": "name",
+    "capabilities": {
+      "dataOperations": [
+        "PATCH",
+        "IS_REFERENCED",
+        "INSERT",
+        "SAVE",
+        "BULK_INSERT",
+        "BULK_UPDATE",
+        "UPDATE",
+        "TRUNCATE",
+        "REMOVE",
+        "REMOVE_REFERENCE",
+        "COUNT",
+        "BULK_PATCH",
+        "FIND",
+        "REPLACE_REFERENCES",
+        "BULK_REMOVE",
+        "INSERT_REFERENCE",
+        "GET",
+        "BULK_SAVE",
+        "QUERY_REFERENCED",
+        "DISTINCT",
+        "AGGREGATE"
+      ],
+      "collectionOperations": [
+        "UPDATE",
+        "REMOVE"
+      ],
+      "indexLimits": {
+        "regular": 3,
+        "unique": 1,
+        "total": 4
+      }
+    },
+    "fields": [
+      {
+        "key": "name",
+        "displayName": "Name",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "icon2",
+        "displayName": "Icon (name)",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "category",
+        "displayName": "Category",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "logo",
+        "displayName": "Logo",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "url",
+        "displayName": "URL",
+        "type": "URL",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "slug",
+        "displayName": "Slug",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "status",
+        "displayName": "Status",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "featured",
+        "displayName": "Featured",
+        "type": "BOOLEAN",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "order",
+        "displayName": "Order",
+        "type": "NUMBER",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoTitle",
+        "displayName": "SEO Title",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoDescription",
+        "displayName": "SEO Description",
+        "type": "TEXT",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "seoImage",
+        "displayName": "SEO Image",
+        "type": "IMAGE",
+        "systemField": false,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "products",
+        "displayName": "Products",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Products",
+            "referencingFieldKey": "technologies",
+            "referencingDisplayName": "Technologies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "caseStudies",
+        "displayName": "Case Studies",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "CaseStudies",
+            "referencingFieldKey": "technologies",
+            "referencingDisplayName": "Technologies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "services",
+        "displayName": "Services",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Services",
+            "referencingFieldKey": "technologies",
+            "referencingDisplayName": "Technologies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "projects",
+        "displayName": "Projects",
+        "type": "MULTI_REFERENCE",
+        "typeMetadata": {
+          "multiReference": {
+            "referencedCollectionId": "Projects",
+            "referencingFieldKey": "technologies",
+            "referencingDisplayName": "Technologies"
+          }
+        },
+        "systemField": false,
+        "capabilities": {
+          "sortable": false,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_id",
+        "displayName": "ID",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_createdDate",
+        "displayName": "Created Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_updatedDate",
+        "displayName": "Updated Date",
+        "type": "DATETIME",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      },
+      {
+        "key": "_owner",
+        "displayName": "Owner",
+        "type": "TEXT",
+        "systemField": true,
+        "capabilities": {
+          "sortable": true,
+          "queryOperators": [
+            "EQ",
+            "LT",
+            "GT",
+            "NE",
+            "LTE",
+            "GTE",
+            "STARTS_WITH",
+            "ENDS_WITH",
+            "CONTAINS",
+            "HAS_SOME",
+            "HAS_ALL",
+            "EXISTS",
+            "URLIZED"
+          ]
+        },
+        "encrypted": false,
+        "plugins": []
+      }
+    ],
+    "permissions": {
+      "insert": "ADMIN",
+      "update": "ADMIN",
+      "remove": "ADMIN",
+      "read": "ANYONE"
+    },
+    "revision": "9",
+    "plugins": [
+      {
+        "type": "EDITABLE_PAGE_LINK",
+        "editablePageLinkOptions": {
+          "isPersisted": true,
+          "isMutable": true
+        }
+      }
+    ],
+    "pagingModes": [
+      "OFFSET",
+      "CURSOR"
+    ],
+    "createdDate": "2026-06-12T06:32:09.994Z",
+    "updatedDate": "2026-06-20T04:02:57.744Z",
+    "dataPermissions": {
+      "itemRead": "ANYONE",
+      "itemInsert": "CMS_EDITOR",
+      "itemUpdate": "CMS_EDITOR",
+      "itemRemove": "CMS_EDITOR"
+    }
+  },
+  "items": [
+    {
+      "services": [
+        "a44f68dd-2986-437e-a8fd-6e9b5805f8ae"
+      ],
+      "name": "PHP",
+      "_id": "c4dcaa48-9d38-413a-b4fc-5403670561d9",
+      "_createdDate": {
+        "$date": "2026-09-08T08:34:22.488Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:34:22.488Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "2185f2d3-3c89-4e59-9827-dad11625dc27"
+      ],
+      "name": "Wix",
+      "_id": "cfff7afc-9819-4a7c-a297-6ce44c9fc6ba",
+      "_createdDate": {
+        "$date": "2026-09-08T08:32:23.142Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:32:23.142Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": [
+        "a0f49bbf-c50b-4165-80ad-16c7a35358cd",
+        "bcede5b2-50f2-4234-b266-0199ca03a7f5",
+        "20177ba1-8530-4dd3-a5dc-b5bf4a8ccf9c",
+        "1acd9cfc-eb51-4c55-a784-66c0919792c2",
+        "d69a979a-5795-4523-8928-e804f811e499",
+        "f2b33093-1554-4564-938f-fd69a7285631",
+        "7a40fc12-e897-4b35-9406-1fb291ba7520",
+        "d203e06e-d86b-41ac-a2f7-fa9020317b0a",
+        "ffa11f96-03fc-4685-950a-7d86f731b648",
+        "eff45027-93c1-4970-8985-1b7047bfba48",
+        "9f428177-8a22-495e-9497-b16221ee6144",
+        "d61c8957-ee88-4587-a2e3-e71d8f616ede",
+        "672c2214-0fcd-45a0-8613-e60f8f0fcd2f",
+        "0773d2aa-a127-414c-ae48-17acc79c227a",
+        "672d8d4b-2f70-4f23-80fb-fc39aa66542f",
+        "caa8b4d3-f05d-4fcd-927c-992dfaeb372d",
+        "ce0c4500-b3aa-4a11-82d6-03da79e80da9",
+        "4f3322c1-9a56-497a-b689-5f0ef6dc1887",
+        "cd482545-b0a3-4b06-936e-db7acc460dca",
+        "0d3fdfba-4456-47d1-9bb6-3cc4bfcdc99b",
+        "19e21059-cd1f-4d57-a164-3cd1e40ed5ca",
+        "7cde3119-1977-4e79-bb3e-6890ea8acc87",
+        "a3b0187f-f2f6-4a1a-9ac8-c7094d052b59",
+        "eff38d63-fb13-4a35-b6ed-8c88b78b3b6f",
+        "6807be84-38aa-488b-ba6b-aab520c8a23d",
+        "5538e4f1-4bd5-4a97-a4ae-a321558a76d9",
+        "c8f88b5b-08c3-4b50-afe0-454348509c1f",
+        "2bc69af9-29ff-43dd-ba84-e675f311976c",
+        "bbabfd6e-5142-4dba-a042-f79341886fba",
+        "01ab58bc-bbd1-4d32-a4af-f0e221b5b465",
+        "634a9aa3-ce13-405e-8caa-7ef7ade731da",
+        "c8ee7df4-fcea-4de4-9731-d848c0fa7a72",
+        "9f95e0be-d7a4-4693-ace4-08ac5363f677",
+        "2b6b541e-cc58-457f-980c-fc20904b872a",
+        "f0a62ec1-b465-4e65-ae5b-a2a1853bf355",
+        "1f22d955-c1d6-424e-8a00-c073a6973acc",
+        "4df13768-c690-48cb-8c2d-8c9ca5e56de4",
+        "448c82b0-c367-45c6-b451-bfe3a9ae33e6",
+        "c568db00-5303-460d-8860-910a6baca7bc",
+        "4d745154-bd7e-4315-8f2c-4477a6e37d6e",
+        "ced0b945-eca9-4c08-9d08-85103f975d34",
+        "df8f50c2-966c-4832-b395-1557836ea967",
+        "3ec9d0b2-3a2b-4adb-9048-6b94e5fa4096",
+        "f3eef133-bd4d-41ae-9be7-6fc545537b0a",
+        "932323b5-69b7-4767-ae07-4adf86de2f58",
+        "2d7dcc18-82e5-4572-9c56-80ea8dc43c65",
+        "0ba777bd-cf6b-45e0-a89a-c2dfeaef6eb0",
+        "f41f96cb-860a-4ec4-9f65-94ae1a224260",
+        "cb5918b0-07e7-4fa0-860c-bde164ae9168",
+        "f1c3f2bf-6b18-4d3c-9ca9-eb6a2c1b8f38",
+        "cf110cf8-062f-4b4a-bfde-7677f410f1b2",
+        "61b182ee-0377-4982-bf59-5893a6c73138",
+        "9798eb48-e942-435c-a0ab-0cd9f5d48fb1",
+        "9ca64435-cbd1-46ed-adb9-d59585ed779b",
+        "fc4a006f-ce67-40a0-8545-3c3fb9afa766",
+        "2ea2ed8e-c497-414e-826f-5cb6a9e8d55d",
+        "cd84ec6c-f900-4164-b18f-47bbc7a3310e"
+      ]
+    },
+    {
+      "services": [
+        "b695a612-b251-41ba-b280-c27d1f3ae16b"
+      ],
+      "name": "Razorpay",
+      "_id": "e397cacc-0749-44e1-9057-671bc4942da1",
+      "_createdDate": {
+        "$date": "2026-09-08T08:31:11.736Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:31:11.736Z"
+      },
+      "products": [
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "44192c51-3a2b-431a-b569-43f7638e00ed"
+      ],
+      "name": "Vue.js",
+      "_id": "22cee7d6-6221-40de-8858-5c32363ec364",
+      "_createdDate": {
+        "$date": "2026-09-08T08:31:06.436Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:31:06.436Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "5aac8c34-351e-4702-b231-0b006e648dc6",
+        "b5d98b80-de63-424f-83ca-bf624d72babf"
+      ],
+      "name": "LangChain",
+      "_id": "05a98d1e-593d-42a5-9e92-39d5d6a993f5",
+      "_createdDate": {
+        "$date": "2026-09-08T08:22:32.388Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:22:32.388Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "a75d558f-44b8-4c3e-b7d2-2bb7f245f270"
+      ],
+      "name": "HubSpot",
+      "_id": "3a95e331-15cd-440a-80ed-e419b2d58c10",
+      "_createdDate": {
+        "$date": "2026-09-08T08:18:09.676Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:18:09.676Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "dbc8a5e3-2000-4bdd-8435-d899d0150757",
+        "cc6f5b88-5c0a-44f8-806a-a071f730d095"
+      ],
+      "name": "Strapi",
+      "_id": "bfc32b13-1366-44e6-8703-5d4e79022608",
+      "_createdDate": {
+        "$date": "2026-09-08T08:16:09.959Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:16:09.959Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "4a239000-10ca-47f9-a16f-258a21db08b8"
+      ],
+      "name": "React Native",
+      "_id": "f7f64da7-2c91-4ad1-a9d2-04cc2ce0bf1c",
+      "_createdDate": {
+        "$date": "2026-09-08T08:14:03.963Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:14:03.963Z"
+      },
+      "products": [
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "e3a28e70-0959-46a7-be0c-6c1da92fdb24"
+      ],
+      "name": "ASP.NET",
+      "_id": "7d757e07-147f-4989-bf0e-cff3a82f1b2e",
+      "_createdDate": {
+        "$date": "2026-09-08T08:13:16.856Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:13:16.856Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "ad8aae12-4843-44ca-9d00-1eea0a3dfe50",
+        "36ebb6a9-2885-4cb0-8b29-37197d0037b8"
+      ],
+      "name": "n8n",
+      "_id": "294850af-5c4a-4fe4-be97-699ba0aa7b14",
+      "_createdDate": {
+        "$date": "2026-09-08T08:12:14.769Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:12:14.769Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "f57b978c-1f40-4a4d-baa6-4f1b7d5291c1"
+      ],
+      "name": "Supabase",
+      "_id": "dc06d1e6-3698-48a5-8793-1ef458b4d132",
+      "_createdDate": {
+        "$date": "2026-09-08T08:09:10.049Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:09:10.049Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "138336a1-8633-449b-bff5-4425171103c7",
+        "283ffc8c-66fa-4893-93f3-1e33680dc8e6",
+        "2185f2d3-3c89-4e59-9827-dad11625dc27"
+      ],
+      "name": "Magento",
+      "_id": "5b64027b-9c2a-4942-9187-1781f3fb003a",
+      "_createdDate": {
+        "$date": "2026-09-08T08:08:17.386Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:08:17.386Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "9cef35bf-3cb5-4f23-a15e-efa861bccc1d",
+        "b8dbbdc0-5c96-496d-9bc9-2461a17e0ee0",
+        "2185f2d3-3c89-4e59-9827-dad11625dc27"
+      ],
+      "name": "WordPress",
+      "_id": "05fc781f-dec9-4c2a-b4da-acdf9d28929f",
+      "_createdDate": {
+        "$date": "2026-09-08T08:07:13.592Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:07:13.592Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "05bbb830-9d15-463a-a324-2a0df85b54a9",
+        "0eb78353-0c50-48e3-bf80-85caf5177ecc",
+        "283ffc8c-66fa-4893-93f3-1e33680dc8e6"
+      ],
+      "name": "WooCommerce",
+      "_id": "d7f7c628-50cd-43b6-a757-9eb83354440c",
+      "_createdDate": {
+        "$date": "2026-09-08T08:04:13.768Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:04:13.768Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "ec447cc0-d5eb-43d0-8e1c-ee3233957bdb",
+        "60a3af6d-7765-41ac-b492-857f887c406d"
+      ],
+      "name": "Salesforce",
+      "_id": "04e2dce7-88a6-45e0-90c4-1d5b6776a17b",
+      "_createdDate": {
+        "$date": "2026-09-08T08:04:10.002Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:04:10.002Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "86f49883-88ac-4909-a206-e1348768d388"
+      ],
+      "name": "NetSuite",
+      "_id": "f74820d3-9c48-4434-beb2-f9c483fac3b4",
+      "_createdDate": {
+        "$date": "2026-09-08T08:04:03.137Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:04:03.137Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "4ff76d7e-6efb-405e-9fd6-a06183343134"
+      ],
+      "name": "SAP",
+      "_id": "e84604ed-1f5f-41e2-8b8f-5dedf1163519",
+      "_createdDate": {
+        "$date": "2026-09-08T08:03:23.804Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T08:03:23.804Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": []
+    },
+    {
+      "services": [
+        "31b31d93-7122-4878-b346-25c9115575f9",
+        "8d3338a2-9e6f-4dae-b4ce-3873ea3db097",
+        "87a58c7d-6cd4-4842-ba8e-d883cfb801f7",
+        "92f02736-c510-4c6d-a1b2-aaac76eca5c3",
+        "9cd1b1e6-a8e4-46e4-b370-37d2b052af03",
+        "6ca1155d-a98d-4edd-9970-accb177f8dc0",
+        "8a64ed90-59fa-42cb-a8aa-af59d9b8ecda",
+        "4ff76d7e-6efb-405e-9fd6-a06183343134",
+        "86f49883-88ac-4909-a206-e1348768d388",
+        "225de790-a7a3-4166-9235-64383d8e4140",
+        "ec447cc0-d5eb-43d0-8e1c-ee3233957bdb",
+        "05bbb830-9d15-463a-a324-2a0df85b54a9",
+        "477bdc0f-9297-4bc4-ab30-950527b2aed3",
+        "2927b7ea-4f8e-4951-a0cc-744bc6304a66",
+        "b9daeae9-6f10-4a63-bd4c-37d45256bc51",
+        "4197aa03-7c0d-47c3-a506-e8054d57b425",
+        "eb97915a-c38e-4b5b-b60f-ab7bb5abd4b1",
+        "7fb850dc-0116-4558-a9e8-c9742e0ae5ed",
+        "f45b39e5-04f0-4315-a665-35c579d1a1fa",
+        "4cbfadcd-b069-47fa-95e8-c06fcae8353c",
+        "138336a1-8633-449b-bff5-4425171103c7",
+        "0eb78353-0c50-48e3-bf80-85caf5177ecc",
+        "dc39b128-9b55-49b4-ac27-09adc2edfb90",
+        "d57230f8-fdc4-4459-ac04-709f4f26f325",
+        "9d4c7841-9d92-4068-850b-ef7e7c563ee9",
+        "87020e10-3f26-49f6-894a-7a0a200779fd",
+        "29a0ccfb-e33d-4706-9eae-767054a82844",
+        "e59ef6c3-fb86-421d-a6b2-3c7cc4a62db8",
+        "f68a4523-3023-4850-ab0c-03dca688069d",
+        "0e9445ac-3931-4947-a3ee-a382d9952b68",
+        "0524eefb-3182-4a05-bf9d-52b7c41604e3",
+        "775667ae-fca3-4c36-bad6-02d923d0d035",
+        "f25cc79b-979a-4626-a5ed-a256ff0669ea",
+        "10a49478-daeb-4074-af60-2d2c9c18e590",
+        "493c607d-ca08-4029-b15c-25f2af806bd6",
+        "2185f2d3-3c89-4e59-9827-dad11625dc27",
+        "72acaccf-31d8-4fed-93a9-bafe87345725",
+        "cc47fc0a-9833-4997-b0e2-78e0be1bff2b",
+        "c59a5219-4c95-4a3f-af99-ffa6e8358177"
+      ],
+      "name": "Shopify",
+      "_id": "13fd6934-9984-4dd6-9cd0-b832171fd731",
+      "_createdDate": {
+        "$date": "2026-09-08T07:50:05.016Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-09-08T07:50:05.016Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "projects": [
+        "5066b49a-c030-4d57-b696-a9a32e2ca545",
+        "182ac1fc-c24b-4aff-9105-3397f839ec9a",
+        "aeda4221-685e-47ab-bbd9-d4bbd58db6db",
+        "9a8f4377-7fcc-493f-a450-d6a075659705",
+        "c10755fd-f2e2-4c9d-a5c4-fa986bf203ac",
+        "017fa588-555d-4103-a7b8-792056254260",
+        "0625d1db-7eba-41a0-8e1a-b4c5cdb404af",
+        "eb854d8f-576d-4392-aa0c-ab7986783305",
+        "7a4279f8-8c85-48fe-bf76-06207f789c9d",
+        "d730a3ae-8cc5-4ddc-ab12-c9f19ade5ae2",
+        "4fcd980a-30fe-4a57-be88-382502be85ee",
+        "142b24bc-af0e-4a46-8d84-4859b7ca9d73",
+        "f1385893-e1ac-4343-8f67-49c2efa6e700",
+        "f768ef89-c2b7-4df2-818d-8e05db440f74",
+        "a3ea12da-c156-4827-9f34-6e9c245a76c3",
+        "c5f72af9-cac7-4057-bde0-a98265d5590d",
+        "8a3ae0fa-4aac-4c2c-be78-6aca05f3882e",
+        "c052bc66-c3a0-484e-8411-3361e1c884e2",
+        "807b849d-70f5-4fb8-858d-484a3b7e8ce6"
+      ]
+    },
+    {
+      "services": [],
+      "name": "libphonenumber-js",
+      "_id": "9f6553e9-04d2-4cc2-a5dc-f1371fbb59c2",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:35.045Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:35.045Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "libphonenumber-js",
+      "caseStudies": [],
+      "projects": [],
+      "title": "libphonenumber-js"
+    },
+    {
+      "services": [],
+      "name": "Formik + Yup",
+      "_id": "52ccfb14-3e5f-4919-aa01-4ad66b6bec5d",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:34.784Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:34.784Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "formik-yup",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Formik + Yup"
+    },
+    {
+      "services": [],
+      "name": "Recharts",
+      "_id": "fdda19e6-847f-439f-85ce-25ce8b0292ac",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:34.531Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:34.531Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "recharts",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Recharts"
+    },
+    {
+      "services": [],
+      "name": "Tiptap",
+      "_id": "9d8d9a79-e0cd-4361-93d8-bf4f19db3063",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:34.226Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:34.226Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "tiptap",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Tiptap"
+    },
+    {
+      "services": [],
+      "name": "Google Places API",
+      "_id": "56f821ec-5fcd-4459-b640-1138c759df6b",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:33.922Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:33.922Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "google-places-api",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Google Places API"
+    },
+    {
+      "services": [],
+      "name": "OpenRouter",
+      "_id": "ac87460f-ba25-4c94-9d90-0c7fa993a036",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:33.704Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:33.704Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "openrouter",
+      "caseStudies": [],
+      "projects": [],
+      "title": "OpenRouter"
+    },
+    {
+      "services": [],
+      "name": "Brevo (Sendinblue)",
+      "_id": "40189f89-84e3-4354-9659-df43ab5ed32b",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:33.500Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:33.500Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "brevo-sendinblue",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Brevo (Sendinblue)"
+    },
+    {
+      "services": [],
+      "name": "OneSignal",
+      "_id": "c9b4f369-7837-443b-a8d8-f2bc819029a2",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:33.264Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:33.264Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "onesignal",
+      "caseStudies": [],
+      "projects": [],
+      "title": "OneSignal"
+    },
+    {
+      "services": [
+        "83565041-a7c2-425a-b8fb-9e29089ca19e",
+        "59c0f870-8ffb-421b-a77c-2ad68708ff57",
+        "d1bd2868-7658-4f3d-b229-af30904fd691",
+        "71ab6101-7b66-4466-a3c7-0f63ad93b68a"
+      ],
+      "name": "Cloudflare Pages/Workers",
+      "_id": "947b477a-d56f-48a6-a18d-3bd6aa19168d",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:33.003Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:33.003Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0",
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "slug": "cloudflare-pages-workers",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Cloudflare Pages/Workers"
+    },
+    {
+      "services": [],
+      "name": "Cloudflare R2",
+      "_id": "abed3138-9f5a-40cf-99f9-40729d258b77",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:32.781Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:32.781Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "cloudflare-r2",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Cloudflare R2"
+    },
+    {
+      "services": [],
+      "name": "PostgreSQL (Supabase)",
+      "_id": "d81359cc-8023-4905-9bc1-9a3673e09aae",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:32.570Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:32.570Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "postgresql-supabase",
+      "caseStudies": [],
+      "projects": [],
+      "title": "PostgreSQL (Supabase)"
+    },
+    {
+      "services": [],
+      "name": "Node.js / Express",
+      "_id": "eb252c75-19ba-4d87-9a66-89c8219c22ab",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:32.348Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:32.348Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0",
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24",
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "slug": "node-js-express",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Node.js / Express"
+    },
+    {
+      "services": [
+        "adf8101a-4e6e-44c6-86cb-4d822956da0d",
+        "67e4a4d9-6719-45f4-bc08-e74de1518054"
+      ],
+      "name": "Next.js",
+      "_id": "a56734f6-c915-4f2f-ac34-d9cad34f0707",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:32.128Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:32.128Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0",
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24",
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "slug": "next-js",
+      "caseStudies": [],
+      "projects": [],
+      "title": "Next.js"
+    },
+    {
+      "services": [],
+      "name": "React + Vite",
+      "_id": "8d1720ec-6fec-49be-9313-9c33eb5432ee",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-08-13T14:40:31.905Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-08-13T14:40:31.905Z"
+      },
+      "products": [
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "react-vite",
+      "caseStudies": [],
+      "projects": [],
+      "title": "React + Vite"
+    },
+    {
+      "services": [
+        "6ec07cf1-57a5-47de-8db9-0672b6e8cd8e",
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "name": "Payload cms",
+      "url": "http://payloadcms.com/",
+      "_id": "f97ca35c-2adb-4579-af8d-5cf4bdf4ca03",
+      "_owner": "e9d249a6-52b2-4567-a0dc-511d36451538",
+      "_createdDate": {
+        "$date": "2026-07-22T06:01:17.277Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-22T06:57:53.430Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "slug": "payload-cms",
+      "caseStudies": [
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5",
+        "6748542f-9d7a-410a-bf06-d35b3498522e"
+      ],
+      "order": 7,
+      "status": "published",
+      "seoTitle": "Payload CMS - Headless CMS Technology",
+      "category": "cms",
+      "projects": [],
+      "seoDescription": "Payload CMS is a flexible, developer-friendly headless CMS for building scalable content-driven applications.",
+      "icon2": "cmsIcon"
+    },
+    {
+      "services": [
+        "2f06eb21-171c-421e-8cef-eb36a0acef56",
+        "e1b10392-f4a2-4863-aea4-0f07882b5f41"
+      ],
+      "name": "Langflow",
+      "url": "https://www.langflow.org/",
+      "_id": "2a3804e3-36ba-48e3-91e8-22a9b4776211",
+      "_createdDate": {
+        "$date": "2026-07-22T05:44:12.016Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-22T05:44:12.016Z"
+      },
+      "products": [],
+      "slug": "langflow",
+      "caseStudies": [],
+      "order": 15,
+      "status": "draft",
+      "category": "AI automation",
+      "projects": [],
+      "icon2": "langflow icon"
+    },
+    {
+      "services": [],
+      "name": "Stitch",
+      "url": "https://stitch.com",
+      "_id": "68e991f7-c83a-49b7-80a7-f5d535d6b000",
+      "_createdDate": {
+        "$date": "2026-07-22T04:54:54.100Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-22T04:54:54.100Z"
+      },
+      "products": [],
+      "slug": "stitch",
+      "caseStudies": [],
+      "order": 10,
+      "status": "draft",
+      "seoTitle": "Stitch - Design Tools",
+      "category": "Design",
+      "projects": [],
+      "seoDescription": "cutting-edge design platform offering intuitive tools for creating stunning visual experiences",
+      "icon2": "stitchIcon"
+    },
+    {
+      "services": [],
+      "name": "Claude design",
+      "url": "http://claude.ai/",
+      "_id": "5c0f089e-6095-48d6-9f31-4393b9001193",
+      "_createdDate": {
+        "$date": "2026-07-22T04:07:45.849Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-07-22T04:07:45.849Z"
+      },
+      "products": [],
+      "slug": "claude-design",
+      "caseStudies": [],
+      "status": "draft",
+      "category": "Design",
+      "projects": [],
+      "icon2": "claude"
+    },
+    {
+      "services": [],
+      "_id": "b56f50ee-bb20-4b47-a8b8-17bd10ece445",
+      "_createdDate": {
+        "$date": "2026-07-21T11:30:14.396Z"
+      },
+      "_updatedDate": {
+        "$date": "2026-07-21T11:30:14.396Z"
+      },
+      "products": [],
+      "caseStudies": [],
+      "status": "draft",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "Hotelbeds",
+      "_id": "7829d767-f583-4083-be4e-e99a2e33ccc0",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:28.200Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.819Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "slug": "hotelbeds",
+      "caseStudies": [],
+      "order": 19,
+      "status": "published",
+      "category": "other",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "Amadeus",
+      "_id": "8f9bbd3b-6c72-4870-a707-5c328872bace",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:27.919Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-06-19T12:09:25.819Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0"
+      ],
+      "slug": "amadeus",
+      "caseStudies": [],
+      "order": 18,
+      "status": "published",
+      "category": "other",
+      "projects": []
+    },
+    {
+      "services": [
+        "21a73159-68a6-4b3e-af2b-3adda62915be",
+        "b39fca83-4621-463a-a940-b38817bd7dcb"
+      ],
+      "name": "Anthropic",
+      "_id": "b0fa515f-74be-422f-aae5-54b39d45e9a0",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:27.671Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T04:39:09.626Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e",
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24"
+      ],
+      "slug": "anthropic",
+      "caseStudies": [],
+      "logo": "wix:image://v1/e9d249_4f5c7a83c5774648a5c69cca6df7e860~mv2.png/anthropic-icon-logo-png_seeklogo-515014.png#originWidth=600&originHeight=600",
+      "order": 17,
+      "status": "published",
+      "category": "ai-ml",
+      "projects": []
+    },
+    {
+      "services": [
+        "a716d778-1088-4ddb-96d9-d3543c3c21d8",
+        "7c77513e-365f-49ad-ace4-5e300e5c9ae3",
+        "c24ed381-493d-463e-84d3-a27947c058e4"
+      ],
+      "name": "OpenAI",
+      "_id": "e65c7e48-6e55-45ee-bea7-3454505865f2",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:27.363Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T04:39:26.554Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e",
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "openai",
+      "caseStudies": [
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d"
+      ],
+      "logo": "wix:image://v1/e9d249_eef6af8042dd47fba6d86713ed8773c5~mv2.webp/OpenAI_logo_2025_(symbol).svg.webp#originWidth=960&originHeight=960",
+      "order": 16,
+      "status": "published",
+      "category": "ai-ml",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "Stripe",
+      "_id": "50742183-6477-41fd-9cf7-087fbd47fe64",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:27.115Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T04:39:41.407Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "slug": "stripe",
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e",
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5"
+      ],
+      "logo": "wix:image://v1/e9d249_52ab03557d2446c1a914ecca595af513~mv2.jpg/stripe.jpg#originWidth=447&originHeight=447",
+      "order": 15,
+      "status": "published",
+      "category": "other",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "Twilio",
+      "_id": "4dda59e3-423d-4594-86b1-74ca9a6a6214",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:26.832Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T04:39:57.024Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4",
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "slug": "twilio",
+      "caseStudies": [
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "logo": "wix:vector://v1/e9d249_761b8f50b3b840da97394b49a160a9e0.svg/twilio.svg",
+      "order": 14,
+      "status": "published",
+      "category": "other",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "Google Maps",
+      "_id": "564b673b-6a90-4675-9539-b07809a44166",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:26.623Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T04:40:12.588Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "slug": "google-maps",
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e"
+      ],
+      "logo": "wix:image://v1/e9d249_5b5f54e06f9c47fe98bccbbc23e12383~mv2.png/googlemap.png#originWidth=512&originHeight=512",
+      "order": 13,
+      "status": "published",
+      "category": "other",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "Firebase",
+      "_id": "2b9f8d70-5caf-4b03-8e18-c9bb755b6b32",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:26.345Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T04:40:25.184Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "slug": "firebase",
+      "caseStudies": [
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5"
+      ],
+      "logo": "wix:image://v1/e9d249_2d56cb4f007841e88bb4dd8d3ba5ed46~mv2.png/firebase.png#originWidth=640&originHeight=640",
+      "order": 12,
+      "status": "published",
+      "category": "cloud",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "AWS",
+      "_id": "87e1b0bc-3414-4795-9872-a8c4ce28b31f",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:26.186Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T05:16:54.578Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "slug": "aws",
+      "caseStudies": [
+        "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af"
+      ],
+      "logo": "wix:image://v1/e9d249_5dce8be107004325bcb51f5a6e5bcc07~mv2.png/Amazon_Web_Services-Logo.wine.png#originWidth=3000&originHeight=2000",
+      "order": 11,
+      "status": "published",
+      "category": "cloud",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "Redis",
+      "_id": "13349e89-1a47-4d4f-b443-5384f541659c",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:25.956Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T05:18:52.595Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4",
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "slug": "redis",
+      "caseStudies": [],
+      "logo": "wix:image://v1/e9d249_cfbb3aeb13424531bd6c95e579b76732~mv2.webp/redis_original_wordmark_logo_icon_146369.webp#originWidth=512&originHeight=512",
+      "order": 10,
+      "status": "published",
+      "category": "database",
+      "projects": []
+    },
+    {
+      "services": [],
+      "name": "MySQL",
+      "_id": "22cd5479-aecf-4e73-9b72-7b64ca825871",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:25.801Z"
+      },
+      "featured": false,
+      "_updatedDate": {
+        "$date": "2026-07-15T05:21:32.120Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "mysql",
+      "caseStudies": [
+        "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af",
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5"
+      ],
+      "logo": "wix:image://v1/e9d249_6b8d58b2bad944ffb8037faa267a252d~mv2.jpg/MySQL-Logo.jpg#originWidth=2800&originHeight=1575",
+      "order": 9,
+      "status": "published",
+      "category": "database",
+      "projects": []
+    },
+    {
+      "services": [
+        "6ec07cf1-57a5-47de-8db9-0672b6e8cd8e"
+      ],
+      "name": "PostgreSQL",
+      "_id": "4366a3fd-cb85-4a9d-9479-99e5f959dd29",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:25.565Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-15T05:27:50.915Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4",
+        "a3746451-9660-49cb-aa04-776bc8e4430e",
+        "4be0226f-41ef-4f8c-a4eb-4df9f7114a24",
+        "98748452-0389-4eb8-87d8-776f629dbb94"
+      ],
+      "slug": "postgresql",
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e",
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b",
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d"
+      ],
+      "logo": "wix:image://v1/e9d249_a30ef98cb6d6427aa2391b9878fab75b~mv2.jpg/PostgreSQL-Logo.jpg#originWidth=2400&originHeight=1500",
+      "order": 8,
+      "status": "published",
+      "category": "database",
+      "projects": []
+    },
+    {
+      "services": [
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "name": "FastAPI",
+      "_id": "9a4c87f9-f455-4e9e-ab78-4532b10501b3",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:25.231Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-15T07:38:26.367Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "slug": "fastapi",
+      "caseStudies": [
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d"
+      ],
+      "logo": "wix:image://v1/e9d249_b47ac2d531644aa8959b74de10e59c1f~mv2.jpg/1.3-FastAPI-Logo.jpg#originWidth=1360&originHeight=880",
+      "order": 7,
+      "status": "published",
+      "category": "framework",
+      "projects": []
+    },
+    {
+      "services": [
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "name": "Python",
+      "_id": "e2cfd825-b1aa-4317-b1da-2284ed489589",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:24.991Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-15T07:37:45.207Z"
+      },
+      "products": [
+        "a3746451-9660-49cb-aa04-776bc8e4430e"
+      ],
+      "slug": "python",
+      "caseStudies": [
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d"
+      ],
+      "logo": "wix:image://v1/e9d249_d3958da742e84840b94b7b44eb9183fe~mv2.png/Python-logo.png#originWidth=1280&originHeight=1403",
+      "order": 6,
+      "status": "published",
+      "category": "language",
+      "projects": []
+    },
+    {
+      "services": [
+        "daa436ac-b54b-4ec3-a2f1-9e87ee63d71f"
+      ],
+      "name": "Django",
+      "_id": "34affc0b-cdb1-4114-86d3-98b98b1bbcda",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:24.766Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-15T07:42:08.023Z"
+      },
+      "products": [
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4"
+      ],
+      "slug": "django",
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e"
+      ],
+      "logo": "wix:image://v1/e9d249_3ee7b2de28c848ca955c63ebbd110c3c~mv2.png/django-python-logo.png#originWidth=500&originHeight=500",
+      "order": 5,
+      "status": "published",
+      "category": "framework",
+      "projects": []
+    },
+    {
+      "services": [
+        "8b429ff0-e5bd-4f75-bee7-3f800ad4f65d",
+        "4d4fa541-9cc7-4bc3-a731-8207d4849593"
+      ],
+      "name": "Laravel",
+      "_id": "812cbcd4-dce3-4081-b232-75ce97d125c3",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:24.557Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-15T07:57:57.333Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed"
+      ],
+      "slug": "laravel",
+      "caseStudies": [
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5"
+      ],
+      "logo": "wix:image://v1/e9d249_485296ac3bdc4f52ae8f77e13886f020~mv2.png/laravel.png#originWidth=440&originHeight=454",
+      "order": 4,
+      "status": "published",
+      "category": "framework",
+      "projects": []
+    },
+    {
+      "services": [
+        "6ec07cf1-57a5-47de-8db9-0672b6e8cd8e",
+        "7bad7c10-e4fe-4d31-8c41-002a1b7fbd3a"
+      ],
+      "name": "Node.js",
+      "_id": "6f959365-b178-4cc6-a2c6-bf4a4a239409",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:24.330Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-15T07:44:46.925Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "node-js",
+      "caseStudies": [
+        "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af",
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "logo": "wix:image://v1/e9d249_195d5052deb44ac59fae6c511777fd3a~mv2.png/nodejs.png#originWidth=348&originHeight=348",
+      "order": 3,
+      "status": "published",
+      "category": "framework",
+      "projects": [
+        "0d38bee8-2bbf-49de-8e8b-a02cf323acfa",
+        "b6523ced-dc28-4ba9-a518-7278799b67bf",
+        "f3807dde-7db8-4146-8184-98cfcb194b73",
+        "2660be12-2303-4994-9d7f-542de6ed65ca",
+        "b150f415-ff60-40fe-98f9-1857c158df59",
+        "5244a54c-e1f7-49dc-bc05-5968e6d1d31b",
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd"
+      ]
+    },
+    {
+      "services": [
+        "6ec07cf1-57a5-47de-8db9-0672b6e8cd8e",
+        "7a5c134e-4429-43c0-95f1-558e5c1b17d8",
+        "67e4a4d9-6719-45f4-bc08-e74de1518054"
+      ],
+      "name": "React",
+      "_id": "5257352c-f4e6-4073-a8bd-abbaee0f9d1a",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:24.169Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-15T07:46:05.672Z"
+      },
+      "products": [
+        "3abb501b-1f63-4d50-ba6d-43060fd039d0",
+        "a3746451-9660-49cb-aa04-776bc8e4430e",
+        "c376e176-8a2e-4ea5-935b-378860452a2c"
+      ],
+      "slug": "react",
+      "caseStudies": [
+        "0b6e7a70-0204-49ec-b6a4-87e4a77fd3af",
+        "49f2ec08-2dcc-4f6b-b2cb-e18783874a1d"
+      ],
+      "logo": "wix:image://v1/e9d249_b11ec953ce7e4e9789118e0486ee182e~mv2.png/react_icon.png#originWidth=512&originHeight=512",
+      "order": 2,
+      "status": "published",
+      "category": "framework",
+      "projects": [
+        "0d38bee8-2bbf-49de-8e8b-a02cf323acfa",
+        "b6523ced-dc28-4ba9-a518-7278799b67bf",
+        "f3807dde-7db8-4146-8184-98cfcb194b73",
+        "2660be12-2303-4994-9d7f-542de6ed65ca",
+        "b150f415-ff60-40fe-98f9-1857c158df59",
+        "5244a54c-e1f7-49dc-bc05-5968e6d1d31b",
+        "80fcd298-9a23-40f1-9883-fc30bf2a45f8",
+        "b1fac313-d94e-4973-beb1-e6525d3e8fcd"
+      ]
+    },
+    {
+      "services": [
+        "6ec07cf1-57a5-47de-8db9-0672b6e8cd8e",
+        "f07631ed-4e45-4790-b138-ee3778db539d"
+      ],
+      "name": "Flutter",
+      "_id": "dd5c8c43-edf7-4b3b-b778-2433a3dab571",
+      "_owner": "65778233-dec1-41da-957a-e3d459827c21",
+      "_createdDate": {
+        "$date": "2026-06-12T07:08:23.919Z"
+      },
+      "featured": true,
+      "_updatedDate": {
+        "$date": "2026-07-15T07:58:27.081Z"
+      },
+      "products": [
+        "84f09b92-133f-4d71-b4e4-1bb2a5dd4fed",
+        "ab6c7060-494e-4c83-8c0d-b89126038bc4",
+        "c376e176-8a2e-4ea5-935b-378860452a2c",
+        "e4060be0-2fea-4796-bdfe-ad2cfa09dab0"
+      ],
+      "slug": "flutter",
+      "caseStudies": [
+        "6748542f-9d7a-410a-bf06-d35b3498522e",
+        "525491bb-0f0f-4f34-b3c7-24b0ec683ea5",
+        "aafba2bd-4c78-49dc-b4c6-a381037f831b"
+      ],
+      "logo": "wix:image://v1/e9d249_709a62a939e04e5e85cc0444b7cacfa8~mv2.jpg/flutter.jpg#originWidth=1200&originHeight=1200",
+      "order": 1,
+      "status": "published",
+      "category": "mobile",
+      "projects": []
+    }
+  ]
+}
