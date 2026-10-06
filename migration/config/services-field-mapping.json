@@ -1,0 +1,34 @@
+{
+  "note": "Semantic heading -> Wix field rules per the migration spec's Phase 7. Matching is case-insensitive substring, tried in array order (first match wins) — see mapService.ts for how heading + surrounding content + widget type are combined into a confidence score, not heading text alone.",
+
+  "offerings": {
+    "wixField": "offeringsList",
+    "headings": [
+      "services", "our services", "what we offer", "what we provide", "offerings",
+      "service offerings", "solutions", "our solutions", "capabilities", "what we do"
+    ]
+  },
+  "whyChoose": {
+    "wixField": "whyChoose",
+    "headings": [
+      "why choose us", "why choose", "why work with us", "why partner with us",
+      "why intertoons", "our advantages", "benefits", "advantages"
+    ]
+  },
+  "industries": {
+    "wixField": "industries",
+    "headings": [
+      "industries", "industries we serve", "our industries", "sectors",
+      "business areas", "industries we work with"
+    ]
+  },
+  "processFlow": {
+    "wixField": "processFlow",
+    "headings": [
+      "our process", "process", "how we work", "development process",
+      "our approach", "workflow", "steps", "how it works"
+    ]
+  },
+
+  "unmappedFallback": "unmappedSections"
+}

@@ -1,0 +1,11 @@
+{
+  "note": "Generic fallback process-flow steps, used ONLY when a page has no real 'our process'-style section of its own to extract. Applied per explicit user instruction (2026-09-08). These describe the studio's typical engagement workflow rather than page-specific claims, and are reused identically across every service that falls back to this template — NOT scraped from any individual page.",
+  "steps": [
+    { "title": "Discovery & Requirements", "description": "We understand your business goals, target audience, and technical requirements." },
+    { "title": "Planning & Strategy", "description": "We define the scope, timeline, and technical approach for the project." },
+    { "title": "Design & Development", "description": "Our team designs and builds the solution using best practices and modern tools." },
+    { "title": "Testing & Quality Assurance", "description": "We thoroughly test for functionality, performance, and reliability before launch." },
+    { "title": "Launch & Deployment", "description": "We deploy the solution and ensure a smooth go-live." },
+    { "title": "Ongoing Support & Optimization", "description": "We provide continued support, monitoring, and improvements after launch." }
+  ]
+}

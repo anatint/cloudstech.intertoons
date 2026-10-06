@@ -1,0 +1,53 @@
+{
+  "name": "itwixheadless",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intertoons headless frontend — Next.js on Cloudflare Workers, reading from Wix Headless CMS.",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare build && wrangler dev",
+    "cf:deploy": "opennextjs-cloudflare build && wrangler deploy",
+    "migration:services:extract": "tsx migration/src/cli/extract.ts",
+    "migration:services:analyze": "tsx migration/src/cli/analyze.ts",
+    "migration:services:dry-run": "tsx migration/src/cli/dry-run.ts",
+    "migration:services:import": "tsx migration/src/cli/import.ts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "@radix-ui/react-accordion": "^1.2.2",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-tabs": "^1.1.2",
+    "@wix/data": "^1.0.220",
+    "@wix/sdk": "^1.15.0",
+    "cheerio": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "0.563.0",
+    "next": "15.5.18",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-hook-form": "^7.54.2",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241230.0",
+    "@opennextjs/cloudflare": "^1.3.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.23.13",
+    "typescript": "^5.7.2",
+    "wrangler": "^4.86.0"
+  }
+}

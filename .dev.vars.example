@@ -1,0 +1,9 @@
+# Copy to `.dev.vars` for local `wrangler dev` / `next dev`.
+# Wix Headless OAuth app client ID — Wix dashboard → Settings → Headless Settings → OAuth Apps.
+WIX_CLIENT_ID=
+# Wix site id — used by the forms API route for the `wix-site-id` header.
+WIX_SITE_ID=
+# Admin Wix API key for the forms route (leads + CRM contacts).
+# Wix dashboard → Settings → API Keys. In production set as a Cloudflare secret:
+#   npx wrangler secret put WIX_API_KEY
+WIX_API_KEY=

@@ -1,0 +1,17 @@
+{
+  "note": "Category is guessed by matching page title/slug keywords against the site's OWN existing category values (queried live from Wix: 'AI Development', 'Mobile App', 'Shopify', 'Software Development' — the stray 'Shopify ' trailing-space duplicate is intentionally normalized away). First matching rule wins; 'default' applies when nothing more specific matches.",
+  "rules": [
+    { "name": "Shopify", "keywords": ["shopify"] },
+    { "name": "Mobile App", "keywords": ["mobile app", "app developer", "android app", "ios app", "flutter", "react native"] },
+    {
+      "name": "AI Development",
+      "keywords": [
+        "ai development", "ai automation", "ai agent", "artificial intelligence", "chatbot", "chatgpt",
+        "langchain", "langflow", "llm", "generative ai", "machine learning", "agentic", "n8n automation",
+        "workflow automation", "claude", "openai", "codex", "computer vision", "voice ai",
+        "predictive analytics", "no-code ai", "low-code ai", "vibe coding"
+      ]
+    }
+  ],
+  "default": "Software Development"
+}

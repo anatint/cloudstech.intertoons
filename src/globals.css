@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 221 83% 53%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+}
+
+@layer utilities {
+  /* Keeps an element scrollable while hiding the visible scrollbar track. */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Minimal auto-scrolling logo strip: the row's content is duplicated once
+     in the markup so translating it exactly -50% loops seamlessly. Pauses on
+     hover/focus so a logo can actually be read, and sits still entirely for
+     prefers-reduced-motion. */
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .animate-marquee {
+    animation: marquee 28s linear infinite;
+  }
+  .animate-marquee:hover,
+  .animate-marquee:focus-within {
+    animation-play-state: paused;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee {
+      animation: none;
+    }
+  }
+
+  /* Minimal, gentle bob for the hero's floating platform icons — a small
+     vertical drift, nothing distracting. Each icon's own rotation lives on
+     its parent element so this animation only ever touches translateY. */
+  @keyframes heroFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  .hero-float-icon {
+    animation: heroFloat 4.5s ease-in-out infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-float-icon {
+      animation: none;
+    }
+  }
+
+  /* Minimal, always-on glare for gradient-highlighted heading text (the
+     brand-600 -> violet-600 "bg-clip-text" spans) — the same diagonal
+     light-sweep language as the Button component's hover shine (see
+     button.tsx), but looping quietly on its own instead of waiting for a
+     hover that heading text never gets. A soft, semi-transparent white band
+     passes through the two brand colors periodically; it owns the gradient
+     itself (not just a color-position slide) so the sweep reads as a glint
+     of light rather than a plain two-tone color change. Long pause between
+     sweeps and a narrow band keep it minimal, not a constant shimmer. */
+  @keyframes textGlareSweep {
+    0%, 88%, 100% { background-position: 200% 0; }
+    44% { background-position: -200% 0; }
+  }
+  .animate-gradient-text {
+    background-image: linear-gradient(
+      100deg,
+      #0095da 0%, #0095da 40%,
+      rgba(255, 255, 255, 0.45) 50%,
+      #0095da 60%, #0095da 100%
+    );
+    background-size: 300% 100%;
+    animation: textGlareSweep 12s ease-in-out infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-gradient-text {
+      animation: none;
+      background-position: 0% 0;
+    }
+  }
+
+  /* Home hero background photo: starts fully transparent and fades in over
+     a few seconds on load, rather than just appearing at full strength. */
+  @keyframes heroBgFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animate-hero-bg-fade-in {
+    opacity: 0;
+    animation: heroBgFadeIn 2.5s ease-out 0.2s forwards;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-hero-bg-fade-in {
+      opacity: 1;
+      animation: none;
+    }
+  }
+}

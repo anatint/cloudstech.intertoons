@@ -1,0 +1,69 @@
+{
+  "collectionId": "Services",
+  "readAccess": "public visitor client (src/lib/payload.ts -> getPayload().find({ collection: 'services' })) — works today, no admin key needed",
+  "writeAccess": "requires WIX_API_KEY admin key (src/lib/wixAdmin.ts: insertItem/insertItemReference) — NOT configured locally as of this writing",
+  "verifiedVia": "live read query against collection 'services', doc slug='shopify-development', depth=2, run 2026-09-08",
+  "verificationCaveat": "Types below are INFERRED from observed live data shapes (presence/absence of Wix system fields like _id/_owner/_createdDate distinguishes a MULTI_REFERENCE item from a plain inline-array item). This is NOT from the formal Wix collection-schema API (getCollectionSchema in wixAdmin.ts), which needs the admin key and is unconfirmed to even work on this site/plan (hit a 'WDE0110: Wix CMS app is not installed' error calling it previously).",
+  "fields": {
+    "title": { "key": "title", "type": "TEXT", "required": true },
+    "slug": { "key": "slug", "type": "TEXT", "required": true },
+    "category": { "key": "category", "type": "TEXT", "required": false, "note": "Free text, no dropdown/reference enforcement. Known real-world casing drift on a sibling collection (Projects: 'E-commerce' vs 'ecommerce' produced duplicate filter pills) — normalize before writing." },
+    "shortDescription": { "key": "shortDescription", "type": "TEXT", "required": false },
+    "heroHeadline": { "key": "heroHeadline", "type": "TEXT", "required": false },
+    "heroHeadlineHighlight": { "key": "heroHeadlineHighlight", "type": "TEXT", "required": false },
+    "heroLabels": {
+      "key": "heroLabels", "type": "ARRAY_OBJECT", "required": false,
+      "itemShape": { "label": "TEXT", "value": "TEXT" }
+    },
+    "offerings": {
+      "key": "offeringsList", "type": "ARRAY_OBJECT", "required": false,
+      "itemShape": { "title": "TEXT", "description": "TEXT", "icon": { "url": "TEXT (icon name, not necessarily a real URL)", "alt": "TEXT" }, "order": "NUMBER" },
+      "note": "Inline array field, NOT a reference (items have no _id/_owner/_createdDate). Aliased to `subServices` in frontend code (src/lib/payload.ts applyAliases)."
+    },
+    "whyChoose": {
+      "key": "whyChoose", "type": "ARRAY_TEXT", "required": false,
+      "note": "Plain array of strings — NOT an array of {title, description} objects."
+    },
+    "partnerCards": {
+      "key": "partnerCards", "type": "ARRAY_OBJECT", "required": false,
+      "itemShape": { "title": "TEXT", "description": "TEXT" }
+    },
+    "processFlow": {
+      "key": "processFlow", "type": "MULTI_REFERENCE", "required": false,
+      "referencedCollection": "unconfirmed exact ID — a child collection whose items carry stepNumber/title/description",
+      "itemShape": { "stepNumber": "NUMBER", "title": "TEXT", "description": "TEXT" },
+      "note": "Real reference (items DO carry _id/_owner/_createdDate). Aliased to `processSteps` in frontend code, sorted by stepNumber. Creating this requires: create-or-find the child item, then insertItemReference to link it — NOT a plain insertItem on Services."
+    },
+    "industries": {
+      "key": "industries", "type": "MULTI_REFERENCE", "required": false,
+      "referencedCollection": "Industries",
+      "note": "Real reference. Same create-then-link requirement as processFlow."
+    },
+    "technologies": {
+      "key": "technologies", "type": "MULTI_REFERENCE", "required": false,
+      "referencedCollection": "unconfirmed exact ID (likely Technologies)",
+      "note": "Was empty on the sampled record; included via INCLUDE_FIELDS in payload.ts so confirmed to be a reference field."
+    },
+    "faqs": {
+      "key": "faqs", "type": "MULTI_REFERENCE", "required": false,
+      "referencedCollection": "unconfirmed exact ID (likely FAQs)",
+      "itemShape": { "question": "TEXT", "answer": "TEXT", "featured": "BOOLEAN", "status": "TEXT" },
+      "note": "Real reference (items carry _id/_owner/_createdDate)."
+    },
+    "seoTitle": { "key": "seoTitle", "type": "TEXT", "required": false },
+    "seoDescription": { "key": "seoDescription", "type": "TEXT", "required": false },
+    "schemaMarkup": { "key": "schemaMarkup", "type": "TEXT", "required": false, "note": "Raw JSON-LD string, migrated verbatim from the WordPress SEO plugin's schema output on earlier migrations." },
+    "order": { "key": "order", "type": "NUMBER", "required": false },
+    "status": { "key": "status", "type": "TEXT", "required": true, "knownValues": ["published", "draft"] },
+    "featured": { "key": "featured", "type": "BOOLEAN", "required": false }
+  },
+  "migrationMetadataFields": {
+    "sourcePlatform": "PROPOSED — does not exist on the live schema today",
+    "sourceWordpressId": "PROPOSED — does not exist on the live schema today",
+    "sourceSlug": "PROPOSED — does not exist on the live schema today",
+    "sourceUrl": "PROPOSED — does not exist on the live schema today",
+    "migrationStatus": "PROPOSED — does not exist on the live schema today",
+    "migrationConfidence": "PROPOSED — does not exist on the live schema today",
+    "note": "Cannot add these without a working admin schema-write call (createCollectionField in wixAdmin.ts), which needs WIX_API_KEY and is unconfirmed on this site/plan. Using a local JSON mapping file instead for idempotency: migration/data/migration-map.json (wordpressId -> { wixServiceId, sourceSlug, lastMigratedAt })."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "note": "Recurring 3-item trust-badge trio found on 24 of the site's 42 original services (verified live, 2026-09-08) — not page-specific content, a standard site-wide badge set. Used to pad a migrated page's real heroLabels (from its own WordPress content) up to 3 total items, never replacing real ones, never duplicating a label already present.",
+  "targetCount": 3,
+  "labels": [
+    { "label": "Google Rating", "value": "5.0" },
+    { "label": "Client Satisfaction", "value": "98%" },
+    { "label": "Projects Delivered", "value": "150+" }
+  ]
+}

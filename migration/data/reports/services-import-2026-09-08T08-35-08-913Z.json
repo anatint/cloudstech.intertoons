@@ -1,0 +1,1277 @@
+{
+  "generatedAt": "2026-09-08T08:35:08.914Z",
+  "results": [
+    {
+      "slug": "shopify-speed-optimization-core-web-vitals-fix",
+      "title": "Shopify Speed Optimization & Core Web Vitals Fix",
+      "ok": true,
+      "wixId": "9cd1b1e6-a8e4-46e4-b370-37d2b052af03",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-crm-integration-automation-services",
+      "title": "Shopify CRM Integration & Automation Services",
+      "ok": true,
+      "wixId": "6ca1155d-a98d-4edd-9970-accb177f8dc0",
+      "warnings": []
+    },
+    {
+      "slug": "custom-shopify-api-development-integrations",
+      "title": "Custom Shopify API Development & Integrations",
+      "ok": true,
+      "wixId": "8a64ed90-59fa-42cb-a8aa-af59d9b8ecda",
+      "warnings": []
+    },
+    {
+      "slug": "sap-shopify-plus-middleware-development",
+      "title": "SAP Shopify Plus Middleware Development",
+      "ok": true,
+      "wixId": "4ff76d7e-6efb-405e-9fd6-a06183343134",
+      "warnings": []
+    },
+    {
+      "slug": "netsuite-shopify-integration-experts",
+      "title": "NetSuite Shopify Integration Experts",
+      "ok": true,
+      "wixId": "86f49883-88ac-4909-a206-e1348768d388",
+      "warnings": [
+        "Failed to link processFlow -> e802ae20-7fae-40a5-a256-5fcdfeebc3c1: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "enterprise-ecommerce-replatforming-to-shopify-plus",
+      "title": "Enterprise Ecommerce Replatforming to Shopify Plus",
+      "ok": true,
+      "wixId": "225de790-a7a3-4166-9235-64383d8e4140",
+      "warnings": []
+    },
+    {
+      "slug": "salesforce-commerce-cloud-to-shopify-migration",
+      "title": "Salesforce Commerce Cloud to Shopify Migration",
+      "ok": true,
+      "wixId": "ec447cc0-d5eb-43d0-8e1c-ee3233957bdb",
+      "warnings": []
+    },
+    {
+      "slug": "woocommerce-to-shopify-plus-migration",
+      "title": "WooCommerce to Shopify Plus Migration",
+      "ok": true,
+      "wixId": "05bbb830-9d15-463a-a324-2a0df85b54a9",
+      "warnings": []
+    },
+    {
+      "slug": "custom-shopify-theme-development-customization",
+      "title": "Custom Shopify Theme Development & Customization",
+      "ok": true,
+      "wixId": "477bdc0f-9297-4bc4-ab30-950527b2aed3",
+      "warnings": []
+    },
+    {
+      "slug": "hire-expert-shopify-liquid-developers",
+      "title": "Hire Expert Shopify Liquid Developers",
+      "ok": true,
+      "wixId": "2927b7ea-4f8e-4951-a0cc-744bc6304a66",
+      "warnings": [
+        "Failed to create ProcessStep 'Launch & Deployment': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "shopify-checkout-ui-extensions-development",
+      "title": "Shopify Checkout UI Extensions Development",
+      "ok": true,
+      "wixId": "b9daeae9-6f10-4a63-bd4c-37d45256bc51",
+      "warnings": []
+    },
+    {
+      "slug": "custom-shopify-app-development-services",
+      "title": "Custom Shopify App Development Services",
+      "ok": true,
+      "wixId": "4197aa03-7c0d-47c3-a506-e8054d57b425",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-headless-hydrogen-development-services",
+      "title": "Shopify Headless Hydrogen Development Services",
+      "ok": true,
+      "wixId": "eb97915a-c38e-4b5b-b60f-ab7bb5abd4b1",
+      "warnings": []
+    },
+    {
+      "slug": "sprintag",
+      "title": "Sprintag",
+      "ok": true,
+      "wixId": "540e7743-c412-4dec-958c-d9ed9d17d7e0",
+      "warnings": []
+    },
+    {
+      "slug": "airabot",
+      "title": "Airabot",
+      "ok": true,
+      "wixId": "0c98fce2-f345-432d-abd7-bcd41b3658ec",
+      "warnings": [
+        "Failed to link processFlow -> 14027284-fc38-45b2-ab3d-58c908de620c: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> f62dff73-b686-4f2f-95fe-c87ea528a757: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "ai-team-management-task-tracking-software",
+      "title": "AI Team Management & Task Tracking Software",
+      "ok": true,
+      "wixId": "c5608381-1bfc-441b-83b6-3c24e7b88377",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-design-agency-kerala",
+      "title": "Shopify Design Agency Kerala",
+      "ok": true,
+      "wixId": "7fb850dc-0116-4558-a9e8-c9742e0ae5ed",
+      "warnings": []
+    },
+    {
+      "slug": "destination-management-company-portal-dmc",
+      "title": "Destination Management Company Portal ( DMC )",
+      "ok": true,
+      "wixId": "b2328975-2cb6-4ba9-9fee-13c0e03b2957",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-partner-company",
+      "title": "Shopify Partner Company",
+      "ok": true,
+      "wixId": "f45b39e5-04f0-4315-a665-35c579d1a1fa",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-company-kochi-kerala",
+      "title": "Shopify Company Kochi,Kerala",
+      "ok": true,
+      "wixId": "4cbfadcd-b069-47fa-95e8-c06fcae8353c",
+      "warnings": [
+        "Failed to link processFlow -> d768c407-22e4-4a31-bd2e-80633c4282ef: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "wordpress-ai-chatbot-integration",
+      "title": "WordPress AI Chatbot Integration",
+      "ok": true,
+      "wixId": "9cef35bf-3cb5-4f23-a15e-efa861bccc1d",
+      "warnings": []
+    },
+    {
+      "slug": "salesforce-consultancy-company-in-kochi-expert-salesforce-services",
+      "title": "Top Salesforce Consultancy Company In Kochi, Kerala",
+      "ok": true,
+      "wixId": "60a3af6d-7765-41ac-b492-857f887c406d",
+      "warnings": []
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "ok": true,
+      "wixId": "39770c31-adb2-4186-8d07-e55f85d183eb",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-flow-automation-consultancy",
+      "title": "Shopify Flow Automation Consultancy",
+      "ok": true,
+      "wixId": "c59a5219-4c95-4a3f-af99-ffa6e8358177",
+      "warnings": [
+        "Failed to link technologies -> 13fd6934-9984-4dd6-9cd0-b832171fd731: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "payloadcms-headless-website-apps",
+      "title": "PayloadCMS Headless Website & Apps",
+      "ok": true,
+      "wixId": "e748d2a0-94d9-4cee-81f1-7753be485241",
+      "warnings": []
+    },
+    {
+      "slug": "magento-to-shopify-migration-services",
+      "title": "Magento to Shopify Migration Services",
+      "ok": true,
+      "wixId": "138336a1-8633-449b-bff5-4425171103c7",
+      "warnings": []
+    },
+    {
+      "slug": "woocommerce-to-shopify-migration-services",
+      "title": "WooCommerce to Shopify Migration Services",
+      "ok": true,
+      "wixId": "0eb78353-0c50-48e3-bf80-85caf5177ecc",
+      "warnings": []
+    },
+    {
+      "slug": "travel-agency-portal-solution",
+      "title": "Travel Agency Portal Solution",
+      "ok": true,
+      "wixId": "284c658f-735e-4025-afef-501d6c8ec77a",
+      "warnings": [
+        "Failed to link processFlow -> 06b4e1c6-f6d0-4585-b4aa-7c14b2f530f1: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> fe1ca563-90fa-4a7c-a02a-86db403381b2: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "supabase-development",
+      "title": "Supabase Development",
+      "ok": true,
+      "wixId": "f57b978c-1f40-4a4d-baa6-4f1b7d5291c1",
+      "warnings": []
+    },
+    {
+      "slug": "cloudflare-d1-database-development",
+      "title": "Cloudflare D1 Database Development",
+      "ok": true,
+      "wixId": "83565041-a7c2-425a-b8fb-9e29089ca19e",
+      "warnings": []
+    },
+    {
+      "slug": "cloudflare-workers-development",
+      "title": "Cloudflare Workers Development",
+      "ok": true,
+      "wixId": "59c0f870-8ffb-421b-a77c-2ad68708ff57",
+      "warnings": []
+    },
+    {
+      "slug": "cloudflare-serverless-deployments",
+      "title": "Cloudflare Serverless Deployments",
+      "ok": true,
+      "wixId": "d1bd2868-7658-4f3d-b229-af30904fd691",
+      "warnings": [
+        "Failed to create ProcessStep 'Discovery & Requirements': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "react-js-ecommerce",
+      "title": "React JS Ecommerce",
+      "ok": true,
+      "wixId": "7a5c134e-4429-43c0-95f1-558e5c1b17d8",
+      "warnings": []
+    },
+    {
+      "slug": "next-js-frontend-architecture",
+      "title": "Next JS Frontend Architecture",
+      "ok": true,
+      "wixId": "adf8101a-4e6e-44c6-86cb-4d822956da0d",
+      "warnings": []
+    },
+    {
+      "slug": "headless-mobile-commerce",
+      "title": "Headless Mobile Commerce",
+      "ok": true,
+      "wixId": "588d453c-9ebe-4e34-97dc-b048b5bb47ae",
+      "warnings": []
+    },
+    {
+      "slug": "flutter-storefront-development",
+      "title": "Flutter Storefront Development",
+      "ok": true,
+      "wixId": "f07631ed-4e45-4790-b138-ee3778db539d",
+      "warnings": [
+        "Failed to create ProcessStep 'Design & Development': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create ProcessStep 'Discovery & Requirements': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "agentic-optimization-ago",
+      "title": "Agentic Optimization (AgO)",
+      "ok": true,
+      "wixId": "91a2260c-bee1-4be6-afc4-1b4b98ba8fa0",
+      "warnings": []
+    },
+    {
+      "slug": "langflow-ai-integration",
+      "title": "Langflow AI Integration",
+      "ok": true,
+      "wixId": "2f06eb21-171c-421e-8cef-eb36a0acef56",
+      "warnings": []
+    },
+    {
+      "slug": "llm-orchestration-services",
+      "title": "LLM Orchestration Services",
+      "ok": true,
+      "wixId": "3cf942e0-dd7d-465f-9159-21b9a17789c2",
+      "warnings": []
+    },
+    {
+      "slug": "agentic-ai-workflows-consultation",
+      "title": "Agentic AI Workflows Consultation",
+      "ok": true,
+      "wixId": "c7f9bd09-034d-4d6a-94b4-7fd0e1a8621b",
+      "warnings": [
+        "Failed to link processFlow -> 19537228-58cb-4c05-a128-d62bac585cf1: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> 26b03046-1959-4d37-bca3-082da14a3515: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "ai-and-automation",
+      "title": "AI and Automation",
+      "ok": false,
+      "error": "Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+    },
+    {
+      "slug": "custom-shopify-theme-development",
+      "title": "Custom Shopify Theme Development",
+      "ok": true,
+      "wixId": "dc39b128-9b55-49b4-ac27-09adc2edfb90",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-erp-integration-services",
+      "title": "Shopify ERP Integration Services",
+      "ok": true,
+      "wixId": "d57230f8-fdc4-4459-ac04-709f4f26f325",
+      "warnings": []
+    },
+    {
+      "slug": "n8n-automation-consultants-kerala",
+      "title": "N8N Automation Consultants Kerala | N8N Services Kochi",
+      "ok": true,
+      "wixId": "ad8aae12-4843-44ca-9d00-1eea0a3dfe50",
+      "warnings": []
+    },
+    {
+      "slug": "magento-woocommerce-ecommerce-mobile",
+      "title": "Magento , WooCommerce ECommerce Mobile Apps",
+      "ok": true,
+      "wixId": "283ffc8c-66fa-4893-93f3-1e33680dc8e6",
+      "warnings": []
+    },
+    {
+      "slug": "token-management-system",
+      "title": "Token Management System",
+      "ok": true,
+      "wixId": "59ad3d71-f9e3-4f04-9edb-ee13cd271df9",
+      "warnings": [
+        "Failed to link processFlow -> 73c9d0ec-2668-418f-9e9a-4ab28e67251f: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> 60f8fd23-7dee-4fdf-aa9f-6aaef9db93ab: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> bd1c3507-35be-485e-985a-e981a90795e1: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "institution-software",
+      "title": "Institution Software",
+      "ok": true,
+      "wixId": "21db91e1-1331-4bda-9271-f6e33440a4d5",
+      "warnings": []
+    },
+    {
+      "slug": "crm-development",
+      "title": "CRM",
+      "ok": true,
+      "wixId": "1db42b07-f939-4b72-8b95-358dd5360267",
+      "warnings": []
+    },
+    {
+      "slug": "directory-listing",
+      "title": "Directory Listing",
+      "ok": true,
+      "wixId": "ba8e4a26-d307-43f2-bb5f-dccb5d7d19c4",
+      "warnings": []
+    },
+    {
+      "slug": "asp-net-development-projects",
+      "title": "ASP.Net Development – Projects",
+      "ok": true,
+      "wixId": "e3a28e70-0959-46a7-be0c-6c1da92fdb24",
+      "warnings": []
+    },
+    {
+      "slug": "react-native-app-development",
+      "title": "React Native Development Company",
+      "ok": true,
+      "wixId": "4a239000-10ca-47f9-a16f-258a21db08b8",
+      "warnings": [
+        "Failed to link processFlow -> 52b2a154-a828-4568-835b-ad2d41f45771: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> a33f8326-ec07-4d89-8024-5bd77ce64d70: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "digital-branding",
+      "title": "Digital Branding",
+      "ok": true,
+      "wixId": "900315e2-4f61-4443-9f34-d5f36122eb7d",
+      "warnings": []
+    },
+    {
+      "slug": "search-engine-optimization",
+      "title": "Search Engine Optimization",
+      "ok": true,
+      "wixId": "5f839dc2-6285-4ce8-a116-79a76ad15ed0",
+      "warnings": []
+    },
+    {
+      "slug": "online-marketing",
+      "title": "Online Marketing",
+      "ok": true,
+      "wixId": "529db4e9-5528-46d8-97d5-4d4513ba5404",
+      "warnings": []
+    },
+    {
+      "slug": "social-media-marketing",
+      "title": "Social Media Marketing",
+      "ok": true,
+      "wixId": "7bd34810-3c77-42d0-b80f-4c284a79a734",
+      "warnings": []
+    },
+    {
+      "slug": "payment-gateway-api-integration-services-in-kochi-kerala",
+      "title": "Payment Gateway API Integration Services in Kochi, Kerala",
+      "ok": true,
+      "wixId": "8b40ac66-606d-4541-a5ef-781123e00183",
+      "warnings": []
+    },
+    {
+      "slug": "multi-vendor-ecommerce-development",
+      "title": "Multi Vendor Ecommerce Development",
+      "ok": true,
+      "wixId": "641388d4-b468-405b-9d69-c8993db2269e",
+      "warnings": [
+        "Failed to create FAQ '2. How is a multi-vendor platform different from a single-vendor store?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 9f7708c0-b86b-4cdb-8415-9744ae43235f: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> aa6c53d7-4b4f-43ff-900c-19e5487c76f5: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 605f8138-9254-40de-85e9-6ea2266e6744: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> d61eb129-8782-4121-ae8f-32deaa0c43f7: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 3a529ef0-90f8-4b1e-b78b-f5d02450d83f: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 6263ffd0-ff8a-48ad-88da-1bcabafa2f77: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 56b11c9b-29c1-4d49-a67d-455b905499ef: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 50315a9a-6be8-486c-8569-7b13cc1be020: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 47b9f0b2-c0c9-49af-bc5c-cd1dd6e4f028: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "pay-per-click",
+      "title": "Pay Per Click",
+      "ok": true,
+      "wixId": "c95393fb-9d2b-48d3-838b-6a375725ff23",
+      "warnings": []
+    },
+    {
+      "slug": "ecommerce-development-consultancy",
+      "title": "ECommerce Development Consultancy",
+      "ok": true,
+      "wixId": "abfd7689-4bf9-4e45-b9fb-44ed3e6ac248",
+      "warnings": []
+    },
+    {
+      "slug": "shopping-app-to-erp-integration",
+      "title": "Shopping APP to ERP Integration",
+      "ok": true,
+      "wixId": "9e33cb6c-a2ad-4224-9138-372568661548",
+      "warnings": []
+    },
+    {
+      "slug": "node-js-development",
+      "title": "Node.JS Development",
+      "ok": true,
+      "wixId": "7bad7c10-e4fe-4d31-8c41-002a1b7fbd3a",
+      "warnings": []
+    },
+    {
+      "slug": "enterprise-workflow-management",
+      "title": "Enterprise Workflow Management",
+      "ok": false,
+      "error": "Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+    },
+    {
+      "slug": "b2b-ecommerce-platform-development-kerala",
+      "title": "B2B ECommerce Development",
+      "ok": false,
+      "error": "Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+    },
+    {
+      "slug": "domain-registration",
+      "title": "Domain Registration",
+      "ok": true,
+      "wixId": "d5947d47-a686-4242-9ecb-0d2d8e9ba47c",
+      "warnings": []
+    },
+    {
+      "slug": "strapi-ai-integration",
+      "title": "Strapi AI Integration",
+      "ok": true,
+      "wixId": "dbc8a5e3-2000-4bdd-8435-d899d0150757",
+      "warnings": []
+    },
+    {
+      "slug": "managed-dedicated-vps-servers-kochi-digitalocean",
+      "title": "Managed Dedicated , VPS Servers Kochi- DigitalOcean",
+      "ok": true,
+      "wixId": "c781e057-90de-405c-a19d-63d1f23793ac",
+      "warnings": []
+    },
+    {
+      "slug": "antigravity-services-kerala",
+      "title": "Antigravity Services Kerala",
+      "ok": true,
+      "wixId": "6cb83ca0-698a-42d5-ac1c-9865223ae5c0",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-development-services-hire-expert-shopify-developers-from-india",
+      "title": "Hire Expert Shopify Developers from India",
+      "ok": true,
+      "wixId": "9d4c7841-9d92-4068-850b-ef7e7c563ee9",
+      "warnings": []
+    },
+    {
+      "slug": "codex-ai-development-services-kochi",
+      "title": "Codex AI Development Services Kochi",
+      "ok": false,
+      "error": "Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+    },
+    {
+      "slug": "ai-powered-shopify-development",
+      "title": "AI-Powered Shopify Development",
+      "ok": true,
+      "wixId": "87020e10-3f26-49f6-894a-7a0a200779fd",
+      "warnings": []
+    },
+    {
+      "slug": "outsourcing-cost-for-shopify-e-commerce-web-development",
+      "title": "Outsourcing Cost for Shopify E-commerce Web Development",
+      "ok": true,
+      "wixId": "29a0ccfb-e33d-4706-9eae-767054a82844",
+      "warnings": []
+    },
+    {
+      "slug": "cpanel-installation",
+      "title": "cPanel Installation",
+      "ok": true,
+      "wixId": "e10d61a6-cfda-4c66-adc9-5aee4ac177cd",
+      "warnings": []
+    },
+    {
+      "slug": "intertoons-shopify-seo-services-elevate-your-ecommerce-stores-visibility",
+      "title": "Intertoons Shopify SEO Services: Elevate Your eCommerce Store’s Visibility",
+      "ok": true,
+      "wixId": "e59ef6c3-fb86-421d-a6b2-3c7cc4a62db8",
+      "warnings": []
+    },
+    {
+      "slug": "agentic-ai-llm-development",
+      "title": "Agentic AI & LLM Development",
+      "ok": true,
+      "wixId": "cd6cec0e-fc5d-4e33-bf86-1d1a1e2f5e57",
+      "warnings": []
+    },
+    {
+      "slug": "web-and-app-frontend-ui-development-services-in-kochi-kerala",
+      "title": "Web and App Frontend UI Development Services in Kochi, Kerala",
+      "ok": false,
+      "error": "Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+    },
+    {
+      "slug": "hubspot-crm-integration-keralakochi",
+      "title": "Hubspot CRM Integration In Kochi",
+      "ok": true,
+      "wixId": "a75d558f-44b8-4c3e-b7d2-2bb7f245f270",
+      "warnings": []
+    },
+    {
+      "slug": "chatflow-low-code-ai-frameworks",
+      "title": "Chatflow & Low-Code AI Frameworks",
+      "ok": true,
+      "wixId": "0f13feb0-f371-4afc-b313-62a7897af687",
+      "warnings": []
+    },
+    {
+      "slug": "laravel-development-projects",
+      "title": "Laravel Development – Projects",
+      "ok": true,
+      "wixId": "8b429ff0-e5bd-4f75-bee7-3f800ad4f65d",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-pos-solutions-in-kochi-elevate-your-retail-experience",
+      "title": "Shopify POS Solutions in Kochi: Elevate Your Retail Experience",
+      "ok": true,
+      "wixId": "f68a4523-3023-4850-ab0c-03dca688069d",
+      "warnings": []
+    },
+    {
+      "slug": "ai-software-development",
+      "title": "AI Software Development",
+      "ok": true,
+      "wixId": "8b3cec23-c7ab-40fc-9e9e-e59e2d1e96e6",
+      "warnings": []
+    },
+    {
+      "slug": "generative-ai-strategy-consulting",
+      "title": "Generative AI Strategy & Consulting",
+      "ok": true,
+      "wixId": "69e3741e-81ae-4ed4-aa3d-8669ffc1c672",
+      "warnings": [
+        "Failed to create FAQ '1. What is Generative AI consulting?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create FAQ '5. Do you provide pilot or proof-of-concept projects?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create FAQ '3. Do you help implement ChatGPT and enterprise LLM solutions?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create FAQ '2. Which industries benefit from generative AI consulting?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create FAQ '6. Do you offer long-term AI advisory services?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create FAQ '4. Can you help build custom generative AI models?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> af432925-164f-461f-9943-72b619edc442: fetch failed"
+      ]
+    },
+    {
+      "slug": "logistics-fleet-management-software-developers-kerala-kochi",
+      "title": "Logistics & Fleet management Software developers Kerala, Kochi",
+      "ok": true,
+      "wixId": "df91ea76-5ea5-47fb-b520-8138db5b7c05",
+      "warnings": []
+    },
+    {
+      "slug": "software-consultancy-services-kochi-kerala",
+      "title": "Software Consultancy Services Kochi, Kerala",
+      "ok": true,
+      "wixId": "b6a73e24-2af5-4b55-b958-3d109ecc8f77",
+      "warnings": []
+    },
+    {
+      "slug": "ai-video-image-generation-for-e-commerce",
+      "title": "AI Video & Image Generation for E-commerce",
+      "ok": true,
+      "wixId": "4d291be3-f5da-4e6f-8d68-8421c1271f69",
+      "warnings": []
+    },
+    {
+      "slug": "software-planning-wireframing-in-kochi-kerala",
+      "title": "Software Planning & Wireframing in Kochi, Kerala",
+      "ok": true,
+      "wixId": "39b88d6a-9cbd-49f7-81a4-c46dfacd8475",
+      "warnings": []
+    },
+    {
+      "slug": "ai-predictive-analytics-for-retail",
+      "title": "AI Predictive Analytics for Retail",
+      "ok": true,
+      "wixId": "f8fc7aaf-0a83-437b-86fb-74dc022a4ee8",
+      "warnings": [
+        "Failed to create ProcessStep 'Design & Development': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create ProcessStep 'Ongoing Support & Optimization': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create ProcessStep 'Planning & Strategy': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create ProcessStep 'Testing & Quality Assurance': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "flowise-development-services-in-kochi",
+      "title": " Flowise Development Services in Kochi",
+      "ok": true,
+      "wixId": "4be24165-f262-4254-b508-a3d97977461a",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-developers-and-experts-in-kochi-kerala",
+      "title": "Shopify Developers & Experts in Kochi, Kerala",
+      "ok": true,
+      "wixId": "0e9445ac-3931-4947-a3ee-a382d9952b68",
+      "warnings": []
+    },
+    {
+      "slug": "flowise-ai-agency-kerala",
+      "title": " Flowise AI Agency Kerala",
+      "ok": true,
+      "wixId": "11429965-d276-4227-a293-f5f752f56ab0",
+      "warnings": []
+    },
+    {
+      "slug": "agentic-ai-n8n-automation",
+      "title": "Agentic AI & N8N Automation",
+      "ok": true,
+      "wixId": "36ebb6a9-2885-4cb0-8b29-37197d0037b8",
+      "warnings": []
+    },
+    {
+      "slug": "expert-react-js-next-js-development-services-in-kochi-kerala",
+      "title": "Expert React JS & Next JS Development Services in Kochi, Kerala",
+      "ok": true,
+      "wixId": "67e4a4d9-6719-45f4-bc08-e74de1518054",
+      "warnings": [
+        "Failed to link processFlow -> c76e9542-c446-46a1-a45b-152ec264d0ce: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "cloudflare-serverless-ai",
+      "title": "Cloudflare Serverless AI",
+      "ok": true,
+      "wixId": "71ab6101-7b66-4466-a3c7-0f63ad93b68a",
+      "warnings": []
+    },
+    {
+      "slug": "flowise-chatbot-development-kochi",
+      "title": "Flowise Chatbot Development Kochi",
+      "ok": true,
+      "wixId": "bafd800d-afb2-450c-9e03-1ef3b4477751",
+      "warnings": []
+    },
+    {
+      "slug": "custom-inference",
+      "title": "Custom Inference",
+      "ok": true,
+      "wixId": "cde2012f-cbef-4407-ad43-e1493e3ae85f",
+      "warnings": []
+    },
+    {
+      "slug": "edge-ai-solutions",
+      "title": "Edge AI Solutions",
+      "ok": true,
+      "wixId": "6a405834-a573-4d65-9520-51f42fe8979c",
+      "warnings": []
+    },
+    {
+      "slug": "multi-agent-systems",
+      "title": "Multi-Agent Systems",
+      "ok": true,
+      "wixId": "28bcf9bf-91a5-42b4-b275-5f65c495817e",
+      "warnings": []
+    },
+    {
+      "slug": "openai-codex-integration-kerala",
+      "title": "OpenAI Codex Integration Kerala",
+      "ok": true,
+      "wixId": "a716d778-1088-4ddb-96d9-d3543c3c21d8",
+      "warnings": []
+    },
+    {
+      "slug": "hire-flowise-developer-kerala",
+      "title": "Hire Flowise Developer Kerala",
+      "ok": true,
+      "wixId": "9e592b2e-3135-4b86-9d20-c424d8822013",
+      "warnings": []
+    },
+    {
+      "slug": "ai-saas-development",
+      "title": "AI SAAS Development",
+      "ok": true,
+      "wixId": "41540a50-83cb-4ba5-ad39-f63c0c511fc8",
+      "warnings": []
+    },
+    {
+      "slug": "automation-consulting",
+      "title": "Automation Consulting",
+      "ok": true,
+      "wixId": "36b8f83b-f566-4a7f-bdcc-bbae2c024d93",
+      "warnings": [
+        "Failed to link faqs -> 5d3316ae-ac01-4207-877a-dd49f4a7e7c4: fetch failed"
+      ]
+    },
+    {
+      "slug": "langchain-development-services-kochi",
+      "title": "LangChain Development Services Kochi",
+      "ok": true,
+      "wixId": "5aac8c34-351e-4702-b231-0b006e648dc6",
+      "warnings": []
+    },
+    {
+      "slug": "lovable-app-development-kochi",
+      "title": "Lovable App Development Kochi",
+      "ok": true,
+      "wixId": "a0867125-a32f-4db4-b58c-91929ec17016",
+      "warnings": []
+    },
+    {
+      "slug": "agent-first-ai-development-services-kerala",
+      "title": "Agent First AI Development Services Kerala",
+      "ok": false,
+      "error": "Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+    },
+    {
+      "slug": "langchain-integration-services-kochi",
+      "title": "LangChain Integration Services Kochi",
+      "ok": true,
+      "wixId": "b5d98b80-de63-424f-83ca-bf624d72babf",
+      "warnings": []
+    },
+    {
+      "slug": "anthropic-claude-integration-kerala",
+      "title": "Anthropic Claude Integration Kerala",
+      "ok": true,
+      "wixId": "21a73159-68a6-4b3e-af2b-3adda62915be",
+      "warnings": []
+    },
+    {
+      "slug": "lovable-ai-website-builder-services-kerala",
+      "title": "Lovable AI Website Builder Services Kerala",
+      "ok": true,
+      "wixId": "d6219846-be6d-49d9-ba95-7d5effb3cca5",
+      "warnings": []
+    },
+    {
+      "slug": "antigravity-app-development-kochi",
+      "title": "Antigravity App Development Kochi",
+      "ok": true,
+      "wixId": "1177f750-5ad4-45d5-83c6-1dc5cb210917",
+      "warnings": []
+    },
+    {
+      "slug": "vibe-coding-services-kochi",
+      "title": "Vibe Coding Services Kochi",
+      "ok": true,
+      "wixId": "f4336a5d-7c85-4b9b-b0df-c7746433b867",
+      "warnings": [
+        "Failed to link processFlow -> 4f87196d-fc2c-434d-b410-89e414c3158e: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "vibe-coding-agency-kerala",
+      "title": "Vibe Coding Agency Kerala",
+      "ok": true,
+      "wixId": "3d8c7b23-d2a9-47d3-a7a5-cc629e0a206c",
+      "warnings": []
+    },
+    {
+      "slug": "claude-code-development-services-kochi",
+      "title": "Claude Code Development Services Kochi",
+      "ok": true,
+      "wixId": "b39fca83-4621-463a-a940-b38817bd7dcb",
+      "warnings": []
+    },
+    {
+      "slug": "ai-data-engineering-mlops-setup-kochi-kerala",
+      "title": "AI Data Engineering & MLOps Setup – Kochi, Kerala",
+      "ok": true,
+      "wixId": "22d8aeae-beb9-4115-a7b8-06e5c2f1210a",
+      "warnings": []
+    },
+    {
+      "slug": "ai-automation-services-in-kochi",
+      "title": "AI Automation Services in Kochi",
+      "ok": true,
+      "wixId": "41d2515d-b819-4750-8229-5fa98679f1f8",
+      "warnings": []
+    },
+    {
+      "slug": "ai-process-automation-services-kerala",
+      "title": "AI Process Automation Services Kerala",
+      "ok": true,
+      "wixId": "74946beb-c290-4bf7-b691-37619fe546ac",
+      "warnings": []
+    },
+    {
+      "slug": "ai-chatbot-development-kochi",
+      "title": "AI Chatbot Development Kochi",
+      "ok": true,
+      "wixId": "34edbac9-484a-4eea-807f-278018e3f3b0",
+      "warnings": [
+        "Failed to link faqs -> d1ac0a29-80b2-401c-ac4b-72f66a4fe71b: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "web-development-kerala-agent",
+      "title": "Web Development Kerala Agent",
+      "ok": true,
+      "wixId": "b1d1b0d7-b5d3-4f51-9933-c4fa82494762",
+      "warnings": []
+    },
+    {
+      "slug": "ai-strategy-consulting-roadmap-design",
+      "title": "AI Strategy Consulting & Roadmap Design",
+      "ok": true,
+      "wixId": "723bd63e-fa9d-440b-a405-97c3d513527e",
+      "warnings": []
+    },
+    {
+      "slug": "custom-ai-model-development",
+      "title": "Custom AI Model Development",
+      "ok": true,
+      "wixId": "71308a10-fd66-40ac-a21c-645162201e68",
+      "warnings": []
+    },
+    {
+      "slug": "ai-for-e-commerce-conversion-optimization-kochi",
+      "title": "AI for E-commerce Conversion Optimization – Kochi, Kerala",
+      "ok": true,
+      "wixId": "678f0659-a665-40cf-8a36-b7df6de730a2",
+      "warnings": []
+    },
+    {
+      "slug": "ai-assisted-coding-services-kochi",
+      "title": "AI Assisted Coding Services Kochi",
+      "ok": true,
+      "wixId": "412a6173-fa4b-425c-9627-2b025c57e94b",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-ai-chatbot-sales-assistant-development-kochi-kerala",
+      "title": "Shopify AI chatbot , sales assistant development kerala",
+      "ok": true,
+      "wixId": "0524eefb-3182-4a05-bf9d-52b7c41604e3",
+      "warnings": [
+        "Failed to create FAQ '6. Does the chatbot support multiple languages?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "generative-ai-application-development",
+      "title": "Generative AI Application Development",
+      "ok": true,
+      "wixId": "43a30dab-62cf-4eb7-a76c-e4558516c877",
+      "warnings": []
+    },
+    {
+      "slug": "no-code-ai-automation-kochi",
+      "title": "No Code AI Automation Kochi",
+      "ok": true,
+      "wixId": "b458787a-868d-47c5-b9f8-72216cf1ec95",
+      "warnings": []
+    },
+    {
+      "slug": "llm-integration-fine-tuning",
+      "title": "LLM Integration & Fine-Tuning",
+      "ok": true,
+      "wixId": "55ad24e2-a70b-47c2-8150-8b3381868071",
+      "warnings": []
+    },
+    {
+      "slug": "ai-chatbot-virtual-assistant-development",
+      "title": "AI Chatbot & Virtual Assistant Development",
+      "ok": true,
+      "wixId": "4776aa65-0894-4e3b-b24a-de8721a58a25",
+      "warnings": []
+    },
+    {
+      "slug": "ai-agents-for-business-automation",
+      "title": "AI Agents for Business Automation",
+      "ok": true,
+      "wixId": "0674295f-af51-4557-881b-28b218d93bef",
+      "warnings": [
+        "Failed to link processFlow -> 947cada6-08af-43ff-a7df-fbd46c4b685c: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> deb6c797-7206-42e7-b552-0cdfa7ac8e27: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "intelligent-document-processing-idp",
+      "title": "Intelligent Document Processing (IDP)",
+      "ok": true,
+      "wixId": "7c2eb1df-542c-4b23-999a-aa912dec80e4",
+      "warnings": []
+    },
+    {
+      "slug": "ai-powered-crm-erp-automation",
+      "title": "AI-Powered CRM & ERP Automation",
+      "ok": true,
+      "wixId": "0c9f02f5-bd25-4d8e-ac5b-5b0eb15f271e",
+      "warnings": []
+    },
+    {
+      "slug": "ocr-nlp-data-extraction-systems",
+      "title": "OCR + NLP Data Extraction Systems",
+      "ok": true,
+      "wixId": "c2b04920-e595-4a08-b412-6173da5c9049",
+      "warnings": []
+    },
+    {
+      "slug": "ai-driven-recommendation-engines",
+      "title": "AI-Driven Recommendation Engines",
+      "ok": true,
+      "wixId": "50a112df-dc51-488d-a7d8-11e91bd57970",
+      "warnings": []
+    },
+    {
+      "slug": "predictive-analytics-forecasting",
+      "title": "Predictive Analytics & Forecasting",
+      "ok": true,
+      "wixId": "6acf128e-ccfe-4a4a-a4d6-21699d5c0e6c",
+      "warnings": []
+    },
+    {
+      "slug": "computer-vision-solutions",
+      "title": "Computer Vision Solutions",
+      "ok": true,
+      "wixId": "7b9b9ca5-8da5-408b-82b8-d6a0771b6bd1",
+      "warnings": [
+        "Failed to link processFlow -> 3d9b9468-2600-4048-a2c1-e48bdce48c10: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "ai-based-fraud-detection-systems",
+      "title": "AI-Based Fraud Detection Systems",
+      "ok": true,
+      "wixId": "d4a7c40e-f979-4758-a322-7b7bb0219f6e",
+      "warnings": []
+    },
+    {
+      "slug": "voice-ai-speech-recognition-systems",
+      "title": "Voice AI & Speech Recognition Systems",
+      "ok": true,
+      "wixId": "ae734a07-02b2-4b43-bb69-6e2ce241f3cd",
+      "warnings": []
+    },
+    {
+      "slug": "ai-search-semantic-search-implementation",
+      "title": "AI Search & Semantic Search Implementation",
+      "ok": true,
+      "wixId": "23f1bd44-bdab-4e88-8775-79d8b6160e9f",
+      "warnings": []
+    },
+    {
+      "slug": "ai-personalization-engines",
+      "title": "AI Personalization Engines",
+      "ok": true,
+      "wixId": "a0d94206-a5cb-48b5-ab3e-b369d4326f26",
+      "warnings": []
+    },
+    {
+      "slug": "ai-saas-product-development",
+      "title": "AI SAAS Product Development",
+      "ok": true,
+      "wixId": "910502f8-efa7-4d6f-9ef2-4f63fd25ca81",
+      "warnings": []
+    },
+    {
+      "slug": "ai-workflow-automation",
+      "title": "AI Workflow Automation",
+      "ok": true,
+      "wixId": "8afd4265-c434-4cb5-bac1-6891b9519387",
+      "warnings": [
+        "Failed to link processFlow -> 986d7582-6e3b-48f7-9d03-56666338c592: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> 4709b63d-410b-4d9a-9308-fe2016756d25: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "ai-api-development-middleware-kochi-kerala",
+      "title": "AI API Development & Middleware – Kochi, Kerala",
+      "ok": true,
+      "wixId": "b84d3c59-fd79-4748-8771-0ae3d338567f",
+      "warnings": []
+    },
+    {
+      "slug": "ai-chatgpt-powered-customer-support-systems-kochi-kerala",
+      "title": "AI ChatGPT-Powered Customer Support Systems – Kochi, Kerala",
+      "ok": true,
+      "wixId": "7c77513e-365f-49ad-ace4-5e300e5c9ae3",
+      "warnings": []
+    },
+    {
+      "slug": "ai-infrastructure-setup-cloud-on-prem",
+      "title": "AI Infrastructure Setup(Cloud/On- Prem)",
+      "ok": true,
+      "wixId": "9f92cb0f-2b60-4da9-94bd-f5fc2f6d8bee",
+      "warnings": []
+    },
+    {
+      "slug": "ai-security-model-governance",
+      "title": "AI Security & Model Governance",
+      "ok": true,
+      "wixId": "14b40d0a-540a-4d09-b2f3-8b955d83ac35",
+      "warnings": []
+    },
+    {
+      "slug": "ai-performance-monitoring-optimization",
+      "title": "AI Performance Monitoring & Optimization – Kochi, Kerala",
+      "ok": true,
+      "wixId": "25e3ad9d-6dfc-4c5e-9ec9-607397060801",
+      "warnings": []
+    },
+    {
+      "slug": "ai-mvp-development-for-startups-kochi-kerala",
+      "title": "AI MVP Development for Startups in Kochi, Kerala",
+      "ok": true,
+      "wixId": "68803a35-9dff-4ca7-975c-47f9f7bafe40",
+      "warnings": [
+        "Failed to link processFlow -> e679983e-e30f-4c24-8f37-76c23d6bc23e: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> cb4b8d35-503e-449f-bfed-cf3ecd465762: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link processFlow -> 489bc96d-627d-4184-bd2b-7d45e824f62d: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "enterprise-ai-digital-transformation-solutions-kochi-kerala",
+      "title": "Enterprise AI Digital Transformation Solutions – Kochi, Kerala",
+      "ok": true,
+      "wixId": "8ef0bad0-bd36-4422-9952-e7b7f4d0af50",
+      "warnings": []
+    },
+    {
+      "slug": "langflow-ai-workflow-agency-kerala",
+      "title": "Langflow AI Workflow Agency Kerala",
+      "ok": true,
+      "wixId": "e1b10392-f4a2-4863-aea4-0f07882b5f41",
+      "warnings": []
+    },
+    {
+      "slug": "low-code-ai-development-kerala",
+      "title": "Low Code AI Development Kerala",
+      "ok": true,
+      "wixId": "78924239-5de1-49bf-a352-a8288d5e58a5",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-ai-chatbot-sales-assistant-development-kerala",
+      "title": "AI Chatbot Sales Assistant for Shopify",
+      "ok": true,
+      "wixId": "775667ae-fca3-4c36-bad6-02d923d0d035",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-storefront-app-development-kerala",
+      "title": "Shopify Storefront App Development Kerala",
+      "ok": true,
+      "wixId": "f25cc79b-979a-4626-a5ed-a256ff0669ea",
+      "warnings": []
+    },
+    {
+      "slug": "vue-js-web-development-company-kochi",
+      "title": "VUE JS Development company kochi",
+      "ok": true,
+      "wixId": "44192c51-3a2b-431a-b569-43f7638e00ed",
+      "warnings": [
+        "Failed to create FAQ '7. Is Vue.js suitable for modern UI/UX design and interactive features?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "razorpay-magic-checkout-integration-services-in-kochi-kerala-reduce-drop-offs-increase-conversions",
+      "title": "Razorpay Magic Checkout Integration in Kochi",
+      "ok": true,
+      "wixId": "b695a612-b251-41ba-b280-c27d1f3ae16b",
+      "warnings": []
+    },
+    {
+      "slug": "ai-integration-for-ecommerce-in-kochi",
+      "title": "AI Integration for E-commerce In Kochi",
+      "ok": true,
+      "wixId": "b93b95d0-b18c-4c43-bedd-b5966cb89f32",
+      "warnings": []
+    },
+    {
+      "slug": "software-development",
+      "title": "Software development company kochi",
+      "ok": true,
+      "wixId": "256ac8e1-6233-437a-8aa9-9ec596c2d390",
+      "warnings": []
+    },
+    {
+      "slug": "adobe-aem-implementation-services-in-kochi-kerala-intertoons",
+      "title": "Adobe AEM Implementation Services in Kochi",
+      "ok": true,
+      "wixId": "5795eb2c-111a-47cc-9af8-c59e12141186",
+      "warnings": [
+        "Failed to link faqs -> 5eafdc72-c087-4fec-ae68-8fbfc6664929: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 2fda8f1a-4ed1-493c-863d-a646f0c5ba7f: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "build-high-performance-shopify-stores-in-india",
+      "title": "Build High-Performance Shopify Stores in India",
+      "ok": true,
+      "wixId": "10a49478-daeb-4074-af60-2d2c9c18e590",
+      "warnings": []
+    },
+    {
+      "slug": "strapi-headless-e-commerce-development-services-kerala",
+      "title": "Strapi Headless E-commerce Services in Kerala",
+      "ok": true,
+      "wixId": "cc6f5b88-5c0a-44f8-806a-a071f730d095",
+      "warnings": []
+    },
+    {
+      "slug": "shopify-store-optimization-and-performance-enhancement",
+      "title": "Shopify Store Optimization",
+      "ok": true,
+      "wixId": "493c607d-ca08-4029-b15c-25f2af806bd6",
+      "warnings": []
+    },
+    {
+      "slug": "erp-for-wix-shopify-magento-wordpress",
+      "title": "ERP Solutions for Magento, Shopify, WordPress & Wix",
+      "ok": true,
+      "wixId": "2185f2d3-3c89-4e59-9827-dad11625dc27",
+      "warnings": [
+        "Failed to link technologies -> 05fc781f-dec9-4c2a-b4da-acdf9d28929f: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link technologies -> 5b64027b-9c2a-4942-9187-1781f3fb003a: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link technologies -> cfff7afc-9819-4a7c-a297-6ce44c9fc6ba: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "shopify-store-setup-and-configuration",
+      "title": "Store Setup & Configuration",
+      "ok": true,
+      "wixId": "72acaccf-31d8-4fed-93a9-bafe87345725",
+      "warnings": []
+    },
+    {
+      "slug": "comprehensive-shopify-development-solutions",
+      "title": "Comprehensive Shopify Development Solutions",
+      "ok": true,
+      "wixId": "cc47fc0a-9833-4997-b0e2-78e0be1bff2b",
+      "warnings": []
+    },
+    {
+      "slug": "gps-services",
+      "title": "GPS Sevices",
+      "ok": true,
+      "wixId": "8bba861e-c309-4c7e-8b1a-b029ad1b283f",
+      "warnings": []
+    },
+    {
+      "slug": "g-suit-configuration",
+      "title": "G-Suite Configuration",
+      "ok": true,
+      "wixId": "e69e5e7f-cded-4ea0-b505-6299cddefa79",
+      "warnings": []
+    },
+    {
+      "slug": "domain-registration-domain-migration-services",
+      "title": "Domain Registration & Domain Migration Services",
+      "ok": true,
+      "wixId": "e72c0c2c-933d-4846-8fa0-e2e1c809995c",
+      "warnings": []
+    },
+    {
+      "slug": "managed-dedicated-servers-vps-kochi",
+      "title": "Fully Managed Dedicated Servers, VPS",
+      "ok": true,
+      "wixId": "d25da0b2-c209-44ca-a2b9-8e307c1e9b02",
+      "warnings": [
+        "Failed to create FAQ '2. What is the difference between Dedicated Server and VPS?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create FAQ '4. Do managed servers include security services?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create FAQ '1.What is a managed dedicated server?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to create FAQ '3. Who should choose managed hosting services?': Wix /wix-data/v2/items 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "headless-cms-website-development-kerala",
+      "title": "Headless CMS Website Development",
+      "ok": true,
+      "wixId": "63809583-e996-4ff3-8854-0b3d23e7f7dd",
+      "warnings": []
+    },
+    {
+      "slug": "headless-ecommerce-development-in-kerala-intertoons",
+      "title": "Headless Ecommerce Development",
+      "ok": true,
+      "wixId": "1b916da4-e292-46a5-aa05-a0e0efc21a28",
+      "warnings": []
+    },
+    {
+      "slug": "wordpress-website",
+      "title": "WordPress Website Design",
+      "ok": true,
+      "wixId": "b8dbbdc0-5c96-496d-9bc9-2461a17e0ee0",
+      "warnings": []
+    },
+    {
+      "slug": "php-web-development-company",
+      "title": "PHP Development",
+      "ok": true,
+      "wixId": "a44f68dd-2986-437e-a8fd-6e9b5805f8ae",
+      "warnings": []
+    },
+    {
+      "slug": "laravel-projects-development-team",
+      "title": "Laravel Development",
+      "ok": true,
+      "wixId": "4d4fa541-9cc7-4bc3-a731-8207d4849593",
+      "warnings": [
+        "Failed to link faqs -> bf0e5dfe-cb0c-4500-a29f-185ef41a1234: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 05a38b2e-5c1c-4aee-978b-186ba9438ef3: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> 70fa8890-af00-4b74-89dc-d66233e8cc09: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> d7eedcd0-59c2-4cd4-b5c3-deb6eec7e37a: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}",
+        "Failed to link faqs -> c829f890-d17e-41cd-9348-4da39ff54703: Wix /wix-data/v2/items/insert-reference 429: {\"message\":\"WDE0014: Requests per minute quota exceeded.\",\"details\":{\"applicationError\":{\"code\":\"WDE0014\",\"description\":\"WDE0014: Requests per minute quota exceeded.\"}}}"
+      ]
+    },
+    {
+      "slug": "top-ai-developers-kochi",
+      "title": "AI Developers in Kochi for Smart Business Solutions",
+      "ok": true,
+      "wixId": "39f3b989-f37b-4d31-8882-58aa42e180ab",
+      "warnings": []
+    }
+  ]
+}

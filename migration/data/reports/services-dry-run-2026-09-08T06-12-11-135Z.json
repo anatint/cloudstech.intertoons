@@ -1,0 +1,467 @@
+{
+  "generatedAt": "2026-09-08T06:12:11.135Z",
+  "totalPagesScanned": 5,
+  "candidateServicePages": 4,
+  "toCreate": 4,
+  "toSkip": 0,
+  "toReview": 0,
+  "rows": [
+    {
+      "wordpressId": 31654,
+      "slug": "video-conferencing-app-developers-kerala",
+      "title": "Video Conferencing app Developers Kerala",
+      "url": "https://intertoons.com/video-conferencing-app-developers-kerala",
+      "isService": false,
+      "classificationConfidence": 0.5,
+      "classificationReasons": [
+        "medium-confidence keyword(s) in title: developers",
+        "structural service-page heading(s) found: why choose",
+        "substantial body content (>800 chars)",
+        "FAQ-style accordion content present"
+      ],
+      "action": "NOT_A_SERVICE"
+    },
+    {
+      "wordpressId": 31548,
+      "slug": "shopify-script-optimization-site-speed-services",
+      "title": "Shopify Script Optimization &#038; Site Speed Services",
+      "url": "https://intertoons.com/shopify-script-optimization-site-speed-services",
+      "isService": true,
+      "classificationConfidence": 0.8,
+      "classificationReasons": [
+        "high-confidence keyword(s) in title/slug: shopify",
+        "structural service-page heading(s) found: why choose",
+        "substantial body content (>800 chars)",
+        "FAQ-style accordion content present"
+      ],
+      "action": "CREATE",
+      "matchReason": "no matching slug or title found in existing Wix Services",
+      "mappingConfidence": 0.75,
+      "unmappedSections": [
+        {
+          "heading": "Frequently asked questions",
+          "itemCount": 6
+        }
+      ],
+      "normalized": {
+        "title": "Shopify Script Optimization &#038; Site Speed Services",
+        "slug": "shopify-script-optimization-site-speed-services",
+        "sourceWordpressId": 31548,
+        "sourceUrl": "https://intertoons.com/shopify-script-optimization-site-speed-services",
+        "unmappedSections": [
+          {
+            "heading": "Frequently asked questions",
+            "itemCount": 6
+          }
+        ],
+        "mappingConfidence": 0.75,
+        "offeringsList": [
+          {
+            "title": "Faster Scripts, Faster Store",
+            "description": "We use a rich set of performance tools for smooth script auditing, deferred loading, and quicker fixes. With live speed testing, our team can instantly measure changes, fix issues, and improve the store experience in real time.",
+            "order": 0
+          },
+          {
+            "title": "Lazy Loading & Deferred Scripts",
+            "description": "With our optimization, you can speed up every script and asset in one focused project, reducing cost and time. It covers both lazy-loaded images and deferred third-party scripts, delivering a consistent and seamless browsing experience.",
+            "order": 1
+          },
+          {
+            "title": "Fast Audits & App Cleanup",
+            "description": "We ensure faster diagnosis through tools like Lighthouse, PageSpeed Insights, and network waterfalls. Our team works quickly using proven script cleanup techniques that simplify fixes and speed up site performance.",
+            "order": 2
+          },
+          {
+            "title": "Clean Code & Strong Support",
+            "description": "Our clean, optimized scripts make maintaining speed simple, even after future app installs. With detailed documentation and dedicated performance support, your store continues to stay fast and provides excellent support and monitoring automation.",
+            "order": 3
+          }
+        ],
+        "whyChoose": [
+          "Expert Shopify performance specialists with deep script optimization knowledge and high-speed storefront expertise.",
+          "End-to-end speed solutions from initial script audit and diagnosis to optimization and performance deployment.",
+          "High-performance and scalable script architecture to boost site speed, search visibility and customer retention.",
+          "Cost-effective Shopify script optimization services from India with transparent, flexible engagement models.",
+          "Dedicated support and ongoing monitoring to keep your Shopify store fast, up-to-date and secure."
+        ],
+        "faqs": [
+          {
+            "question": "1. What is Shopify script optimization?",
+            "answer": "Shopify script optimization is the process of auditing and improving JavaScript, third-party app scripts, and asset loading to make your store load and respond faster."
+          },
+          {
+            "question": "2. Why does script optimization matter for my store?",
+            "answer": "Bloated or poorly loaded scripts slow down every page, hurting SEO, conversions and customer experience — optimization fixes this at the source."
+          },
+          {
+            "question": "3. Will optimization affect app functionality?",
+            "answer": "No. We defer and optimize how scripts load without removing needed functionality, so your apps and features work exactly as before."
+          },
+          {
+            "question": "4. How long does script optimization take?",
+            "answer": "The timeline depends on your app count and theme complexity. Simple optimizations may take a few days, while deeper fixes can take one to two weeks."
+          },
+          {
+            "question": "5. Can you optimize high-traffic Shopify Plus stores?",
+            "answer": "Yes. We optimize both small stores and large, high-traffic Shopify Plus stores for consistent speed at scale."
+          },
+          {
+            "question": "6. What typically slows down a Shopify store's scripts?",
+            "answer": "Common causes include too many third-party apps, render-blocking JavaScript, unoptimized images, and scripts that load before they’re needed."
+          }
+        ],
+        "partnerCards": [
+          {
+            "title": "Faster Scripts, Faster Store",
+            "description": "We use a rich set of performance tools for smooth script auditing, deferred loading, and quicker fixes. With live speed testing, our team can instantly measure changes, fix issues, and improve the store experience in real time."
+          },
+          {
+            "title": "Lazy Loading & Deferred Scripts",
+            "description": "With our optimization, you can speed up every script and asset in one focused project, reducing cost and time. It covers both lazy-loaded images and deferred third-party scripts, delivering a consistent and seamless browsing experience."
+          },
+          {
+            "title": "Fast Audits & App Cleanup",
+            "description": "We ensure faster diagnosis through tools like Lighthouse, PageSpeed Insights, and network waterfalls. Our team works quickly using proven script cleanup techniques that simplify fixes and speed up site performance."
+          },
+          {
+            "title": "Clean Code & Strong Support",
+            "description": "Our clean, optimized scripts make maintaining speed simple, even after future app installs. With detailed documentation and dedicated performance support, your store continues to stay fast and provides excellent support and monitoring automation."
+          }
+        ],
+        "shortDescription": "15 Years of experience ⸺Shopify Script Optimization Shopify Script Optimization &#038; Site Speed Services We have a specialized team employing the latest script optimization techniques to speed up Shopify stores for scalable and highly functional performance.We assure our clients that they receive top-notch site speed services at affordable prices maintaining supremacy at the same time.Our [&hellip;]"
+      }
+    },
+    {
+      "wordpressId": 31547,
+      "slug": "shopify-conversion-rate-optimization-cro-audit",
+      "title": "Shopify Conversion Rate Optimization (CRO) Audit",
+      "url": "https://intertoons.com/shopify-conversion-rate-optimization-cro-audit",
+      "isService": true,
+      "classificationConfidence": 0.8,
+      "classificationReasons": [
+        "high-confidence keyword(s) in title/slug: shopify",
+        "structural service-page heading(s) found: why choose",
+        "substantial body content (>800 chars)",
+        "FAQ-style accordion content present"
+      ],
+      "action": "CREATE",
+      "matchReason": "no matching slug or title found in existing Wix Services",
+      "mappingConfidence": 0.5,
+      "unmappedSections": [
+        {
+          "heading": "Shopify Conversion Rate Optimization (CRO) Audit",
+          "itemCount": 2
+        },
+        {
+          "heading": "Frequently asked questions",
+          "itemCount": 6
+        }
+      ],
+      "normalized": {
+        "title": "Shopify Conversion Rate Optimization (CRO) Audit",
+        "slug": "shopify-conversion-rate-optimization-cro-audit",
+        "sourceWordpressId": 31547,
+        "sourceUrl": "https://intertoons.com/shopify-conversion-rate-optimization-cro-audit",
+        "unmappedSections": [
+          {
+            "heading": "Shopify Conversion Rate Optimization (CRO) Audit",
+            "itemCount": 2
+          },
+          {
+            "heading": "Frequently asked questions",
+            "itemCount": 6
+          }
+        ],
+        "mappingConfidence": 0.5,
+        "offeringsList": [
+          {
+            "title": "Higher Conversions",
+            "description": "We use a rich set of analytics tools for smooth funnel tracking, heatmap analysis, and quicker fixes. With live A/B testing, our team can instantly verify changes, fix issues, and improve the store experience in real time.",
+            "order": 0
+          },
+          {
+            "title": "Full-Funnel Analysis",
+            "description": "With our audit, you can review the entire funnel from landing to checkout in one project, reducing cost and time. It covers both product page optimization and checkout flow review, delivering a consistent and seamless buying experience.",
+            "order": 1
+          },
+          {
+            "title": "Fast Insights & Actionable Fixes",
+            "description": "We ensure faster diagnosis through tools like heatmaps, session recordings, and GA4 funnel reports. Our team works quickly using proven CRO frameworks that simplify fixes and speed up conversion gains.",
+            "order": 2
+          },
+          {
+            "title": "Clear Reporting & Strong Support",
+            "description": "Our clear reporting makes acting on insights simple, even for non-technical teams. With detailed documentation and dedicated CRO support, your store continues to improve and provides excellent support and testing automation.",
+            "order": 3
+          }
+        ],
+        "whyChoose": [
+          "Expert Shopify CRO specialists with deep funnel analysis knowledge and high-conversion storefront expertise.",
+          "End-to-end CRO solutions from initial audit and heatmap analysis to actionable fixes and conversion deployment.",
+          "High-performance and scalable conversion strategies to boost sales, visibility and customer retention.",
+          "Cost-effective Shopify CRO audit services from India with transparent, flexible engagement models.",
+          "Dedicated support and ongoing testing to keep your Shopify store's conversion rate improving and optimized."
+        ],
+        "faqs": [
+          {
+            "question": "1. What is a Shopify CRO audit?",
+            "answer": "A Shopify CRO audit is a detailed review of your store’s funnel, product pages, and checkout to identify friction points and opportunities to increase conversions."
+          },
+          {
+            "question": "2. Why does my Shopify store need a CRO audit?",
+            "answer": "A CRO audit uncovers hidden friction, missed opportunities, and quick wins that increase conversions without needing more traffic or ad spend."
+          },
+          {
+            "question": "3. Does the audit cover mobile shoppers too?",
+            "answer": "Yes. We analyze both desktop and mobile shopping behavior since mobile often drives the majority of Shopify traffic."
+          },
+          {
+            "question": "4. How long does a CRO audit take?",
+            "answer": "The timeline depends on store complexity and data available. A standard audit may take one to two weeks to complete with full reporting."
+          },
+          {
+            "question": "5. Can you audit high-traffic Shopify Plus stores?",
+            "answer": "Yes. We audit both small stores and large, high-traffic Shopify Plus stores with complex, multi-step funnels."
+          },
+          {
+            "question": "6. What does the CRO audit report include?",
+            "answer": "The report includes funnel drop-off analysis, heatmap findings, checkout friction points, page-level recommendations, and a prioritized action plan."
+          }
+        ],
+        "partnerCards": [
+          {
+            "title": "Higher Conversions",
+            "description": "We use a rich set of analytics tools for smooth funnel tracking, heatmap analysis, and quicker fixes. With live A/B testing, our team can instantly verify changes, fix issues, and improve the store experience in real time."
+          },
+          {
+            "title": "Full-Funnel Analysis",
+            "description": "With our audit, you can review the entire funnel from landing to checkout in one project, reducing cost and time. It covers both product page optimization and checkout flow review, delivering a consistent and seamless buying experience."
+          },
+          {
+            "title": "Fast Insights & Actionable Fixes",
+            "description": "We ensure faster diagnosis through tools like heatmaps, session recordings, and GA4 funnel reports. Our team works quickly using proven CRO frameworks that simplify fixes and speed up conversion gains."
+          },
+          {
+            "title": "Clear Reporting & Strong Support",
+            "description": "Our clear reporting makes acting on insights simple, even for non-technical teams. With detailed documentation and dedicated CRO support, your store continues to improve and provides excellent support and testing automation."
+          }
+        ],
+        "shortDescription": "15 Years of experience ⸺Shopify Conversion Rate Shopify Conversion Rate Optimization (CRO) Audit We have a specialized team employing the latest CRO techniques to audit Shopify stores for scalable and highly effective conversion improvements.We assure our clients that they receive top-notch CRO audits at affordable prices maintaining supremacy at the same time.Our team exhibits versatility [&hellip;]"
+      }
+    },
+    {
+      "wordpressId": 31546,
+      "slug": "shopify-liquid-code-debt-clean-review",
+      "title": "Shopify Liquid Code Debt Clean &#038; Review",
+      "url": "https://intertoons.com/shopify-liquid-code-debt-clean-review",
+      "isService": true,
+      "classificationConfidence": 0.8,
+      "classificationReasons": [
+        "high-confidence keyword(s) in title/slug: shopify",
+        "structural service-page heading(s) found: why choose",
+        "substantial body content (>800 chars)",
+        "FAQ-style accordion content present"
+      ],
+      "action": "CREATE",
+      "matchReason": "no matching slug or title found in existing Wix Services",
+      "mappingConfidence": 0.5,
+      "unmappedSections": [
+        {
+          "heading": "Shopify Liquid Code Debt Clean & Review",
+          "itemCount": 2
+        },
+        {
+          "heading": "Frequently asked questions",
+          "itemCount": 6
+        }
+      ],
+      "normalized": {
+        "title": "Shopify Liquid Code Debt Clean &#038; Review",
+        "slug": "shopify-liquid-code-debt-clean-review",
+        "sourceWordpressId": 31546,
+        "sourceUrl": "https://intertoons.com/shopify-liquid-code-debt-clean-review",
+        "unmappedSections": [
+          {
+            "heading": "Shopify Liquid Code Debt Clean & Review",
+            "itemCount": 2
+          },
+          {
+            "heading": "Frequently asked questions",
+            "itemCount": 6
+          }
+        ],
+        "mappingConfidence": 0.5,
+        "whyChoose": [
+          "Expert Shopify Liquid reviewers with deep theme architecture knowledge and clean-code refactoring expertise.",
+          "End-to-end cleanup solutions from initial audit and dead-code detection to refactoring and safe deployment.",
+          "High-performance and scalable Liquid architecture to boost maintainability, speed and developer efficiency.",
+          "Cost-effective Shopify Liquid code review services from India with transparent, flexible engagement models.",
+          "Dedicated support and ongoing maintenance to keep your Shopify theme clean, up-to-date and secure."
+        ],
+        "faqs": [
+          {
+            "question": "1. What is Shopify Liquid code debt?",
+            "answer": "Shopify Liquid code debt refers to accumulated unused code, duplicate snippets, and messy theme edits built up over time that slow down development and site performance."
+          },
+          {
+            "question": "2. Why should I clean up my Shopify theme code?",
+            "answer": "A cleaner theme offers faster page loads, easier future edits, fewer bugs, and reduced development time since developers no longer wade through messy legacy code."
+          },
+          {
+            "question": "3. Will cleanup change how my store looks?",
+            "answer": "No. We remove unused and redundant code without changing your store’s visual design, so it looks and feels exactly the same but is cleaner underneath."
+          },
+          {
+            "question": "4. How long does a Liquid code review take?",
+            "answer": "The timeline depends on theme size and history. Simple themes may take a few days, while heavily customized themes can take one to two weeks."
+          },
+          {
+            "question": "5. Can you review large, highly customized themes?",
+            "answer": "Yes. We review both small themes and large, heavily customized Shopify Plus themes with years of accumulated changes."
+          },
+          {
+            "question": "6. What does a code debt review include?",
+            "answer": "A review includes dead code detection, duplicate snippet consolidation, unused asset removal, section audits, and almost any Liquid code cleanup task."
+          }
+        ],
+        "partnerCards": [
+          {
+            "title": "Cleaner, Leaner Codebase",
+            "description": "We use a rich set of code review tools for smooth theme auditing, dead-code detection, and quicker fixes. With live theme preview, our developers can instantly verify changes, fix issues, and improve the codebase in real time."
+          },
+          {
+            "title": "Consolidated Snippets & Sections",
+            "description": "With our cleanup, you can consolidate duplicate snippets and sections into one clean structure, reducing cost and time. It covers both unused code removal and reusable components, delivering a consistent and seamless codebase."
+          },
+          {
+            "title": "Fast Audits & Clear Documentation",
+            "description": "We ensure faster diagnosis through tools like the Shopify Theme Inspector, code linters, and Git history review. Our team works quickly using clear documentation that simplifies future edits and speeds up development."
+          },
+          {
+            "title": "Safe Cleanup & Strong Support",
+            "description": "Our safe, staged cleanup process makes maintaining your theme simple, even after future updates. With detailed documentation and dedicated code review support, your theme continues to stay clean and provides excellent support and update automation."
+          }
+        ],
+        "shortDescription": "15 Years of experience ⸺Liquid Code Shopify Liquid Code Debt Clean &#038; Review We have a specialized team employing the latest auditing techniques to clean up Shopify Liquid code for scalable and highly maintainable storefronts.We assure our clients that they receive top-notch code debt cleanup at affordable prices maintaining supremacy at the same time.Our team [&hellip;]"
+      }
+    },
+    {
+      "wordpressId": 31545,
+      "slug": "google-inp-latency-optimization-for-shopify",
+      "title": "Google INP Latency Optimization for Shopify",
+      "url": "https://intertoons.com/google-inp-latency-optimization-for-shopify",
+      "isService": true,
+      "classificationConfidence": 0.8,
+      "classificationReasons": [
+        "high-confidence keyword(s) in title/slug: shopify",
+        "structural service-page heading(s) found: why choose",
+        "substantial body content (>800 chars)",
+        "FAQ-style accordion content present"
+      ],
+      "action": "CREATE",
+      "matchReason": "no matching slug or title found in existing Wix Services",
+      "mappingConfidence": 0.5,
+      "unmappedSections": [
+        {
+          "heading": "Google INP Latency Optimization for Shopify",
+          "itemCount": 2
+        },
+        {
+          "heading": "Frequently asked questions",
+          "itemCount": 6
+        }
+      ],
+      "normalized": {
+        "title": "Google INP Latency Optimization for Shopify",
+        "slug": "google-inp-latency-optimization-for-shopify",
+        "sourceWordpressId": 31545,
+        "sourceUrl": "https://intertoons.com/google-inp-latency-optimization-for-shopify",
+        "unmappedSections": [
+          {
+            "heading": "Google INP Latency Optimization for Shopify",
+            "itemCount": 2
+          },
+          {
+            "heading": "Frequently asked questions",
+            "itemCount": 6
+          }
+        ],
+        "mappingConfidence": 0.5,
+        "offeringsList": [
+          {
+            "title": "Snappier Interactions",
+            "description": "We use a rich set of profiling tools for smooth interaction tracing, event optimization, and quicker fixes. With live INP testing, our team can instantly measure changes, fix issues, and improve the store's responsiveness in real time.",
+            "order": 0
+          },
+          {
+            "title": "Faster Clicks, Taps & Keypresses",
+            "description": "With our optimization, you can improve every click, tap and keypress in one focused project, reducing cost and time. It covers both add-to-cart interactions and menu and filter clicks, delivering a consistent and seamless browsing experience.",
+            "order": 1
+          },
+          {
+            "title": "Fast Profiling & Proven Fixes",
+            "description": "We ensure faster diagnosis through tools like Chrome DevTools, the INP breakdown panel, and Web Vitals reports. Our team works quickly using proven latency-reduction techniques that simplify fixes and speed up responsiveness gains.",
+            "order": 2
+          },
+          {
+            "title": "Clean Scripts & Strong Support",
+            "description": "Our clean, optimized scripts make maintaining responsiveness simple, even after future updates. With detailed documentation and dedicated performance support, your store continues to stay snappy and provides excellent support and monitoring automation.",
+            "order": 3
+          }
+        ],
+        "whyChoose": [
+          "Expert Shopify performance specialists with deep JavaScript profiling knowledge and INP optimization expertise.",
+          "End-to-end INP solutions from initial profiling and diagnosis to script optimization and responsiveness deployment.",
+          "High-performance and scalable interaction handling to boost responsiveness, search visibility and customer retention.",
+          "Cost-effective Google INP optimization services from India with transparent, flexible engagement models.",
+          "Dedicated support and ongoing monitoring to keep your Shopify store responsive, up-to-date and secure."
+        ],
+        "faqs": [
+          {
+            "question": "1. What is Interaction to Next Paint (INP)?",
+            "answer": "Interaction to Next Paint (INP) is a Google Core Web Vitals metric that measures how quickly a page responds to user interactions like clicks, taps and keypresses."
+          },
+          {
+            "question": "2. Why does INP matter for my Shopify store?",
+            "answer": "A poor INP score frustrates customers with laggy clicks and slow menus, hurting conversions, user experience, and Google search rankings."
+          },
+          {
+            "question": "3. Will INP fixes affect my theme's design?",
+            "answer": "No. We optimize JavaScript execution and event handling without changing your store’s visual design, so it looks the same but responds faster."
+          },
+          {
+            "question": "4. How long does INP optimization take?",
+            "answer": "The timeline depends on your theme’s complexity and app count. Simple fixes may take a few days, while deeper JavaScript optimization can take one to two weeks."
+          },
+          {
+            "question": "5. Can you fix INP on high-traffic Shopify Plus stores?",
+            "answer": "Yes. We optimize INP for both small stores and large, high-traffic Shopify Plus stores for consistent responsiveness at scale."
+          },
+          {
+            "question": "6. What typically causes poor INP scores?",
+            "answer": "Common causes include heavy third-party scripts, unoptimized event listeners, large JavaScript bundles, and long-running main-thread tasks."
+          }
+        ],
+        "partnerCards": [
+          {
+            "title": "Snappier Interactions",
+            "description": "We use a rich set of profiling tools for smooth interaction tracing, event optimization, and quicker fixes. With live INP testing, our team can instantly measure changes, fix issues, and improve the store's responsiveness in real time."
+          },
+          {
+            "title": "Faster Clicks, Taps & Keypresses",
+            "description": "With our optimization, you can improve every click, tap and keypress in one focused project, reducing cost and time. It covers both add-to-cart interactions and menu and filter clicks, delivering a consistent and seamless browsing experience."
+          },
+          {
+            "title": "Fast Profiling & Proven Fixes",
+            "description": "We ensure faster diagnosis through tools like Chrome DevTools, the INP breakdown panel, and Web Vitals reports. Our team works quickly using proven latency-reduction techniques that simplify fixes and speed up responsiveness gains."
+          },
+          {
+            "title": "Clean Scripts & Strong Support",
+            "description": "Our clean, optimized scripts make maintaining responsiveness simple, even after future updates. With detailed documentation and dedicated performance support, your store continues to stay snappy and provides excellent support and monitoring automation."
+          }
+        ],
+        "shortDescription": "15 Years of experience ⸺Google INP Google INP Latency Optimization for Shopify We have a specialized team employing the latest techniques to reduce Interaction to Next Paint on Shopify for scalable and highly responsive stores.We assure our clients that they receive top-notch INP optimization at affordable prices maintaining supremacy at the same time.Our team exhibits [&hellip;]"
+      }
+    }
+  ]
+}

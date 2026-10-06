@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-09-08T06:13:08.094Z",
+  "totalPagesScanned": 1,
+  "candidateServicePages": 1,
+  "toCreate": 0,
+  "toSkip": 1,
+  "toReview": 0,
+  "rows": [
+    {
+      "wordpressId": 2759,
+      "slug": "shopify-development",
+      "title": "Shopify Development",
+      "url": "https://intertoons.com/shopify-development",
+      "isService": true,
+      "classificationConfidence": 0.85,
+      "classificationReasons": [
+        "high-confidence keyword(s) in title/slug: shopify",
+        "medium-confidence keyword(s) in title: development",
+        "substantial body content (>800 chars)",
+        "FAQ-style accordion content present"
+      ],
+      "action": "SKIP",
+      "matchReason": "slug already exists in Wix ('shopify-development')",
+      "matchedExistingSlug": "shopify-development",
+      "mappingConfidence": 0.25,
+      "unmappedSections": [
+        {
+          "heading": "Shopify Development in Kochi, Kerala",
+          "itemCount": 2
+        },
+        {
+          "heading": "The Role of a Reliable Shopify Development Partner",
+          "itemCount": 7
+        },
+        {
+          "heading": "Frequently asked questions",
+          "itemCount": 5
+        }
+      ],
+      "normalized": {
+        "title": "Shopify Development",
+        "slug": "shopify-development",
+        "sourceWordpressId": 2759,
+        "sourceUrl": "https://intertoons.com/shopify-development",
+        "unmappedSections": [
+          {
+            "heading": "Shopify Development in Kochi, Kerala",
+            "itemCount": 2
+          },
+          {
+            "heading": "The Role of a Reliable Shopify Development Partner",
+            "itemCount": 7
+          },
+          {
+            "heading": "Frequently asked questions",
+            "itemCount": 5
+          }
+        ],
+        "mappingConfidence": 0.25,
+        "offeringsList": [
+          {
+            "title": "Custom Shopify store design and development",
+            "order": 0
+          },
+          {
+            "title": "Shopify theme customization and setup",
+            "order": 1
+          },
+          {
+            "title": "Migration from other platforms (WooCommerce, Magento, etc.)",
+            "order": 2
+          },
+          {
+            "title": "Integration of payment gateways and third-party apps",
+            "order": 3
+          },
+          {
+            "title": "Shopify Plus enterprise solutions",
+            "order": 4
+          },
+          {
+            "title": "Ongoing support, maintenance, and performance optimization",
+            "order": 5
+          }
+        ],
+        "faqs": [
+          {
+            "question": "1. What Shopify development services do you offer?",
+            "answer": "We offer complete Shopify solutions including store setup, theme customization, app integration, and long-term support."
+          },
+          {
+            "question": "2.Can you migrate my existing website to Shopify?",
+            "answer": "Yes, we handle full migrations from platforms like WooCommerce, Magento, and Wix with zero downtime."
+          },
+          {
+            "question": "3. Do you create custom Shopify themes?",
+            "answer": "Absolutely — we design unique, responsive themes tailored to your brand identity and customer needs."
+          },
+          {
+            "question": "4. How long does it take to develop a Shopify store?",
+            "answer": "Timelines vary depending on features, but most Shopify projects are completed within 3–6 weeks."
+          },
+          {
+            "question": "5. Do you provide post-launch support?",
+            "answer": "Yes, we offer maintenance, updates, and optimization services to ensure your store runs smoothly."
+          }
+        ],
+        "partnerCards": [
+          {
+            "title": "Strategic Approach",
+            "description": "We begin every project by aligning with your business goals and creating a development roadmap tailored to your brand."
+          },
+          {
+            "title": "Saves Time",
+            "description": "Our optimized workflows and Shopify experience reduce development time and accelerate your store launch."
+          },
+          {
+            "title": "Expert Guidance",
+            "description": "Our Shopify experts help you choose the right themes, apps, and integrations for a smooth, conversion-focused experience."
+          },
+          {
+            "title": "Cost-Effective",
+            "description": "Our Shopify experts help you choose the right themes, apps, and integrations for a smooth, conversion-focused experience."
+          }
+        ],
+        "shortDescription": "15 Years of experience ⸺SHOPIFY DEVELOPMENT SERVICES Shopify Development in Kochi, Kerala Our Shopify development process focuses on understanding your brand, your products, and your customers. We carefully plan your store’s design, product flow, payment systems, and integrations with clear milestones to ensure flawless execution. 200+ clients trust our expertise. We are committed to delivering [&hellip;]"
+      }
+    }
+  ]
+}

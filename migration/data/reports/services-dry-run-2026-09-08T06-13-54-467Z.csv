@@ -1,0 +1,6 @@
+wordpressId,slug,title,url,isService,classificationConfidence,action,matchReason,matchedExistingSlug,mappingConfidence,unmappedSectionCount
+31654,video-conferencing-app-developers-kerala,Video Conferencing app Developers Kerala,https://intertoons.com/video-conferencing-app-developers-kerala,false,0.5,NOT_A_SERVICE,,,,
+31548,shopify-script-optimization-site-speed-services,Shopify Script Optimization & Site Speed Services,https://intertoons.com/shopify-script-optimization-site-speed-services,true,0.8,CREATE,no matching slug or title found in existing Wix Services,,0.75,1
+31547,shopify-conversion-rate-optimization-cro-audit,Shopify Conversion Rate Optimization (CRO) Audit,https://intertoons.com/shopify-conversion-rate-optimization-cro-audit,true,0.8,CREATE,no matching slug or title found in existing Wix Services,,0.5,2
+31546,shopify-liquid-code-debt-clean-review,Shopify Liquid Code Debt Clean & Review,https://intertoons.com/shopify-liquid-code-debt-clean-review,true,0.8,CREATE,no matching slug or title found in existing Wix Services,,0.5,2
+31545,google-inp-latency-optimization-for-shopify,Google INP Latency Optimization for Shopify,https://intertoons.com/google-inp-latency-optimization-for-shopify,true,0.8,CREATE,no matching slug or title found in existing Wix Services,,0.5,2

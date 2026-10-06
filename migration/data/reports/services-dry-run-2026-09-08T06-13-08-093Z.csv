@@ -1,0 +1,2 @@
+wordpressId,slug,title,url,isService,classificationConfidence,action,matchReason,matchedExistingSlug,mappingConfidence,unmappedSectionCount
+2759,shopify-development,Shopify Development,https://intertoons.com/shopify-development,true,0.85,SKIP,slug already exists in Wix ('shopify-development'),shopify-development,0.25,3

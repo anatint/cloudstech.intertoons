@@ -1,0 +1,52 @@
+{
+  "note": "Keyword vocabulary bootstrapped from this site's OWN existing service nav/slugs (captured 2026-08 from the live WordPress mega menu and the already-migrated Wix Services), not a generic list. Weighted scoring in detectService.ts, not a hard yes/no.",
+
+  "excludeSlugExact": [
+    "about-us", "about", "contact-us", "contact", "careers", "privacy-policy", "privacypolicy",
+    "terms-and-conditions", "terms", "home", "blog", "news", "sitemap", "404",
+    "thank-you", "thankyou", "checkout", "cart", "login", "register",
+    "request-a-quote", "free-tools", "portfolio", "case-studies", "team", "works"
+  ],
+  "excludeSlugContains": [
+    "privacy", "terms-", "cookie", "sitemap", "thank-you", "thankyou",
+    "career", "job-", "-jobs", "testimonial"
+  ],
+  "excludeTitleContains": [
+    "about us", "contact us", "privacy policy", "terms and conditions", "careers",
+    "case study", "case studies", "portfolio", "our team", "meet the team",
+    "request a quote", "free tools", "blog", "news"
+  ],
+
+  "serviceKeywordsHigh": [
+    "shopify", "magento", "woocommerce", "wordpress development", "wix development",
+    "mobile app development", "app development", "react native", "flutter",
+    "ai development", "ai automation", "ai chatbot", "chatbot", "langchain",
+    "generative ai", "agentic", "codex automation", "business automation",
+    "n8n", "workflow automation", "api development", "cloud services", "devops",
+    "ecommerce development", "e-commerce development", "custom software development",
+    "web development", "website design", "custom cms", "headless",
+    "seo", "digital marketing", "website migration", "app migration",
+    "gokwik integration", "food delivery app", "b2b ecommerce"
+  ],
+  "serviceKeywordsMedium": [
+    "development", "developers", "development services", "development company",
+    "integration", "migration", "solutions", "consultancy", "consultants",
+    "maintenance", "support services", "design company", "designers"
+  ],
+
+  "servicePageStructureSignals": {
+    "note": "Presence of these section-heading patterns in the page content is a positive signal the page is a structured service page, not just prose.",
+    "headingsAnyOf": [
+      "our services", "what we offer", "why choose", "why work with", "industries we serve",
+      "our process", "how we work", "get a free quote", "request a quote", "our approach"
+    ]
+  },
+
+  "confidenceThresholds": {
+    "high": 0.90,
+    "medium": 0.70,
+    "autoMapAbove": 0.90,
+    "flagReviewBelow": 0.90,
+    "rejectBelow": 0.70
+  }
+}

@@ -1,0 +1,15 @@
+node_modules
+.next
+.open-next
+.wrangler
+.dev.vars
+.env
+*.log
+.DS_Store
+next-env.d.ts
+tsconfig.tsbuildinfo
+.env*
+!.dev.vars.example
+*.zip
+test-write.txt
+.claude/

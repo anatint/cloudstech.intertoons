@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-09-08T09:13:44.450Z",
+  "results": [
+    {
+      "slug": "ai-and-automation",
+      "title": "AI and Automation",
+      "ok": true,
+      "wixId": "7d431a16-448c-4269-98ec-81453a1d69cc",
+      "warnings": []
+    },
+    {
+      "slug": "enterprise-workflow-management",
+      "title": "Enterprise Workflow Management",
+      "ok": true,
+      "wixId": "46e8d5a9-08fa-4a55-bdbf-4e4ad96ccd9e",
+      "warnings": []
+    },
+    {
+      "slug": "b2b-ecommerce-platform-development-kerala",
+      "title": "B2B ECommerce Development",
+      "ok": true,
+      "wixId": "0843ea00-829c-4f87-bd21-de0c75d7cd7e",
+      "warnings": []
+    },
+    {
+      "slug": "codex-ai-development-services-kochi",
+      "title": "Codex AI Development Services Kochi",
+      "ok": true,
+      "wixId": "c24ed381-493d-463e-84d3-a27947c058e4",
+      "warnings": []
+    },
+    {
+      "slug": "web-and-app-frontend-ui-development-services-in-kochi-kerala",
+      "title": "Web and App Frontend UI Development Services in Kochi, Kerala",
+      "ok": true,
+      "wixId": "da353198-67fe-4e83-a242-e6ed852bc3fc",
+      "warnings": []
+    },
+    {
+      "slug": "agent-first-ai-development-services-kerala",
+      "title": "Agent First AI Development Services Kerala",
+      "ok": true,
+      "wixId": "1602abfa-1657-4971-a8a9-94a0d6827bb8",
+      "warnings": []
+    }
+  ]
+}

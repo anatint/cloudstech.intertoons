@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Abhilash S",
+    "role": "Solution Architect",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/abilash-sir.png",
+    "linkedin": "https://www.linkedin.com/in/abhilashsnair?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "abhilash@intertoons.com",
+    "slug": "abhilash-s",
+    "order": 1
+  },
+  {
+    "name": "Akhil N L",
+    "role": "Technical Consultant",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/akhil-sir.png",
+    "linkedin": "https://www.linkedin.com/in/akhinl?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "akhil@intertoons.com",
+    "slug": "akhil-n-l",
+    "order": 2
+  },
+  {
+    "name": "Sunit Menon",
+    "role": "Chief Admin",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/m-sir.png",
+    "linkedin": "https://www.linkedin.com/in/sunit-menon-18558b6?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "sunit@intertoons.com",
+    "slug": "sunit-menon",
+    "order": 3
+  },
+  {
+    "name": "Sreejith M S",
+    "role": "Project Manager",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/sreejith-sir.png",
+    "linkedin": "https://www.linkedin.com/in/sreejithms7482?utm_source=share_via&utm_content=profile&utm_medium=member_androidan-t-908094202?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "sreejith@intertoons.com",
+    "slug": "sreejith-m-s",
+    "order": 4
+  },
+  {
+    "name": "Abhijith Suresh",
+    "role": "Business Analyst",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/abhjith.png",
+    "linkedin": "https://www.linkedin.com/in/abhijith-s-02b738214?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    "email": "abhijith@intertoons.com",
+    "slug": "abhijith-suresh",
+    "order": 5
+  },
+  {
+    "name": "Neenu Chandran",
+    "role": "Web & CMS Developer",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/neenu.png",
+    "linkedin": "https://www.linkedin.com/in/neenu-chandran-t-908094202?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "neenu@intertoons.com",
+    "slug": "neenu-chandran",
+    "order": 6
+  },
+  {
+    "name": "Anat Sajan",
+    "role": "Web & CMS Developer",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/anat.png",
+    "linkedin": "https://www.linkedin.com/in/anat-sajan-6b964a22a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "anat@intertoons.com",
+    "slug": "anat-sajan",
+    "order": 7
+  },
+  {
+    "name": "Varsha Sunil",
+    "role": "UI/UX Developer",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/varsha.png",
+    "linkedin": "https://www.linkedin.com/in/varsha-sunil-b77519248?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "varsha@intertoons.com",
+    "slug": "varsha-sunil",
+    "order": 8
+  },
+  {
+    "name": "Malavika B S",
+    "role": ".Net Developer",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/malavika.png",
+    "linkedin": "https://www.linkedin.com/in/malavika-b-s-baa5a921b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    "email": "malavika@intertoons.com",
+    "slug": "malavika-b-s",
+    "order": 9
+  },
+  {
+    "name": "Akhil M K",
+    "role": "Full Stack Developer",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/akhil.png",
+    "linkedin": "https://www.linkedin.com/in/akhil-mk-9874b91b2?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "akhilmk@intertoons.com",
+    "slug": "akhil-m-k",
+    "order": 10
+  },
+  {
+    "name": "Roshin Davis",
+    "role": "Full Stack Developer",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/roshen.png",
+    "linkedin": "https://www.linkedin.com/in/roshin-davis-48ab311b0/",
+    "email": "roshin@intertoons.com",
+    "slug": "roshin-davis",
+    "order": 11
+  },
+  {
+    "name": "Akash P D",
+    "role": "Quality Tester",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/a-1.png",
+    "linkedin": "http://www.linkedin.com/in/akashdasan",
+    "email": "akash@intertoons.com",
+    "slug": "akash-p-d",
+    "order": 12
+  },
+  {
+    "name": "Sreehari C S",
+    "role": "Full Stack Developer",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/sreehari.png",
+    "linkedin": "https://www.linkedin.com/in/sreeharics",
+    "email": "sreehari@intertoons.com",
+    "slug": "sreehari-c-s",
+    "order": 13
+  },
+  {
+    "name": "Aleena Jacob",
+    "role": "Business Analyst",
+    "photo": "https://intertoons.com/wp-content/uploads/2026/06/aleena.png",
+    "linkedin": "https://www.linkedin.com/in/aleena-jacob-207641244?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "email": "aleena@intertoons.com",
+    "slug": "aleena-jacob",
+    "order": 14
+  }
+]
